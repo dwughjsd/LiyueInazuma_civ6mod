@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" SchemaVersion="70">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Music" ID="{0C7A6099-743A-4645-A32E-6D31D45C6805}" ShortID="72871508">
+					<ChildrenList>
+						<Event Name="Resume_Music_INAZUMA_TEYVAT" ID="{D707CF9D-5F26-44B8-BAB1-815E94E7317F}">
+							<ChildrenList>
+								<Action Name="Resume" ID="{C6F11B2A-EE86-4A3D-BC17-1F0364248AD2}" ShortID="891965657" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{981A7B2E-E177-4C99-A620-B45D4283CD9F}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{994A63B7-996F-43D4-9260-A4D831D48F0A}" ShortID="992586926" Type="Resume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{BBC838C8-DC0C-4270-AA30-C5E32CF9B465}" Global="true">
+											<ObjectRef Name="CivilizationMusic_InazumaUZK" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{F310ABC4-1CD9-40C9-AFB3-9A22216E3E2D}" ShortID="238596176" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{450EB528-2CD0-4C74-BC42-E56C04905E13}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{2E8AF96E-5BF4-4003-8062-DC2F75EB9449}" ShortID="859480387" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{2E2FB427-75A5-4035-9ED9-8A5A40FCD453}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{631E77D0-779E-4371-8288-B3F2F76667AF}" ShortID="979136100" Type="Resume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{C9296C8E-5AB3-44F3-B8EB-5E52FCF75619}" Global="true">
+											<ObjectRef Name="ThemeMusic_InazumaUZK" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Music_INAZUMA_TEYVAT" ID="{DF30267E-4A54-4D17-9D2D-09FF07618750}">
+							<ChildrenList>
+								<Action Name="Pause" ID="{048A1D2B-7882-4A8D-A3B8-90731C252247}" ShortID="970827289" Type="Pause" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{CBDC0560-9FE5-4955-9BC3-B6FD4B85EB4B}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{95910C06-BA32-4D37-97A4-CF71321DF55B}" ShortID="775367737" Type="Pause" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{6C20E478-9773-4E9D-A217-CFFD65D8A47F}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{8C344DCC-82F6-4559-A1C3-BCEFB0386AC3}" ShortID="855338317" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{04FF464E-3976-4366-844E-6593ADA2F9F0}" Global="true">
+											<ObjectRef Name="CivilizationMusic_InazumaUZK" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{23155310-E11D-47E4-B729-A6490FE8327E}" ShortID="674619579" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{F85E4B36-6CB9-4D6E-8692-7B3844E477F5}" Global="true">
+											<ObjectRef Name="ThemeMusic_InazumaUZK" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{D0EC84A8-EBFD-4DE6-AEB1-3B7ED4BBC2E8}" ShortID="944991765" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{BA2D62A6-B40B-40B0-A79F-791FDFF1BADF}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Leader_Music_LIYUE_TEYVAT" ID="{D3AF39F9-BB60-4B92-BA75-46E1C042FDF8}">
+							<ChildrenList>
+								<Action Name="Play" ID="{B528D626-499D-4DD3-9885-21CE8155AB77}" ShortID="999084665" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{1B585CAE-3647-4A2B-B483-D5FA997246B1}" Global="false">
+											<ObjectRef Name="LeaderMusic_LiyueUZK" ID="{F0B37AD3-A258-40C3-AEEB-CE785EA7DEDB}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{609068DD-FBE5-4A40-9CA3-20CBC5912E9A}" ShortID="715416398" Type="Pause" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{500E781A-E146-4D85-92DA-E64514ADE49D}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{A653D8FF-6A06-4908-B90B-2DD0EFBC05A8}" ShortID="957958554" Type="Pause" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{44807117-692D-4CEF-8692-ED9487AE3A1F}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{71A3CFE1-7762-42CA-B856-3298C2C0D4A8}" ShortID="623460005" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{E045C873-D739-4D14-9B94-18BA70556D15}" Global="true">
+											<ObjectRef Name="CivilizationMusic_LiyueUZK" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{590F5DD0-AC4B-4606-BF64-1740448CF102}" ShortID="449328048" Type="Pause" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{709C7E72-0EDA-419A-AC42-C6FBBBB6C08F}" Global="false">
+											<ObjectRef Name="ThemeMusic_LiyueUZK" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{50958825-E1DD-412C-B22F-7ECE97C9DEFA}" ShortID="5974461" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{F606225D-F8B7-4F70-8231-FCC866115AEB}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{DD21A445-467B-4570-ABA3-9DB716936336}" ShortID="1045956531" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{04C16A46-14C5-4DBE-8AB3-638790758238}" Global="true">
+											<ObjectRef Name="id554830605" ID="{EB516F78-AB70-4167-9471-637D43192CED}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{08ECBCA3-40F6-4317-9F08-BFE42FF7238B}" ShortID="211450495" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{50D16A4F-6B92-496D-90C1-7CCAE7C53A52}" Global="true">
+											<ObjectRef Name="id118127726" ID="{D45786EA-1D85-4F08-AE93-E70A5B1BAF18}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Leader_Music_INAZUMA_TEYVAT" ID="{EE0E06BB-2BAA-4C0C-BC80-33D5E210D7A3}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{5629DBB1-602D-44E3-A6D0-3B6F52DAA09F}" ShortID="715749667" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{BF4D5E7D-3A87-434B-ABB7-B1BEFB7225B8}" Global="true">
+											<ObjectRef Name="LeaderMusic_InazumaUZK" ID="{4A020DE0-194F-4274-B04C-B661C8AB2BB5}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{1F8F4C10-1244-43D1-BAF4-97D8E6B78F93}" ShortID="227229928" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{A2AE8CCE-97DD-42F0-94B5-2947FF7882F6}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{458492D8-4C7A-4177-A949-D49F98DAA8C0}" ShortID="126769313" Type="Resume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{C8F04B72-CFB6-4E08-87BB-CEB4DA85514F}" Global="true">
+											<ObjectRef Name="CivilizationMusic_InazumaUZK" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{66705E2B-F745-4E34-A2CC-2EAEA1320F41}" ShortID="81508157" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{0838885E-DE5E-4A9E-9A91-0556DF720AC6}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{C76BF489-474C-43F4-99A7-6226E8B74FC7}" ShortID="201174359" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{CDD54EF6-4642-442D-A7B6-166CE003891C}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{1141D397-A30B-4C55-92EB-A9162B3D742F}" ShortID="213718915" Type="Resume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{BFE52D84-71C6-4B55-A422-C788B01F6195}" Global="true">
+											<ObjectRef Name="ThemeMusic_InazumaUZK" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Leader_Music_LIYUE_TEYVAT" ID="{C568EACF-D8CD-400B-837D-9AEF43EFB5DB}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{D943A3A8-53F3-4C21-9E4B-53474C989AF5}" ShortID="550991440" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{2502788F-C9F2-4B35-BE84-9EAB8DC32F22}" Global="true">
+											<ObjectRef Name="LeaderMusic_LiyueUZK" ID="{F0B37AD3-A258-40C3-AEEB-CE785EA7DEDB}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{66138FCF-A951-489D-B0E7-E6268B322FCC}" ShortID="75039626" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{FE565831-ACD0-4258-8AB5-0A2763C93E3D}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{E7CF913E-78F0-491A-A5A9-A9F6F0C8A89D}" ShortID="404459114" Type="Resume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{7691C58A-DC0C-4959-AA2B-D9A536DA0BC7}" Global="true">
+											<ObjectRef Name="CivilizationMusic_LiyueUZK" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{D418760A-7EC6-4C25-8937-60D5A8ADFF35}" ShortID="974297270" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{6FD70667-0276-414A-801A-3FB28AF791B5}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{00EC4679-D8DA-4710-830C-88270C2A6D62}" ShortID="284465734" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{E30D2354-2A31-41A5-957C-7FAE5D4D5802}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{AEF6E0F0-594C-4AB9-9456-0F8466700F13}" ShortID="468196090" Type="Resume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{E81BF0F4-A1EE-4666-936E-200C5F286198}" Global="true">
+											<ObjectRef Name="ThemeMusic_LiyueUZK" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Music_INAZUMA_TEYVAT" ID="{38B89878-34CD-4A64-A5C2-F59F068E1F66}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{E409792A-FAC9-4B44-87FA-C54ADCE4D591}" ShortID="362446809" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{778164B9-0718-480A-80AF-9B796C9ED172}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{DC8934D9-2DD0-4A8C-8205-9FB3DD22E753}" ShortID="561479813" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{C84C2797-CA27-49C0-903F-ED2BA7470D7F}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{4EF0FA2B-36BD-460E-BBBE-0FB1359DC12D}" ShortID="441645470" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{8A3759DC-1382-456B-BF06-CE07A0F1B447}" Global="false">
+											<ObjectRef Name="CivilizationMusic_InazumaUZK" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{21954B9A-0066-4979-8E5E-68BCD56F45C9}" ShortID="636130916" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{98D9B686-EC6A-4490-81DF-10EF77989ED9}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Start_Music_INAZUMA_TEYVAT" ID="{50185F5F-6F29-4E58-A9A2-BB887A4EC73D}">
+							<ChildrenList>
+								<Action Name="Play" ID="{290E9E52-FCB8-4A5F-96B9-D8B66E1DD3D2}" ShortID="503382570" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{491F0C22-AD85-4DC6-8A6B-CEF1AD5F4B30}" Global="false">
+											<ObjectRef Name="ThemeMusic_InazumaUZK" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Start_Music_LIYUE_TEYVAT" ID="{13B55D4D-33EB-41AB-B00B-C2507B01DF06}">
+							<ChildrenList>
+								<Action Name="Play" ID="{914CF72A-1EBD-4478-91B8-95E7A0326BEE}" ShortID="634193704" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{B83C13A2-B51D-48A8-9F9B-4FB34E35B556}" Global="false">
+											<ObjectRef Name="ThemeMusic_LiyueUZK" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Music_LIYUE_TEYVAT" ID="{AE1A3C11-67ED-4E21-8953-83A9F24ECACE}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{D984A40B-C301-4B12-8079-2B270B8B00B9}" ShortID="909822232" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{4E559B44-0558-4CA9-AB96-6157D7DBA278}" Global="false">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{EDBD6645-A4FA-43BB-81EE-4A97EB887534}" ShortID="742414896" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{3945F924-66A2-4679-8571-370BBD53BCC2}" Global="false">
+											<ObjectRef Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{BF6DB4F8-B88B-401D-92A9-8B2F85CEC801}" ShortID="60605097" Type="Stop" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{096AD251-C19E-4F60-961D-88BBC32FADCC}" Global="false">
+											<ObjectRef Name="CivilizationMusic_LiyueUZK" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{9F3728E8-E665-4489-93EF-C7E21D956DB6}" ShortID="699602268" Type="Stop" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{BE795254-B3AD-4B76-851F-4C6F85A1505B}" Global="false">
+											<ObjectRef Name="LeaderMusic_LiyueUZK" ID="{F0B37AD3-A258-40C3-AEEB-CE785EA7DEDB}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{280FFBF6-3363-4F88-B3AF-698B16731FA0}" ShortID="452230594" Type="Stop" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{995767A0-BBD8-4F41-AD94-33C964FAF1FA}" Global="false">
+											<ObjectRef Name="ThemeMusic_LiyueUZK" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Music_LIYUE_TEYVAT" ID="{E697F0D2-2B26-4EEE-8779-8D7AE8824F46}">
+							<ChildrenList>
+								<Action Name="Pause" ID="{665A46F0-B80E-4BF4-927F-E09D3CFD9F43}" ShortID="733462488" Type="Pause" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{40638075-8398-4B66-88B2-27D619548F7F}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{6916D502-43A0-463E-BD59-9FBC3A434C35}" ShortID="638845444" Type="Pause" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{D11BD80F-B53E-4BB3-AD27-46D2BA4C08AD}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{6352D83B-BAD5-4886-B404-035EB01764B1}" ShortID="842561648" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{54D90184-99B5-47F5-BAB1-E9D4EEB5CDEC}" Global="true">
+											<ObjectRef Name="CivilizationMusic_LiyueUZK" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{AB5B7B1D-FB01-408C-A4F7-F63A9010070F}" ShortID="889247728" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{E0237CA7-EB54-41F3-8AE5-4F0F2A4C71A7}" Global="true">
+											<ObjectRef Name="ThemeMusic_LiyueUZK" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{534D5599-041B-4BFF-98BC-D5C9BA771654}" ShortID="959367280" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{46402999-C471-4AAE-B93F-A49B498D2B67}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Music_INAZUMA_TEYVAT" ID="{AA45B108-31B9-40AC-B731-B635E14F6B55}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{FC9AAC90-E3AE-40C2-AED9-46B07670F185}" ShortID="266953017" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{655F344E-FB38-479A-A54E-19C886E91A5B}" Global="false">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{68E0D3BE-B004-4C62-AB1D-189E8754FC5A}" ShortID="772629078" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{65D40D3D-90BB-4AB3-B117-10F8CEE3B9ED}" Global="false">
+											<ObjectRef Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{C8EF4297-58C5-4F1F-9D67-ED1EAF926C93}" ShortID="893749947" Type="Stop" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{7D17FC41-2D73-40DA-B895-D069BDB3317A}" Global="false">
+											<ObjectRef Name="CivilizationMusic_InazumaUZK" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{94C78F75-CED6-436D-A579-0E2F4050001D}" ShortID="469353926" Type="Stop" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{FEECA634-1C41-46DB-A190-E52E91AB263E}" Global="false">
+											<ObjectRef Name="LeaderMusic_InazumaUZK" ID="{4A020DE0-194F-4274-B04C-B661C8AB2BB5}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{8B0BF4FB-45A4-44BC-9C07-0CB3FE7AFDA5}" ShortID="895372594" Type="Stop" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{FACC9F65-D665-44C2-A48C-1DAC53CE5176}" Global="false">
+											<ObjectRef Name="ThemeMusic_InazumaUZK" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Resume_Music_LIYUE_TEYVAT" ID="{5623A75E-903C-484E-AAC4-D1FDB1BB930D}">
+							<ChildrenList>
+								<Action Name="Resume" ID="{DD601E80-BEB0-448E-80B0-4E9C36676C44}" ShortID="241594503" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{C416A2D8-CCDF-4503-96F2-5938ABFBB8E0}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{76A3900A-7912-4EE3-A986-268B808339D5}" ShortID="580600660" Type="Resume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{68D70692-77C1-4712-B4E2-5A35E5D67BA7}" Global="true">
+											<ObjectRef Name="CivilizationMusic_LiyueUZK" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{68295B18-5A88-416B-B21C-21FBB219A8BB}" ShortID="1029829254" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9B40103A-D6E2-489E-969D-3CEB633E623A}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{83BFB01E-5267-4FBD-BCD8-576DE48432FE}" ShortID="1001764907" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{0BEBE9FA-D36A-4CC3-B830-23374D976AE9}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{A33B703C-32CF-4B6F-9FD5-2E51B4A07A2E}" ShortID="976448587" Type="Resume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{855CAB84-C46C-4B1F-B4BB-E851628AC8B0}" Global="true">
+											<ObjectRef Name="ThemeMusic_LiyueUZK" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Leader_Music_INAZUMA_TEYVAT" ID="{9186614F-2D4F-431B-B345-1F0FE7BD4E9F}">
+							<ChildrenList>
+								<Action Name="Play" ID="{5B60ED98-B6E7-4A49-A2F7-697C5F05D4CE}" ShortID="497838170" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9203B0BE-2416-49B5-83EE-15E904564D6F}" Global="false">
+											<ObjectRef Name="LeaderMusic_InazumaUZK" ID="{4A020DE0-194F-4274-B04C-B661C8AB2BB5}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{0E951350-75A4-42DB-B1BD-0BAFFC15F86D}" ShortID="675800411" Type="Pause" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{63841D61-EF57-420E-8BB1-0EA89DA85A9E}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{F467B22D-2BF8-4BC0-B11F-F0246056C22A}" ShortID="590052477" Type="Pause" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{C8648FDA-2DC7-4A0C-B429-36F4F9BB5BDF}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{A735B8CF-3413-43DF-97F1-AC057699CC82}" ShortID="725828862" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{BA9B22D2-36B1-4E33-8890-87143402F742}" Global="true">
+											<ObjectRef Name="CivilizationMusic_InazumaUZK" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{DA503623-4371-499C-A769-DEDEB949A81E}" ShortID="374150226" Type="Pause" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{0DD5DAD3-C4F5-4FED-A198-6432907E0A01}" Global="false">
+											<ObjectRef Name="ThemeMusic_InazumaUZK" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{1378605B-078A-47A4-9FAD-1FFC815F84EB}" ShortID="121650305" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{D6B5E29D-DF43-4C3E-A045-62F1E928DB9D}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{9EA2989A-0998-4E02-AA74-53D6C170340B}" ShortID="1023829808" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{C1A9FC99-92B0-4FAA-AB97-69A6C33C0698}" Global="true">
+											<ObjectRef Name="id554830605" ID="{EB516F78-AB70-4167-9471-637D43192CED}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{A896831F-F73D-4586-B6A4-1C94530A435F}" ShortID="672650421" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9A416F10-94AE-4F3B-888F-D038EC5324B5}" Global="true">
+											<ObjectRef Name="id118127726" ID="{D45786EA-1D85-4F08-AE93-E70A5B1BAF18}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Music_LIYUE_TEYVAT" ID="{D8812945-6877-4919-B5C9-C5BC323A1155}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{36AA4532-BBF7-4BB2-AB4D-5E97A9FDC251}" ShortID="825558817" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{FEBE1B06-2A17-4C46-86B7-C9DDBC7D7134}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{19F2AC11-BBEA-4600-B8A4-3C002E5476EE}" ShortID="860720596" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{85A2F1EE-781E-42AB-B89B-1B4F6F02A5CF}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{3A0F34E7-2001-47E0-B3B8-2CA6F7148133}" ShortID="817486373" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{CBAF8890-7052-457B-A633-56F35FDCC691}" Global="false">
+											<ObjectRef Name="CivilizationMusic_LiyueUZK" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{9E626937-DA82-4264-9A26-93C1F4ED0C64}" ShortID="979593097" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{2024CBE7-CF15-4F6A-9D9A-66E35A48A4E5}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX" ID="{8D383326-0A1F-4D3F-8049-56D131A3984D}" ShortID="135543348"/>
+				<Folder Name="Speech" ID="{2B43D8C9-A444-4171-8A55-99BF73C4DA84}" ShortID="594840569">
+					<ChildrenList>
+						<Event Name="LIYU_KQ_KUDOS_A" ID="{5CED2B3E-9E0E-4F18-A7A9-EB5A7D0B03AA}">
+							<ChildrenList>
+								<Action Name="Play" ID="{86A8D092-07C8-4CA0-AC47-1ABB6BA44CCC}" ShortID="307121942" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{5B1647AD-BCCB-4643-825A-3BEFDBACD350}" Global="false">
+											<ObjectRef Name="LIYU_KQ_KUDOS_A" ID="{34EF658F-911F-4DCD-82C5-B48AC5046F9A}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="LIYU_KQ_DECLARE_WAR_FROM_AI_A" ID="{EA4A035C-1DA2-47C2-9C57-C734CAB5667F}">
+							<ChildrenList>
+								<Action Name="Play" ID="{B8DE8B97-C609-4F27-A805-F82C8CF10525}" ShortID="685374197" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{FDC56545-AF7B-4EC0-A4E2-BD63FE3A98D3}" Global="false">
+											<ObjectRef Name="LIYU_KQ_DECLARE_WAR_FROM_AI_A" ID="{B6E7A9D2-8D2B-4A27-8711-B6FC6822D422}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="LIYU_KQ_FIRST_MEET_A" ID="{6CE957BE-552E-47F8-BF0A-31C8FDE95806}">
+							<ChildrenList>
+								<Action Name="Play" ID="{27DBF81F-5F74-4A0E-B450-D797E92C2EBF}" ShortID="290833084" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{B2817F29-9568-43E0-A4E7-0DF1E1386302}" Global="false">
+											<ObjectRef Name="LIYU_KQ_FIRST_MEET_A" ID="{D218FC29-48CC-429D-9B59-B2BF3BA5364E}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="LIYU_KQ_DEFEAT_A" ID="{1AD0B62D-B3CC-478A-B7D8-2FD0D44AA3EF}">
+							<ChildrenList>
+								<Action Name="Play" ID="{F2797A9C-EE27-4AC3-BB34-E6557346DA2B}" ShortID="805480008" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{71FB7FB2-64CD-4ED9-ACF2-9621274ECAB6}" Global="false">
+											<ObjectRef Name="LIYU_KQ_DEFEAT_A" ID="{9F85C6CF-5B6D-4C73-99FE-BE7EF7AFFE9D}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="LIYU_KQ_MISC_PEP_TALK_A" ID="{474642EA-6348-4B5B-A6D1-4A1A5201BFFA}">
+							<ChildrenList>
+								<Action Name="Play" ID="{AAAFCA81-5D3B-4C52-ACBD-2A8DCC79A0AE}" ShortID="419427155" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{255AA465-5231-4638-9458-D8871A112A6B}" Global="false">
+											<ObjectRef Name="LIYU_KQ_MISC_PEP_TALK_A" ID="{900327A5-9D2F-4F44-BFBB-65CD744E2586}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="INZM_KA_KUDOS_A" ID="{3F7440B0-9BE9-4E71-8B17-2CED35DB57AC}">
+							<ChildrenList>
+								<Action Name="Play" ID="{5A04A3E9-00B0-4F31-AFB1-71C8A2868B91}" ShortID="296876483" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{42A2E2A8-7345-4ECF-B2D1-D08B98C2FEEF}" Global="false">
+											<ObjectRef Name="INZM_KA_KUDOS_A" ID="{7C7045EA-3DEB-4B46-A530-CA062384E710}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="INZM_KA_MISC_PEP_TALK_A" ID="{1F2008C2-DD37-4E05-8DDF-39FF83879E1A}">
+							<ChildrenList>
+								<Action Name="Play" ID="{5BCD36AE-6783-48C1-B5B6-51858B13CD32}" ShortID="912482677" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{0DE1F8F9-FFB7-4207-8496-B23FA8B0E5C4}" Global="false">
+											<ObjectRef Name="INZM_KA_MISC_PEP_TALK_A" ID="{8CD16837-44DF-4C48-BF68-2FB840A290B0}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="INZM_KA_DEFEAT_A" ID="{1238EB8C-D37E-4D16-A9E8-BF2F4A6AF0F4}">
+							<ChildrenList>
+								<Action Name="Play" ID="{37CD7473-F2A1-4238-A367-A378BBDF54DE}" ShortID="933125877" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{4B864FCE-7A5B-4D62-B528-9647A7D69DA4}" Global="false">
+											<ObjectRef Name="INZM_KA_DEFEAT_A" ID="{7B384A4C-A941-4ABE-BAA2-8FC078B5A266}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="INZM_KA_FIRST_MEET_A" ID="{6457F3E1-70BC-4F6C-B012-D578530B16B2}">
+							<ChildrenList>
+								<Action Name="Play" ID="{7AEF5647-D851-449A-921B-97901A5991B7}" ShortID="295156059" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{8D4F8C88-B9D7-43C6-9BFA-EC0F2E08EBE1}" Global="false">
+											<ObjectRef Name="INZM_KA_FIRST_MEET_A" ID="{38E39A4E-F3D4-4796-AE92-5A7153999C3B}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="INZM_KA_WARNING_A" ID="{9215037F-891D-48C5-9C51-9D96EC0AC4EB}">
+							<ChildrenList>
+								<Action Name="Play" ID="{107CF091-B4F9-45A1-963B-39ED695AD4C8}" ShortID="1027164326" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{AE482D11-FDE4-4E68-96EF-20CFB6DB8E0F}" Global="false">
+											<ObjectRef Name="INZM_KA_WARNING_A" ID="{A02755C7-1B03-4DA5-9908-6DD850CDAA10}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="LIYU_KQ_WARNING_A" ID="{C64FDFFA-4BEE-4D39-96C8-6C34AE30C405}">
+							<ChildrenList>
+								<Action Name="Play" ID="{A9593FD6-DA8B-4322-94E7-D8CED1D2F2AC}" ShortID="204565858" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{632AFE3A-0388-484E-8FCD-FAF2A2C3D2CC}" Global="false">
+											<ObjectRef Name="LIYU_KQ_WARNING_A" ID="{EA91FE4F-EF91-4C82-9023-42AA001A42A8}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="INZM_KA_DECLARE_WAR_A" ID="{9CD650DF-820E-42AD-936A-E53EC9BD7FC3}">
+							<ChildrenList>
+								<Action Name="Play" ID="{5DE5A7E3-9F56-47B2-B6CC-88B047A53EBD}" ShortID="573931501" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{DAEAB8DE-A936-42FD-BB8E-560203256F62}" Global="false">
+											<ObjectRef Name="INZM_KA_DECLARE_WAR_A" ID="{0F2386A0-DC53-4550-9EBA-224C5C1F183D}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="INZM_KA_DECLARE_WAR_FROM_AI_A" ID="{283E91B6-5F22-44C6-B29B-D08C61B3B957}">
+							<ChildrenList>
+								<Action Name="Play" ID="{9D655BD8-15C2-4D91-AA3D-680AB99D16B5}" ShortID="323599739" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{546B9D5B-0F1B-44D8-9668-3BDFA3D63D77}" Global="false">
+											<ObjectRef Name="INZM_KA_DECLARE_WAR_FROM_AI_A" ID="{5CC637ED-A46E-4D44-A8B1-EC85358F3C6A}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="LIYU_KQ_DECLARE_WAR_A" ID="{22977B23-6BA7-415C-8962-4746BDAB66EE}">
+							<ChildrenList>
+								<Action Name="Play" ID="{BDFD79D5-4554-41EA-9479-36115772D06F}" ShortID="769267604" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{6FF66D79-D0DF-4CA4-8B49-A2461D553D43}" Global="false">
+											<ObjectRef Name="LIYU_KQ_DECLARE_WAR_A" ID="{4AD94ADC-F9DB-4BE8-8CC0-073760756137}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

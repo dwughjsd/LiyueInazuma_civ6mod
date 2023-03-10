@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" SchemaVersion="70">
+	<AudioObjects>
+		<WorkUnit Name="LeaderSpeech_LiyueInazuma" ID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="id88602518" ID="{F76D226B-E8A1-4BB3-BE3A-90CCD40A5614}" ShortID="88602518">
+					<PropertyList>
+						<Property Name="DivergenceCenter" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="LeaderSpeech" ID="{DD9801A4-ECD4-4536-AEC3-24C4630BB45F}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Speech Bus" ID="{EE6F9EC0-28C3-430E-B0F5-A9DE4CB5D006}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="id854467727" ID="{DC6A8588-A87C-4BBB-82CB-4FC9D666EAB9}" ShortID="854467727">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb_Leader_Scene" ID="{5E28702E-D128-4905-BDC0-FD571754AD45}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="id424381547" ID="{E0C18500-9AAB-481C-84FF-BB380CDE99B5}" ShortID="424381547">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<ActorMixer Name="LiyueInazumaSpeech" ID="{B1ED3690-E90E-4331-92DB-E305391E983F}" ShortID="714949506">
+											<PropertyList>
+												<Property Name="DivergenceCenter" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb_Leader_Scene" ID="{5E28702E-D128-4905-BDC0-FD571754AD45}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="INZM_KA_DECLARE_WAR_A" ID="{0F2386A0-DC53-4550-9EBA-224C5C1F183D}" ShortID="920627942" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="INZM_KA_DECLARE_WAR_A" ID="{3F872F44-DDD5-4C7A-98E2-5F6A8A78C771}" ShortID="905826816">
+															<Language>SFX</Language>
+															<AudioFile>INZM_KA_DECLARE_WAR_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="INZM_KA_DECLARE_WAR_A" ID="{3F872F44-DDD5-4C7A-98E2-5F6A8A78C771}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="INZM_KA_DECLARE_WAR_FROM_AI_A" ID="{5CC637ED-A46E-4D44-A8B1-EC85358F3C6A}" ShortID="302855974" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="INZM_KA_DECLARE_WAR_FROM_AI_A" ID="{486BC10D-5D74-4AA4-8292-6C24AA7A5F66}" ShortID="1039271694">
+															<Language>SFX</Language>
+															<AudioFile>INZM_KA_DECLARE_WAR_FROM_AI_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="INZM_KA_DECLARE_WAR_FROM_AI_A" ID="{486BC10D-5D74-4AA4-8292-6C24AA7A5F66}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="INZM_KA_DEFEAT_A" ID="{7B384A4C-A941-4ABE-BAA2-8FC078B5A266}" ShortID="913759354" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="INZM_KA_DEFEAT_A" ID="{E34CB7F3-E842-4207-9BC5-381DA53A1668}" ShortID="757547096">
+															<Language>SFX</Language>
+															<AudioFile>INZM_KA_DEFEAT_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="INZM_KA_DEFEAT_A" ID="{E34CB7F3-E842-4207-9BC5-381DA53A1668}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="INZM_KA_FIRST_MEET_A" ID="{38E39A4E-F3D4-4796-AE92-5A7153999C3B}" ShortID="1022820629" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="INZM_KA_FIRST_MEET_A" ID="{F50C0C7B-C33E-4C7C-86B9-5686B1E37FC5}" ShortID="657003362">
+															<Language>SFX</Language>
+															<AudioFile>INZM_KA_FIRST_MEET_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="INZM_KA_FIRST_MEET_A" ID="{F50C0C7B-C33E-4C7C-86B9-5686B1E37FC5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="INZM_KA_KUDOS_A" ID="{7C7045EA-3DEB-4B46-A530-CA062384E710}" ShortID="229165560" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="INZM_KA_KUDOS_A" ID="{738CA6FB-5490-429B-9B80-E72442E5E5FE}" ShortID="1066823909">
+															<Language>SFX</Language>
+															<AudioFile>INZM_KA_KUDOS_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="INZM_KA_KUDOS_A" ID="{738CA6FB-5490-429B-9B80-E72442E5E5FE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="INZM_KA_MISC_PEP_TALK_A" ID="{8CD16837-44DF-4C48-BF68-2FB840A290B0}" ShortID="314982655" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="INZM_KA_MISC_PEP_TALK_A" ID="{7DFAFC82-4747-41A9-B56E-E12F4F9A7939}" ShortID="496845153">
+															<Language>SFX</Language>
+															<AudioFile>INZM_KA_MISC_PEP_TALK_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="INZM_KA_MISC_PEP_TALK_A" ID="{7DFAFC82-4747-41A9-B56E-E12F4F9A7939}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="INZM_KA_WARNING_A" ID="{A02755C7-1B03-4DA5-9908-6DD850CDAA10}" ShortID="416863892" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="INZM_KA_WARNING_A" ID="{6849089E-83B9-4279-94BB-2D6B31EFB22C}" ShortID="597984102">
+															<Language>SFX</Language>
+															<AudioFile>INZM_KA_WARNING_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="INZM_KA_WARNING_A" ID="{6849089E-83B9-4279-94BB-2D6B31EFB22C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LIYU_KQ_DECLARE_WAR_A" ID="{4AD94ADC-F9DB-4BE8-8CC0-073760756137}" ShortID="208901541" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LIYU_KQ_DECLARE_WAR_A" ID="{17DBAD35-20F7-4BA9-B2B6-CFA3BA78F5B7}" ShortID="360254604">
+															<Language>SFX</Language>
+															<AudioFile>LIYU_KQ_DECLARE_WAR_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LIYU_KQ_DECLARE_WAR_A" ID="{17DBAD35-20F7-4BA9-B2B6-CFA3BA78F5B7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LIYU_KQ_DECLARE_WAR_FROM_AI_A" ID="{B6E7A9D2-8D2B-4A27-8711-B6FC6822D422}" ShortID="11913953" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LIYU_KQ_DECLARE_WAR_FROM_AI_A" ID="{8ADC86CD-B53F-4763-B187-2B9A60FA1AF9}" ShortID="565563165">
+															<Language>SFX</Language>
+															<AudioFile>LIYU_KQ_DECLARE_WAR_FROM_AI_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LIYU_KQ_DECLARE_WAR_FROM_AI_A" ID="{8ADC86CD-B53F-4763-B187-2B9A60FA1AF9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LIYU_KQ_DEFEAT_A" ID="{9F85C6CF-5B6D-4C73-99FE-BE7EF7AFFE9D}" ShortID="682860035" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LIYU_KQ_DEFEAT_A" ID="{FDAC8FF9-FBB2-4A40-A83C-AC98BBC4B768}" ShortID="290815673">
+															<Language>SFX</Language>
+															<AudioFile>LIYU_KQ_DEFEAT_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LIYU_KQ_DEFEAT_A" ID="{FDAC8FF9-FBB2-4A40-A83C-AC98BBC4B768}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LIYU_KQ_FIRST_MEET_A" ID="{D218FC29-48CC-429D-9B59-B2BF3BA5364E}" ShortID="513617938" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LIYU_KQ_FIRST_MEET_A" ID="{C17AA1E7-EF37-4F14-A03B-CD28B3D376D5}" ShortID="690030663">
+															<Language>SFX</Language>
+															<AudioFile>LIYU_KQ_FIRST_MEET_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LIYU_KQ_FIRST_MEET_A" ID="{C17AA1E7-EF37-4F14-A03B-CD28B3D376D5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LIYU_KQ_KUDOS_A" ID="{34EF658F-911F-4DCD-82C5-B48AC5046F9A}" ShortID="932863842" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LIYU_KQ_KUDOS_A" ID="{BCE3ECE9-23FD-4983-A800-EE730675108F}" ShortID="211844969">
+															<Language>SFX</Language>
+															<AudioFile>LIYU_KQ_KUDOS_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LIYU_KQ_KUDOS_A" ID="{BCE3ECE9-23FD-4983-A800-EE730675108F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LIYU_KQ_MISC_PEP_TALK_A" ID="{900327A5-9D2F-4F44-BFBB-65CD744E2586}" ShortID="872989609" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LIYU_KQ_MISC_PEP_TALK_A" ID="{C80F0779-6A7C-4E17-B025-967800820B35}" ShortID="712419802">
+															<Language>SFX</Language>
+															<AudioFile>LIYU_KQ_MISC_PEP_TALK_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LIYU_KQ_MISC_PEP_TALK_A" ID="{C80F0779-6A7C-4E17-B025-967800820B35}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LIYU_KQ_WARNING_A" ID="{EA91FE4F-EF91-4C82-9023-42AA001A42A8}" ShortID="1043498721" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LIYU_KQ_WARNING_A" ID="{C0D7D346-26A8-4C53-8200-B716324DFF78}" ShortID="1055742236">
+															<Language>SFX</Language>
+															<AudioFile>LIYU_KQ_WARNING_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LIYU_KQ_WARNING_A" ID="{C0D7D346-26A8-4C53-8200-B716324DFF78}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
+									</ChildrenList>
+								</ActorMixer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

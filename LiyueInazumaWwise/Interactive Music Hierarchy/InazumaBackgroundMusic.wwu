@@ -1,0 +1,2534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}" SchemaVersion="70">
+	<InteractiveMusic>
+		<WorkUnit Name="InazumaBackgroundMusic" ID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="LeaderMusic_InazumaUZK" ID="{4A020DE0-194F-4274-B04C-B661C8AB2BB5}" ShortID="629069667">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="InazumaUZKLeader_Ancient" ID="{08EBEAB6-95B6-43E5-AC05-D8CE3033C183}" ShortID="475986292">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Inazuma_Ancient" ID="{2E7455BC-79E2-4003-8AA4-CAD47D999E57}" ShortID="4478019">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="135410.038651316"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Inazuma_Ancient" ID="{E21AC3EC-457F-4AB7-AEDA-E1A5A9BF664E}" ShortID="477321339">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Inazuma_Ancient" ID="{44E053F7-65B8-4A74-8E14-D5A4C49EE561}" ShortID="978994457">
+													<Language>SFX</Language>
+													<AudioFile>Inazuma_Ancient.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="116216438"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{BB699490-811C-4E22-B425-0F0D575C64F2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{0DA2613C-6F10-4957-9ECE-EE074A5330C6}">
+													<ClipList>
+														<MusicClip Name="Inazuma_Ancient" ID="{C3D3EED9-30C8-4B54-9AEF-869D33DFA491}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="118289.229166667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Inazuma_Ancient" ID="{44E053F7-65B8-4A74-8E14-D5A4C49EE561}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{ECB189A2-4269-4F54-9BC0-BEF4112B8DD6}"/>
+										<MusicCue Name="Exit Cue" ID="{775934D0-82F5-4FDD-A453-B0CAB33E00FE}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="118289.229166667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{CEF56F00-8200-429B-B590-FAF5B7214495}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="117977.941721491"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{0C158972-B5E5-42BA-A17C-D439FDE70C22}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{BCB93D24-B9A9-40CF-BC77-2F4B3D1A8F4E}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{E85A9315-EC24-4D03-B1E0-B2BEC44F9CEF}" ShortID="13585654">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{89ABB64E-DE68-480B-BD17-1D6402DDCE62}" ShortID="939665722">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Inazuma_Ancient" ID="{2E7455BC-79E2-4003-8AA4-CAD47D999E57}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="InazumaUZKLeader_Atomic" ID="{EFCDD667-6F2C-44AA-B31A-ADB067290FE6}" ShortID="231986857">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Inazuma_Industrial" ID="{6B186A97-7A05-4007-A054-1CFACA2FE5C3}" ShortID="1062354331">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="339895.106140351"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Inazuma_Industrial" ID="{AEE30B27-2B5D-446F-BC66-4720025BABD3}" ShortID="707423558">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Inazuma_Industrial" ID="{C5109F5B-4A0B-4902-ACEE-0EBB4E75A32E}" ShortID="4382817">
+													<Language>SFX</Language>
+													<AudioFile>Inazuma_Industrial.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="461469661"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D20AB429-E2CA-4D1C-A916-49C8EF9E65AA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{FAA990D2-B910-45DB-85B0-83D9132229FE}">
+													<ClipList>
+														<MusicClip Name="Inazuma_Industrial" ID="{E226815D-E831-4152-BE5F-2420BE4E0F48}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="275688.666666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Inazuma_Industrial" ID="{C5109F5B-4A0B-4902-ACEE-0EBB4E75A32E}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{3D36A738-5A60-4B22-84A8-CECFAF8AA30A}"/>
+										<MusicCue Name="Exit Cue" ID="{B28CFB6F-F1B9-4455-AE90-0D4710BE4300}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="275688.666666667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{015B783B-ADCA-438A-9B49-92C17751843B}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="275325.918421053"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{50B472F8-5A5D-4AB8-AE30-9AC6A509CE4F}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{D399504D-A39A-4C8A-920C-CE598187CDB7}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{0C97937E-4D6A-403D-9FD0-5E1BAAFC1CFE}" ShortID="376694535">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{78202207-CFFD-4941-80AE-604F3B338A67}" ShortID="890315596">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Inazuma_Industrial" ID="{6B186A97-7A05-4007-A054-1CFACA2FE5C3}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="InazumaUZKLeader_Industrial" ID="{775A74B9-EADA-45EB-A7E3-C96453F5E813}" ShortID="698197022">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Inazuma_Industrial" ID="{2608394A-5873-4F0F-ADCD-A58AF268B41C}" ShortID="477060255">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="339895.106140351"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Inazuma_Industrial" ID="{BE9DBEA3-8EE8-44FD-8E32-DA15964592D4}" ShortID="355423542">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Inazuma_Industrial" ID="{D4B86EFC-C42C-4F20-B25E-AF92239F4327}" ShortID="876916885">
+													<Language>SFX</Language>
+													<AudioFile>Inazuma_Industrial.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="461469661"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2A3D1F6B-B2BA-4316-8942-B5FF7E0854CE}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{1C85FAC8-DB2C-46FE-805A-433A8DBAAAB9}">
+													<ClipList>
+														<MusicClip Name="Inazuma_Industrial" ID="{0CE604AD-095D-4814-BCC4-5454C9C27D60}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="275688.666666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Inazuma_Industrial" ID="{D4B86EFC-C42C-4F20-B25E-AF92239F4327}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{74F32939-4281-4611-97EF-56DC2BA16725}"/>
+										<MusicCue Name="Exit Cue" ID="{3744E16B-DC62-43F2-BBFA-BAB745287E55}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="275688.666666667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{8247F9F0-B165-4FB8-BAA9-98E35939A1C5}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="275325.918421053"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{47E72960-38F2-4FA0-9A0C-CCE75FFBDF8D}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{0A11C84D-25DB-4792-8857-B63EEA4AEC03}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{62031A86-BCE0-4227-AC45-81CD7A6FC18F}" ShortID="801431935">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{7B264085-D7E1-4092-9688-A430488A4E2C}" ShortID="755846784">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Inazuma_Industrial" ID="{2608394A-5873-4F0F-ADCD-A58AF268B41C}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="InazumaUZKLeader_Medieval" ID="{502B344F-754B-4BEB-A6BC-6026B497493A}" ShortID="741122871">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Inazuma_Medieval" ID="{72D4EF64-F6F0-41BA-8239-CF2CA73F9C0E}" ShortID="1049450498">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="270953.453947368"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Inazuma_Medieval" ID="{C43A5BD3-6E19-4F78-BCF9-020DC69D36C1}" ShortID="446476738">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Inazuma_Medieval" ID="{4CA7077F-8AA5-4756-98C0-675B2BB1CCE6}" ShortID="552966960">
+													<Language>SFX</Language>
+													<AudioFile>Inazuma_Medieval.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="168275434"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{63AA1E14-5CC9-4CB2-ABA9-3A0D47D3D113}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{1EA2158F-93F3-4C26-901B-AF40E40D1D4A}">
+													<ClipList>
+														<MusicClip Name="Inazuma_Medieval" ID="{BC7BB069-DE48-49E3-B396-D57191BE1EB8}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="182557.291666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Inazuma_Medieval" ID="{4CA7077F-8AA5-4756-98C0-675B2BB1CCE6}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{817EEE18-8803-4448-961F-3E97B1298A88}"/>
+										<MusicCue Name="Exit Cue" ID="{DBADE527-7DA2-4008-ACBE-30342A9913AF}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="182557.291666667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{906FD045-140B-48D0-A3F2-ED2549DA5898}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="182317.084703947"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{83CB0A89-A2E5-4741-ADF2-F5C7824B30F8}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{91233195-47DA-4689-B7CF-FE66E5E4874F}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{CFACFF36-1DB0-4F3D-9F64-D9C9DC08BA53}" ShortID="363616934">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{318DDC1C-7380-4ACB-85FD-9C7DB89B0706}" ShortID="282555914">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Inazuma_Medieval" ID="{72D4EF64-F6F0-41BA-8239-CF2CA73F9C0E}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{1962A902-1473-4CF3-BC34-51C1D7B457FC}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{E4C4E591-BDA0-4DFF-ABC1-A6416AE115C2}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Game_Location" ID="{33A22C91-DFF7-4DBA-BD7F-BBED4BEA6F2F}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Ancient_Era" ID="{4A53AB9C-C14D-4B9B-B28D-0381AA434AB8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="InazumaUZKLeader_Ancient" ID="{08EBEAB6-95B6-43E5-AC05-D8CE3033C183}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Medieval_Era" ID="{48C6CCAD-9C19-4096-A4B8-2F3F7BA6F505}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="InazumaUZKLeader_Medieval" ID="{502B344F-754B-4BEB-A6BC-6026B497493A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Industrial_era" ID="{FBA8F21F-52F2-44BC-8454-D2C404726714}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="InazumaUZKLeader_Industrial" ID="{775A74B9-EADA-45EB-A7E3-C96453F5E813}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Modern_Era" ID="{0BD32746-DF04-4BDE-A447-D4A440FD51F3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="InazumaUZKLeader_Atomic" ID="{EFCDD667-6F2C-44AA-B31A-ADB067290FE6}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="CivilizationMusic_InazumaUZK" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" ShortID="668259580">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="InazumaUZKCivAncient" ID="{4CF372A9-A4FA-4F4E-999F-BB9AE646E32A}" ShortID="11772220">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="ANightWatch" ID="{DE2B14AA-B095-4A4D-B1F0-52617A55EAE5}" ShortID="627034809">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="100315.789473684"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="ANightWatch" ID="{71A3D3D2-621E-4A7E-AF2D-C8779E61A43B}" ShortID="155005162">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ANightWatch" ID="{994206B2-2073-4CAD-B587-775407405C4B}" ShortID="234300077">
+													<Language>SFX</Language>
+													<AudioFile>ANightWatch.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{AD612967-315E-4118-B97D-C4ACD415C03E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{F018249B-6241-43ED-B297-F9671DCE66AB}">
+													<ClipList>
+														<MusicClip Name="ANightWatch" ID="{1F51D885-269E-4743-9493-5C3CFD178D51}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="80000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="ANightWatch" ID="{994206B2-2073-4CAD-B587-775407405C4B}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{E7A277CB-D283-4A0C-A793-38180142314C}"/>
+										<MusicCue Name="Exit Cue" ID="{BEB9DC42-CF90-497A-9E50-B6F3BAF49FD0}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="80000"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{DFD30E00-FF52-4A9A-94DB-EDC1C8F44FE0}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="80000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="AnotherConflictIncoming" ID="{5082FE6B-1096-4F39-ADF2-7391F2C0E2AA}" ShortID="1052258651">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="97924.7192982456"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="AnotherConflictIncoming" ID="{B4FB613A-089B-4F4E-A057-8BCC33829932}" ShortID="987950337">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AnotherConflictIncoming" ID="{6ECAFF1A-C820-4E89-BE36-FFA072813E3D}" ShortID="527635684">
+													<Language>SFX</Language>
+													<AudioFile>AnotherConflictIncoming.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{3DEB1A5C-BD8C-4D70-B6CE-CEFE198F15A7}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{A89B60B3-F97E-4A31-B766-D8D44FADA576}">
+													<ClipList>
+														<MusicClip Name="AnotherConflictIncoming" ID="{65713129-38CA-441E-B028-887A7A34AE1E}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="87453.3333333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="AnotherConflictIncoming" ID="{6ECAFF1A-C820-4E89-BE36-FFA072813E3D}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{4A466C2D-4E47-4AB4-B059-72B6455D310B}"/>
+										<MusicCue Name="Exit Cue" ID="{C0BCBDB6-6592-4FB8-9AE2-C5EAEDEB0D7E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="87453.3333333333"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="" ID="{193B2843-E464-4EF8-A809-473773AD0DAA}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{D257FBFF-552C-4416-A33E-2AD3625F08A7}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="87223.1929824561"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="DreamOfScatteredPetals" ID="{EE039C48-E172-4754-9E52-731FA6352C85}" ShortID="469059047">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="135601.456140351"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="DreamOfScatteredPetals" ID="{69341FE9-066D-402C-B092-4183B8860299}" ShortID="941313953">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DreamOfScatteredPetals" ID="{6579F5A9-0685-4134-9E23-35527A093C67}" ShortID="235345272">
+													<Language>SFX</Language>
+													<AudioFile>DreamOfScatteredPetals.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{65FB0919-BEE2-4C5F-AF63-EF581315B18E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{6E190FAA-9867-45AB-A157-ADFDCB2F3B29}">
+													<ClipList>
+														<MusicClip Name="DreamOfScatteredPetals" ID="{F76FFF3D-0E84-4AFD-9A1E-5B1F0AC7B5EA}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="120253.333333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="DreamOfScatteredPetals" ID="{6579F5A9-0685-4134-9E23-35527A093C67}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{8A27A212-E222-4639-98C0-B44C5A966901}"/>
+										<MusicCue Name="Exit Cue" ID="{2BE07D62-B126-4AA7-AD50-12F09541DFBE}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="120253.333333333"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{283F0D14-1B6B-467D-92A5-EB570414ABA9}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="120095.105263158"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Inazuma_Ancient" ID="{CED19559-76F0-48B1-8EF7-A535F70CFFB8}" ShortID="866562655">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="135410.038651316"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Inazuma_Ancient" ID="{12F49645-9B06-4218-9640-E5C3802189FB}" ShortID="346756618">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Inazuma_Ancient" ID="{068AFABD-BCD9-4ECF-8F98-462679342737}" ShortID="116216438">
+													<Language>SFX</Language>
+													<AudioFile>Inazuma_Ancient.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6957B50B-D34B-4C48-9889-7288AA4A6261}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{789BB210-99ED-47D3-89E0-5D7145E64F59}">
+													<ClipList>
+														<MusicClip Name="Inazuma_Ancient" ID="{4B69ABDB-AE84-4A37-B2BA-840CBE2600A8}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="118289.229166667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Inazuma_Ancient" ID="{068AFABD-BCD9-4ECF-8F98-462679342737}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{5DE830DD-3A32-441D-B073-FDF0BD3CF425}"/>
+										<MusicCue Name="Exit Cue" ID="{FAC2B79C-059A-4746-B491-C185278D45C9}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="118289.229166667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{EFE80042-1F7F-492A-83AC-39E156D6422A}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="117977.941721491"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="MurmuringCreek" ID="{03A15242-2E14-44D9-9CA7-EBC86EF505EB}" ShortID="676898093">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="129238.421052632"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="MurmuringCreek" ID="{A977F552-0AA9-43F2-80B1-AEA36E567782}" ShortID="128497151">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MurmuringCreek" ID="{5D27FF53-CB42-41FD-8104-31F70ED1C20C}" ShortID="411938969">
+													<Language>SFX</Language>
+													<AudioFile>MurmuringCreek.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{F8439D17-FA6C-4FEE-A0A0-1F8D6A695E0C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{342E56E0-3C42-46E4-8719-527F02C3137A}">
+													<ClipList>
+														<MusicClip Name="MurmuringCreek" ID="{752736EA-15EF-424D-AFF7-498E25305ED9}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="92400"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="MurmuringCreek" ID="{5D27FF53-CB42-41FD-8104-31F70ED1C20C}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{35F22DC3-E011-4CBA-8FCF-5B74734DE0E3}"/>
+										<MusicCue Name="Exit Cue" ID="{C77AF349-D2AA-4457-AAC2-27985DCE5782}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="92400"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{EA4C9772-3F5D-4792-970C-037D7BE95F1A}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="92278.4210526316"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="SakuraScentedKiseru" ID="{FBC7203E-E37D-4216-AD02-D191145DCE3C}" ShortID="179984420">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="112502.052631579"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="SakuraScentedKiseru" ID="{6B2DBCD9-89D7-41C8-AA6D-DAC0A56B3081}" ShortID="873404484">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SakuraScentedKiseru" ID="{91D287C9-F09A-4C97-A6AA-FCAEAD236347}" ShortID="1056838944">
+													<Language>SFX</Language>
+													<AudioFile>SakuraScentedKiseru.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{BCD9CEC5-96AB-4DD9-BACB-646CA558D7F9}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{29170598-CAA1-462F-A260-8B0F3713CE0F}">
+													<ClipList>
+														<MusicClip Name="SakuraScentedKiseru" ID="{40EC4815-D59F-484A-AF68-A00542780B62}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="88786.6666666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="SakuraScentedKiseru" ID="{91D287C9-F09A-4C97-A6AA-FCAEAD236347}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{F9ADD5B2-1A3B-44B0-9BB9-D996813C3398}"/>
+										<MusicCue Name="Exit Cue" ID="{87B43113-F608-45E9-948F-E7E7E6E1FEF2}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="88786.6666666667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{2EC486C4-BE7F-4BAB-A784-7AA661747B20}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="88786.6666666667"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="IslandOfHanabi" ID="{E5D1CC9E-DA4E-4FCC-A784-719F45F6671F}" ShortID="409404113">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="85986.4210526316"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="IslandOfHanabi" ID="{B92ADA90-AAEB-4EF0-8152-79BB9D94FDC1}" ShortID="296266754">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="IslandOfHanabi" ID="{D7BFB289-4546-4638-A02B-7B59414A5842}" ShortID="543239818">
+													<Language>SFX</Language>
+													<AudioFile>IslandOfHanabi.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2267C915-1DEB-4C46-A88E-E48A52A8E678}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{63966C37-9FB4-46F5-81AF-A41D1C805651}">
+													<ClipList>
+														<MusicClip Name="IslandOfHanabi" ID="{CAF5AF0A-87E0-4C6A-A6B5-DDCD9B18BA7A}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="69080"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="IslandOfHanabi" ID="{D7BFB289-4546-4638-A02B-7B59414A5842}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{97656514-9404-4ED3-B426-18B4248057C3}"/>
+										<MusicCue Name="Exit Cue" ID="{BDAAC020-9DBD-4785-A97A-769830995845}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="69080"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{59B3BF6D-F886-4A00-A2B4-919729D68C95}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="68898.2105263158"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="TheLandOfHerSerenity" ID="{6B83C5CA-B745-45FB-8DF3-A5A3B0602AAC}" ShortID="446591162">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="108560.912280702"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="TheLandOfHerSerenity" ID="{D6A75F93-57E9-4CDB-B512-BC53C96B15A7}" ShortID="870455873">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TheLandOfHerSerenity" ID="{3DA66CD0-C4CA-4109-BD45-BD607FFB872A}" ShortID="423497702">
+													<Language>SFX</Language>
+													<AudioFile>TheLandOfHerSerenity.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{9F9EFAE9-2E6B-47AF-AD8D-282A127EEC41}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{96382881-2C31-476D-9C75-29C58F563294}">
+													<ClipList>
+														<MusicClip Name="TheLandOfHerSerenity" ID="{DED2A63B-AE76-4442-81A3-315D621ACDF1}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="95053.3333333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="TheLandOfHerSerenity" ID="{3DA66CD0-C4CA-4109-BD45-BD607FFB872A}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{D3A46B32-F104-4144-8E92-AB0DB7C765F3}"/>
+										<MusicCue Name="Exit Cue" ID="{EA84D5C9-C4B5-400C-872B-B6BC20A4A156}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="95053.3333333333"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{2AE62319-F7FD-40D3-9578-44B4ACD940A4}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="94928.2631578947"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="TimeToSayFarewell" ID="{20D4DE09-8854-46AC-9BF1-FD4E0BC435E4}" ShortID="412106905">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="98464"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="TimeToSayFarewell" ID="{50D9616D-AFBF-43BD-A080-8E9057261A9D}" ShortID="1036105913">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TimeToSayFarewell" ID="{BE6443A1-FADC-42B3-8931-B9AAF49A404E}" ShortID="150321931">
+													<Language>SFX</Language>
+													<AudioFile>TimeToSayFarewell.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7CEB4605-20A2-4B64-A9E7-F3675DE84F51}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{ED02B10C-7D35-411F-BA1F-DE0C7F84350B}">
+													<ClipList>
+														<MusicClip Name="TimeToSayFarewell" ID="{EB1A3920-167F-40CB-8BFF-78C522DA7B0C}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="91706.6666666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="TimeToSayFarewell" ID="{BE6443A1-FADC-42B3-8931-B9AAF49A404E}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{4FFC197B-34E9-4BC5-91E4-00912F24C1E8}"/>
+										<MusicCue Name="Exit Cue" ID="{2C638A7D-7C74-4F4A-858F-611846F98528}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="91706.6666666667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{75648F74-ADF4-4AE3-8A9A-3C9DFA4A4CB1}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="91465.3333333333"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="WhereTheShirasagiDances" ID="{3135EB31-4E64-4F18-A1CF-A899790560FB}" ShortID="810781074">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="93554.5263157895"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="WhereTheShirasagiDances" ID="{43285CB3-6918-45CD-9B59-E8D9EAC0EE69}" ShortID="436236881">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WhereTheShirasagiDances" ID="{2471A075-43F9-48B6-BFD7-36FD2E2BECA4}" ShortID="945989699">
+													<Language>SFX</Language>
+													<AudioFile>WhereTheShirasagiDances.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{EAE7D837-CAFC-423C-B5A6-BAF9E6F5CBC4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{EA7A91B8-5EF9-4F5A-8585-46090C0706A0}">
+													<ClipList>
+														<MusicClip Name="WhereTheShirasagiDances" ID="{E77A8404-0614-4C25-AC72-F43233E3054B}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="82293.3333333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="WhereTheShirasagiDances" ID="{2471A075-43F9-48B6-BFD7-36FD2E2BECA4}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{585D43F2-B712-41AA-9762-ECED24D75ED4}"/>
+										<MusicCue Name="Exit Cue" ID="{293A8C1D-F548-4984-AA23-CEB4F14A8A10}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="82293.3333333333"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{5D5070E0-7D5C-4DF6-947E-6E7953FB9769}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="82185.052631579"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{0B533A6B-F5AB-4C1A-972E-D73BB2C398D1}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{CA8EAA0F-183C-4486-92B3-2C55EF460F5A}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{24905BC5-2B4E-4894-9198-E87FE7F8B30C}" ShortID="545336902">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{4CA91A48-AD6D-4767-9925-82AFC181BFA7}" ShortID="357681992">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="ANightWatch" ID="{DE2B14AA-B095-4A4D-B1F0-52617A55EAE5}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{55396DE3-E7FF-4085-9AEB-2B09997E115F}" ShortID="250145072">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="AnotherConflictIncoming" ID="{5082FE6B-1096-4F39-ADF2-7391F2C0E2AA}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{34F53849-AE1C-4CFD-A1D6-5DC3A9C84DCE}" ShortID="225293675">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="DreamOfScatteredPetals" ID="{EE039C48-E172-4754-9E52-731FA6352C85}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{AE3CFCC6-9000-4755-B0DD-4CAC092634B5}" ShortID="586022018">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Inazuma_Ancient" ID="{CED19559-76F0-48B1-8EF7-A535F70CFFB8}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{92E5209F-D9E6-404A-B2AD-68D3C1C18AD2}" ShortID="147961296">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="IslandOfHanabi" ID="{E5D1CC9E-DA4E-4FCC-A784-719F45F6671F}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{3A47CC11-0E00-4F80-8D46-7099655A8644}" ShortID="164287851">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="MurmuringCreek" ID="{03A15242-2E14-44D9-9CA7-EBC86EF505EB}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{D5ACC28B-06D5-4C22-B2AF-97234209E9AF}" ShortID="742680702">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="SakuraScentedKiseru" ID="{FBC7203E-E37D-4216-AD02-D191145DCE3C}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{6E596FE0-D4DA-487F-AB40-375F49E35DD3}" ShortID="902189791">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="TheLandOfHerSerenity" ID="{6B83C5CA-B745-45FB-8DF3-A5A3B0602AAC}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{D065B870-7EAC-4A6D-AFAD-965985D297F6}" ShortID="854904507">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="TimeToSayFarewell" ID="{20D4DE09-8854-46AC-9BF1-FD4E0BC435E4}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{CD1E9A77-0108-4067-A44E-0496DAB865AF}" ShortID="231721441">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="WhereTheShirasagiDances" ID="{3135EB31-4E64-4F18-A1CF-A899790560FB}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="InazumaUZKCivMedieval" ID="{7D90668E-94FD-4603-A28E-41B14BC545D2}" ShortID="628030250">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Inazuma_Medieval" ID="{97CE2411-DA98-463C-ACCD-671E998111F5}" ShortID="183541198">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="270953.453947368"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Inazuma_Medieval" ID="{6C9DDEF9-F0D7-4211-8352-F466A309AA66}" ShortID="761225889">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Inazuma_Medieval" ID="{9D9E5C2D-A41E-4242-BB88-B1F40A56CC03}" ShortID="615843882">
+													<Language>SFX</Language>
+													<AudioFile>Inazuma_Medieval.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="168275434"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{FBD664B1-3D7E-440C-9181-FDA7ABDA6D2C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{60CE4527-6D9A-4FFA-A425-01F99E371D50}">
+													<ClipList>
+														<MusicClip Name="Inazuma_Medieval" ID="{09FDAEBF-DFB5-4A71-BE72-5448E0D9E22A}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="182557.291666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Inazuma_Medieval" ID="{9D9E5C2D-A41E-4242-BB88-B1F40A56CC03}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{652F212C-8292-4DB5-9155-13DDEC9D1755}"/>
+										<MusicCue Name="Exit Cue" ID="{BED3B189-D80A-45EE-9802-C446E5CD0AF3}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="182557.291666667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{06CB9976-9C20-4556-A296-3124EF43D618}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="182317.084703947"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Inazuma_Ancient" ID="{1472283D-4569-4E9A-98F2-B56DE01D8211}" ShortID="264411630">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="135410.038651316"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Inazuma_Ancient" ID="{2227A6DF-2401-48BE-93BC-F6455536CDC3}" ShortID="641306083">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Inazuma_Ancient" ID="{94400A93-7343-428F-86F9-81A1F6E4060C}" ShortID="496195742">
+													<Language>SFX</Language>
+													<AudioFile>Inazuma_Ancient.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="116216438"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{F0C45C6B-AFEB-48C3-888A-AEB5E25455F1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{E6D07158-0120-47AB-AD97-E40206DC2346}">
+													<ClipList>
+														<MusicClip Name="Inazuma_Ancient" ID="{243C6263-B4EB-412C-8977-64BA2931010D}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="118289.229166667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Inazuma_Ancient" ID="{94400A93-7343-428F-86F9-81A1F6E4060C}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{384EA346-437F-4E47-9EAC-95D357ABF221}"/>
+										<MusicCue Name="Exit Cue" ID="{D13F4EFD-DA48-45DD-9F40-973842ACAF15}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="118289.229166667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{61D2E1BA-4ACE-436F-A4D1-E7287EC8047B}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="117977.941721491"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="TimeToSayFarewell" ID="{EAA6CF0C-5374-4AE4-8184-C5D1201908F7}" ShortID="204328144">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="98464"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="TimeToSayFarewell" ID="{291C5128-46DF-4DD7-8168-BDCABDBA508C}" ShortID="2808378">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TimeToSayFarewell" ID="{359E23F3-AB93-4A90-AD0B-E03831B5FB08}" ShortID="545667899">
+													<Language>SFX</Language>
+													<AudioFile>TimeToSayFarewell.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="150321931"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{CEDB0118-02C2-4D44-8626-7B68FFEE32B3}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{CD4331B8-6F15-4BEB-98F0-7C17BB17AD0D}">
+													<ClipList>
+														<MusicClip Name="TimeToSayFarewell" ID="{5C5E7B58-E42F-4A1B-ACAC-30D5DC53CF33}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="91706.6666666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="TimeToSayFarewell" ID="{359E23F3-AB93-4A90-AD0B-E03831B5FB08}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{BB716891-5B44-4501-BA04-8D8EA4820682}"/>
+										<MusicCue Name="Exit Cue" ID="{6891DC2B-7F20-4BA9-A0D0-A4861ACAD4D9}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="91706.6666666667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{1DE2438B-F8F6-4DE3-A014-7461D572FA38}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="91465.3333333333"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="IslandOfHanabi" ID="{2111A2E0-2869-447D-BF7F-EBE44FEBC3F3}" ShortID="406697166">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="85986.4210526316"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="IslandOfHanabi" ID="{4FD23F3F-20EF-4129-B0BD-35784B6E0777}" ShortID="680362418">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="IslandOfHanabi" ID="{A56B013B-FE6D-4BEA-910A-120B9FA0F4F4}" ShortID="978453773">
+													<Language>SFX</Language>
+													<AudioFile>IslandOfHanabi.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="543239818"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{AC8D285B-90AE-4AEA-89D9-C82407845D25}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{AD7FE2BA-AE0E-4AD3-9BB2-719450DF6AE9}">
+													<ClipList>
+														<MusicClip Name="IslandOfHanabi" ID="{3CF90CA7-A1AA-4EDF-AC24-4D87EE563B8B}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="69080"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="IslandOfHanabi" ID="{A56B013B-FE6D-4BEA-910A-120B9FA0F4F4}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{95635C83-585C-4E51-AC50-5B7AA59D33C6}"/>
+										<MusicCue Name="Exit Cue" ID="{9A2A0A8B-A7A9-43BC-A885-B940F63A109F}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="69080"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{11B10FBA-A85E-4870-97A5-E6F744D1A3DB}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="68898.2105263158"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="WhereTheShirasagiDances" ID="{E0431040-368F-4AD5-BCC5-4FEF3DDB30B0}" ShortID="491903998">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="93554.5263157895"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="WhereTheShirasagiDances" ID="{977E862B-5585-4FE6-BBD6-CE83B576DFEB}" ShortID="267527640">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WhereTheShirasagiDances" ID="{4AF33C68-681F-4F9E-9156-503D94541BCA}" ShortID="73042936">
+													<Language>SFX</Language>
+													<AudioFile>WhereTheShirasagiDances.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="945989699"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{FFCFF0D5-D7F0-4BFC-BDC0-71FD87E409AA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{0187A911-F217-4B9A-B5EE-19108F65264D}">
+													<ClipList>
+														<MusicClip Name="WhereTheShirasagiDances" ID="{B25C28E0-9B61-4725-8463-C234475246BB}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="82293.3333333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="WhereTheShirasagiDances" ID="{4AF33C68-681F-4F9E-9156-503D94541BCA}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{E1FCB236-26CE-4FE8-A827-0ECE0F46BB02}"/>
+										<MusicCue Name="Exit Cue" ID="{CEA68F25-F945-4F41-82FB-7F5350CBA947}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="82293.3333333333"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{5404A936-EB84-4EBB-BF67-2A61C7CF4AA1}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="82185.052631579"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{E2160E09-36C1-4D15-B54E-FE906E473B4D}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{1174CB60-87BE-40B9-960C-5E33F5464258}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{ADFF4A4F-756C-4AE2-BFD8-08A009647193}" ShortID="1011038409">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{6386AC84-8B81-4894-AA5D-D71B4480E381}" ShortID="827663675">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="Inazuma_Ancient" ID="{1472283D-4569-4E9A-98F2-B56DE01D8211}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{CC323403-D1D7-4243-9D48-D77F76A5DC6E}" ShortID="355905996">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Inazuma_Medieval" ID="{97CE2411-DA98-463C-ACCD-671E998111F5}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{BE906E5A-4851-4E96-B87B-DF76F3FC7959}" ShortID="171290662">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="IslandOfHanabi" ID="{2111A2E0-2869-447D-BF7F-EBE44FEBC3F3}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{F7AB0180-DC55-4BA0-AFFC-ABE105CD3D7E}" ShortID="98722497">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="TimeToSayFarewell" ID="{EAA6CF0C-5374-4AE4-8184-C5D1201908F7}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{FB66589E-2AE1-4FE6-B8EF-E1BECDE0C28D}" ShortID="687022277">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="WhereTheShirasagiDances" ID="{E0431040-368F-4AD5-BCC5-4FEF3DDB30B0}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="InazumaUZKCivIndustrial" ID="{490FB779-B678-4793-B756-BC488B6B68A6}" ShortID="402024640">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Inazuma_Industrial" ID="{100BE0BE-BF5E-4A35-99C9-7807D59D8CD9}" ShortID="141543562">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="339895.106140351"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Inazuma_Industrial" ID="{1D4A655F-D298-42BB-B62C-29CA3C443CE9}" ShortID="673351264">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Inazuma_Industrial" ID="{F10E0872-1957-4EA7-AD7B-8479792C965D}" ShortID="461469661">
+													<Language>SFX</Language>
+													<AudioFile>Inazuma_Industrial.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{CC202FCB-E8C0-42D3-9572-97CC6044874C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{700FC7EA-A5CB-4482-A21B-D5594B7B4634}">
+													<ClipList>
+														<MusicClip Name="Inazuma_Industrial" ID="{B6391F2A-8A81-474B-8758-D15C02C38E40}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="275688.666666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Inazuma_Industrial" ID="{F10E0872-1957-4EA7-AD7B-8479792C965D}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{CCC686DD-1198-4534-B579-09A4C601F26A}"/>
+										<MusicCue Name="Exit Cue" ID="{356D2835-BFC0-4CBE-AD97-51D8D9FB91F1}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="275688.666666667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{856306AA-9B5B-4BDA-BD7A-7F18D6BF0B45}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="275325.918421053"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Inazuma_Medieval" ID="{BCD1A05B-15B3-4567-8B77-AF582005C264}" ShortID="414004563">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="270953.453947368"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Inazuma_Medieval" ID="{C98DA3F6-E6F0-41CD-B02E-E840DBBE74DA}" ShortID="254033410">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Inazuma_Medieval" ID="{43AC2112-A01B-47FF-B93A-FE73C06E1B6F}" ShortID="168275434">
+													<Language>SFX</Language>
+													<AudioFile>Inazuma_Medieval.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{99B99F59-C2FB-41F5-ACCC-899B1670179B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{A170A42E-3D79-4A10-A00E-EE41BD46FFE3}">
+													<ClipList>
+														<MusicClip Name="Inazuma_Medieval" ID="{174B8608-58FD-4F81-9EB7-DBA81C306342}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="182557.291666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Inazuma_Medieval" ID="{43AC2112-A01B-47FF-B93A-FE73C06E1B6F}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{7EAC04B1-87FC-4615-8576-574C19BDDFD5}"/>
+										<MusicCue Name="Exit Cue" ID="{5748F833-55F2-484D-AF0E-03BE93892AB8}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="182557.291666667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{B393F10B-2CE0-4864-9173-98B4EEBFFD6C}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="182317.084703947"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{CB080C49-1E8D-4981-BE5C-34408B124B73}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{A28F290B-2BF9-4070-9B2C-ABCA4822AFBA}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{30B5F478-BD34-451A-8A42-C8C1F1516602}" ShortID="867474576">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{672D955C-6A81-44D1-9FC7-533AC959E98C}" ShortID="166376962">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>60</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="Inazuma_Industrial" ID="{100BE0BE-BF5E-4A35-99C9-7807D59D8CD9}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{5D640FBF-6E46-4817-B35D-E496CAA1F08B}" ShortID="352648041">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="Inazuma_Medieval" ID="{BCD1A05B-15B3-4567-8B77-AF582005C264}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="InazumaUZKCivAtomic" ID="{E9CC83B2-44F1-4549-A978-036B0FBD0692}" ShortID="319794178">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Inazuma_Industrial" ID="{D98079AF-2EE9-4AF8-ABA6-25F4EBAE843E}" ShortID="310977300">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="339895.106140351"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Inazuma_Industrial" ID="{CF2101AE-4974-46D3-A6DA-64B03B6A342E}" ShortID="917359928">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Inazuma_Industrial" ID="{EF74C5C3-B8CF-433B-9345-C462778AC423}" ShortID="902168777">
+													<Language>SFX</Language>
+													<AudioFile>Inazuma_Industrial.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="461469661"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{77C08144-67B7-4397-AF6F-8CF983D2A552}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{2645C460-5AA3-4FC2-A1F8-A22515F9DE08}">
+													<ClipList>
+														<MusicClip Name="Inazuma_Industrial" ID="{EAC6D42A-598D-46B7-99D2-F3CCE5EB9FE7}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="275688.666666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Inazuma_Industrial" ID="{EF74C5C3-B8CF-433B-9345-C462778AC423}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{BEB06F79-B368-4661-8D5C-77F98A2B8AE4}"/>
+										<MusicCue Name="Exit Cue" ID="{2F6982A9-DF51-47F0-8D8C-649044C40CB4}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="275688.666666667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{702B1487-956B-4FFA-AAF4-D2C0A59FBA6E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="275325.918421053"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{BAD862A6-1DB7-403D-AC56-A13B2BB9516A}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{BFF3D5AD-7B54-4170-BB5D-30721AA198B2}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{BEB316D8-BAA2-4EF6-A37F-3F79818A9B43}" ShortID="199080597">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{0F928DAA-E8A6-480E-AEC4-D58C92AFD34E}" ShortID="264490853">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Inazuma_Industrial" ID="{D98079AF-2EE9-4AF8-ABA6-25F4EBAE843E}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{07554CA4-9DF2-464C-B734-36380F6822AD}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{1AB2BE79-C27F-49E1-9591-F2DB28DC852B}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Game_Location" ID="{33A22C91-DFF7-4DBA-BD7F-BBED4BEA6F2F}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Ancient_Era" ID="{4A53AB9C-C14D-4B9B-B28D-0381AA434AB8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="InazumaUZKCivAncient" ID="{4CF372A9-A4FA-4F4E-999F-BB9AE646E32A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Industrial_era" ID="{FBA8F21F-52F2-44BC-8454-D2C404726714}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="InazumaUZKCivIndustrial" ID="{490FB779-B678-4793-B756-BC488B6B68A6}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Medieval_Era" ID="{48C6CCAD-9C19-4096-A4B8-2F3F7BA6F505}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="InazumaUZKCivMedieval" ID="{7D90668E-94FD-4603-A28E-41B14BC545D2}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Modern_Era" ID="{0BD32746-DF04-4BDE-A447-D4A440FD51F3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="InazumaUZKCivAtomic" ID="{E9CC83B2-44F1-4549-A978-036B0FBD0692}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="ThemeMusic_InazumaUZK" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" ShortID="712407681">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Inazuma_Medieval" ID="{87F55C4A-E237-411C-9629-BB3AEB442BF7}" ShortID="254908205">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="270953.453947368"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Inazuma_Medieval" ID="{67224A97-F308-4B1E-96F2-3DD3FC08B269}" ShortID="791044553">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Inazuma_Medieval" ID="{37E7F440-4E65-4DC2-A16E-B929021EEB9E}" ShortID="939749977">
+											<Language>SFX</Language>
+											<AudioFile>Inazuma_Medieval.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="168275434"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{56007860-E447-40C2-941C-DA90DE36FDD9}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{107A4838-FF72-467B-B2F6-558E9C45C21F}">
+											<ClipList>
+												<MusicClip Name="Inazuma_Medieval" ID="{C2F2DE0C-86D5-45C9-800A-4AA9337E07CE}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="182557.291666667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Inazuma_Medieval" ID="{37E7F440-4E65-4DC2-A16E-B929021EEB9E}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{EF398785-001E-4CB8-A98D-1DC5332BA128}"/>
+								<MusicCue Name="Exit Cue" ID="{A61A1392-6BBA-4780-80AD-D2A9FBE2E767}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="182557.291666667"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="ExitCustom" ID="{97278DC7-25CA-4B00-AE9F-A6A02E261998}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="182317.084703947"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Inazuma_Industrial" ID="{638F55A6-9442-4D8F-A0FC-5DC24F4EBD0A}" ShortID="1060865799">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="339895.106140351"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Inazuma_Industrial" ID="{22AEB1AD-AC88-4748-9A45-A5AD53D0846D}" ShortID="484575976">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Inazuma_Industrial" ID="{A684E701-D918-4E03-8FD5-5EE1F1C4C974}" ShortID="268857826">
+											<Language>SFX</Language>
+											<AudioFile>Inazuma_Industrial.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="461469661"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{01211F9A-7CD5-40DF-AD7F-2A3846C1581B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{C3596421-4178-4103-8639-90D9E1C8A906}">
+											<ClipList>
+												<MusicClip Name="Inazuma_Industrial" ID="{C4DA36E0-813E-4CED-9512-1AE9E523C6BC}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="275688.666666667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Inazuma_Industrial" ID="{A684E701-D918-4E03-8FD5-5EE1F1C4C974}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{B5335F85-D29F-4083-9D37-513077EF2520}"/>
+								<MusicCue Name="Exit Cue" ID="{141148D4-7E1B-4BB2-B6D7-4F41B87BDFEF}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="275688.666666667"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="ExitCustom" ID="{7FF00950-58FA-40F0-A509-B5D62CD30B0F}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="275325.918421053"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Inazuma_Ancient" ID="{744AB9AA-5DBB-4D39-B2F2-2600E094F6AA}" ShortID="568456007">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="135410.038651316"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Inazuma_Ancient" ID="{40FAA33D-3C04-44E4-8DD6-3D4EAC8B3AF9}" ShortID="536455315">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Inazuma_Ancient" ID="{8C9F60DB-EF32-49A7-9044-AF4CFE9B01B9}" ShortID="427986989">
+											<Language>SFX</Language>
+											<AudioFile>Inazuma_Ancient.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="116216438"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{DB9535AE-EE61-4CBE-AC4F-B25219B589A5}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{DF401B18-1C14-4594-BDCA-B4AEBECECDA3}">
+											<ClipList>
+												<MusicClip Name="Inazuma_Ancient" ID="{D88497FF-4F7C-457E-9756-E963CDDE6818}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="118289.229166667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Inazuma_Ancient" ID="{8C9F60DB-EF32-49A7-9044-AF4CFE9B01B9}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{B9104C9D-FEB9-48E3-934B-DD37A6562DEE}"/>
+								<MusicCue Name="Exit Cue" ID="{E433F956-37EA-441D-AC71-26B0E28917B3}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="118289.229166667"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="ExitCustom" ID="{0DDFB598-ADB9-4FD6-BF24-B5265D77A4CF}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="117977.941721491"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{C7DCB932-7663-4FF3-BBF4-E28356C61120}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{3852CAD2-65E5-42BF-9085-B83DFF838F15}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Game_Location" ID="{33A22C91-DFF7-4DBA-BD7F-BBED4BEA6F2F}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Ancient_Era" ID="{4A53AB9C-C14D-4B9B-B28D-0381AA434AB8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Inazuma_Ancient" ID="{744AB9AA-5DBB-4D39-B2F2-2600E094F6AA}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Industrial_era" ID="{FBA8F21F-52F2-44BC-8454-D2C404726714}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Inazuma_Industrial" ID="{638F55A6-9442-4D8F-A0FC-5DC24F4EBD0A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Medieval_Era" ID="{48C6CCAD-9C19-4096-A4B8-2F3F7BA6F505}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Inazuma_Medieval" ID="{87F55C4A-E237-411C-9629-BB3AEB442BF7}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Modern_Era" ID="{0BD32746-DF04-4BDE-A447-D4A440FD51F3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Inazuma_Industrial" ID="{638F55A6-9442-4D8F-A0FC-5DC24F4EBD0A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

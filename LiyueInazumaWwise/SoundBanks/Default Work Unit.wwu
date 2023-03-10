@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{95775847-AF23-4A2E-8149-AB2F9FF0E76C}" SchemaVersion="70">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{95775847-AF23-4A2E-8149-AB2F9FF0E76C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="LiyueInazuma_Music_Bank" ID="{D878FCA0-3777-4504-A9D5-2C6B493DF598}">
+					<ObjectInclusionList>
+						<ObjectRef Name="id658623902_DO_NOT_TOUCH" ID="{26984207-93E3-44FE-982A-510A9615FD4A}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Filter="2" Origin="Manual"/>
+						<ObjectRef Name="Music" ID="{0C7A6099-743A-4645-A32E-6D31D45C6805}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="InazumaBackgroundMusic" ID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LiyueBackgroundMusic" ID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="LiyueInazuma_Speech" ID="{A6FBD96B-0622-4D64-A9C7-E3F9378E9F51}">
+					<ObjectInclusionList>
+						<ObjectRef Name="LiyueInazumaSpeech" ID="{B1ED3690-E90E-4331-92DB-E305391E983F}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Speech" ID="{2B43D8C9-A444-4171-8A55-99BF73C4DA84}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
