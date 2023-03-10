@@ -54,4 +54,10 @@
 	</NamedSeaCivilizations>
 	
 	<!--ToDo: Keqing and Ayaka's Discussion AiList-->
+
+	<AiLists>
+		<Row ListType="ExploitativeResolutions" AgendaType="TRAIT_AGENDA_LAND_AND_CONSTUCTION" System="Resolutions"/>
+		<Row ListType="ExploitativeDiscussions" AgendaType="TRAIT_AGENDA_LAND_AND_CONSTUCTION" System="Discussions"/>
+		<Row ListType="FunLovingResolutions" AgendaType="TRAIT_AGENDA_FROSTFLAKE_HERON" System="Resolutions"/>
+	</AiLists>
 </GameData>
