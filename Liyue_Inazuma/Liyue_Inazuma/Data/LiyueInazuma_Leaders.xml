@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_KEQING_UZK" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_LAND_AND_CONSTUCTION" Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_KAMISATO_AYAKA_UZK" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_SHIRASAGI_HIMEGIMI" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_FROSTFLAKE_HERON" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_BUILDING_SHA_COMMISSION" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_KEQING_UZK</LeaderType>
+			<Name>LOC_LEADER_KEQING_UZK_NAME</Name>
+			<SceneLayers>4</SceneLayers>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+			<Sex>Female</Sex>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_KAMISATO_AYAKA_UZK</LeaderType>
+			<Name>LOC_LEADER_KAMISATO_AYAKA_UZK_NAME</Name>
+			<SceneLayers>4</SceneLayers>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+			<Sex>Female</Sex>
+		</Row>
+	</Leaders>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_KEQING_UZK" TraitType="TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER"/>
+		<Row LeaderType="LEADER_KEQING_UZK" TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>
+		<Row LeaderType="LEADER_KAMISATO_AYAKA_UZK" TraitType="TRAIT_LEADER_SHIRASAGI_HIMEGIMI"/>
+		<Row LeaderType="LEADER_KAMISATO_AYAKA_UZK" TraitType="TRAIT_LEADER_BUILDING_SHA_COMMISSION"/>		
+		<Row LeaderType="LEADER_KAMISATO_AYAKA_UZK" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>
+	</LeaderTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER" Name="LOC_TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER_NAME" Description="LOC_TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_LAND_AND_CONSTUCTION"/>
+		<Row TraitType="TRAIT_LEADER_SHIRASAGI_HIMEGIMI" Name="LOC_TRAIT_LEADER_SHIRASAGI_HIMEGIMI_NAME" Description="LOC_TRAIT_LEADER_SHIRASAGI_HIMEGIMI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_FROSTFLAKE_HERON"/>
+		<Row TraitType="TRAIT_LEADER_BUILDING_SHA_COMMISSION"/>
+	</Traits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER" ModifierId="TRAIT_DRIVING_THUNDER_OVERTIME_GRANT"/>
+		<Row TraitType="TRAIT_AGENDA_LAND_AND_CONSTUCTION" ModifierId="AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER"/>
+		<Row TraitType="TRAIT_LEADER_SHIRASAGI_HIMEGIMI" ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_FASTER_ENTERTAINMENT"/>
+		<Row TraitType="TRAIT_LEADER_SHIRASAGI_HIMEGIMI" ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_FASTER_WATER_ENTERTAINMENT"/>
+		<Row TraitType="TRAIT_LEADER_SHIRASAGI_HIMEGIMI" ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_FASTER_ENTERTAINMENT_BUILDING"/>
+		<Row TraitType="TRAIT_LEADER_SHIRASAGI_HIMEGIMI" ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_FASTER_WATER_ENTERTAINMENT_BUILDING"/>
+		<Row TraitType="TRAIT_AGENDA_FROSTFLAKE_HERON" ModifierId="AGENDA_FROSTFLAKE_HERON_HIGH_AMENITIES"/>
+		<Row TraitType="TRAIT_AGENDA_FROSTFLAKE_HERON" ModifierId="AGENDA_FROSTFLAKE_HERON_LOW_AMENITIES"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_DRIVING_THUNDER_OVERTIME_GRANT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_EXPLOITATIVE</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<Row ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_FASTER_ENTERTAINMENT" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION"/>
+		<Row ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_FASTER_WATER_ENTERTAINMENT" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION"/>
+		<Row ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_FASTER_ENTERTAINMENT_BUILDING" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION"/>
+		<Row ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_FASTER_WATER_ENTERTAINMENT_BUILDING" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION"/>
+		<Row>
+			<ModifierId>TRAIT_SHIRASAGI_HIMEGIMI_GREAT_PERSON_POINT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_CITY_INCREASE_GREAT_PERSON_POINT_BONUS</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_KAMISATO_AYAKA_UZK</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FROSTFLAKE_HERON_HIGH_AMENITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_HAPPINESS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FROSTFLAKE_HERON_LOW_AMENITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_HAPPINESS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_ENTERTAINMENT_COMPLEX</DistrictType>
+			<ModifierId>TRAIT_SHIRASAGI_HIMEGIMI_GREAT_PERSON_POINT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_WATER_ENTERTAINMENT_COMPLEX</DistrictType>
+			<ModifierId>TRAIT_SHIRASAGI_HIMEGIMI_GREAT_PERSON_POINT_BONUS</ModifierId>
+		</Row>
+	</DistrictModifiers>
+
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_ARENA" ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_GREAT_PERSON_POINT_BONUS"/>
+		<Row BuildingType="BUILDING_ZOO" ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_GREAT_PERSON_POINT_BONUS"/>
+		<Row BuildingType="BUILDING_STADIUM" ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_GREAT_PERSON_POINT_BONUS"/>
+		<Row BuildingType="BUILDING_FERRIS_WHEEL" ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_GREAT_PERSON_POINT_BONUS"/>
+		<Row BuildingType="BUILDING_AQUARIUM" ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_GREAT_PERSON_POINT_BONUS"/>
+		<Row BuildingType="BUILDING_AQUATICS_CENTER" ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_GREAT_PERSON_POINT_BONUS"/>
+	</BuildingModifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_DRIVING_THUNDER_OVERTIME_GRANT</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_KEQING_UZK_OVERTIME_SHIFT</Value>
+		</Row>		
+		<Row>
+			<ModifierId>AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER</ModifierId>
+			<Name>IncrementValue</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_EXIT_LEADER_KEQING_UZK_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_LAND_AND_CONSTRUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER</ModifierId>
+			<Name>HiddenAgenda</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER</ModifierId>
+			<Name>TileImprovementHighThreshold</Name>
+			<Value>45</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER</ModifierId>
+			<Name>TileImprovementLowThreshold</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER</ModifierId>
+			<Name>PlotFeatureRemovalValue</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER</ModifierId>
+			<Name>NationalParkConstructionValue</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER</ModifierId>
+			<Name>TileImprovementPreferenceValue</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER</ModifierId>
+			<Name>MaxDiploModifierMagnitude</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER</ModifierId>
+			<Name>HighScoreThreshold</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER</ModifierId>
+			<Name>LowScoreThreshold</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_FASTER_ENTERTAINMENT" Name="DistrictType" Value="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+		<Row ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_FASTER_ENTERTAINMENT" Name="Amount" Value="100"/>
+		<Row ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_FASTER_WATER_ENTERTAINMENT" Name="DistrictType" Value="DISTRICT_WATER_ENTERTAINMENT_COMPLEX"/>
+		<Row ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_FASTER_WATER_ENTERTAINMENT" Name="Amount" Value="100"/>
+		<Row ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_FASTER_ENTERTAINMENT_BUILDING" Name="DistrictType" Value="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+		<Row ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_FASTER_ENTERTAINMENT_BUILDING" Name="Amount" Value="100"/>
+		<Row ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_FASTER_WATER_ENTERTAINMENT_BUILDING" Name="DistrictType" Value="DISTRICT_WATER_ENTERTAINMENT_COMPLEX"/>
+		<Row ModifierId="TRAIT_SHIRASAGI_HIMEGIMI_FASTER_WATER_ENTERTAINMENT_BUILDING" Name="Amount" Value="100"/>
+		<Row>
+			<ModifierId>TRAIT_SHIRASAGI_HIMEGIMI_GREAT_PERSON_POINT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FROSTFLAKE_HERON_HIGH_AMENITIES</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FROSTFLAKE_HERON_HIGH_AMENITIES</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_KAMISATO_AYAKA_UZK_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FROSTFLAKE_HERON_HIGH_AMENITIES</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_FROSTFLAKE_HERON_HIGH_AMENITIES</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FROSTFLAKE_HERON_LOW_AMENITIES</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FROSTFLAKE_HERON_LOW_AMENITIES</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_KAMISATO_AYAKA_UZK_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FROSTFLAKE_HERON_LOW_AMENITIES</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_FROSTFLAKE_HERON_LOW_AMENITIES</Value>
+		</Row>
+	</ModifierArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_FROSTFLAKE_HERON_HIGH_AMENITIES" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_FROSTFLAKE_HERON_LOW_AMENITIES" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+
+	<AiListTypes>
+		<Row ListType="KeqingUZKTechs"/>
+		<Row ListType="KeqingUZKCivics"/>
+		<Row ListType="KeqingUZKWonders"/>
+		<Row ListType="KeqingUZKFavoredDistricts"/>
+		<Row ListType="KamisatoAyakaUZKTechs"/>
+		<Row ListType="KamisatoAyakaUZKCivics"/>
+		<Row ListType="KamisatoAyakaUZKWonders"/>
+		<Row ListType="KamisatoAyakaHappinessPreference"/>
+	</AiListTypes>
+
+	<AiLists>
+		<Row ListType="KeqingUZKTechs" LeaderType="TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER" System="Technologies"/>
+		<Row ListType="KeqingUZKWonders" LeaderType="TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER" System="Buildings"/>
+		<Row ListType="KeqingUZKCivics" LeaderType="TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER" System="Civics"/>
+		<Row ListType="ExploitationLoverExploitationPreference" AgendaType="TRAIT_AGENDA_LAND_AND_CONSTUCTION" System="PseudoYields"/>
+		<Row ListType="KeqingUZKFavoredDistricts" AgendaType="TRAIT_AGENDA_LAND_AND_CONSTUCTION" System="PseudoYields"/>
+		<Row ListType="KamisatoAyakaUZKTechs" LeaderType="TRAIT_LEADER_SHIRASAGI_HIMEGIMI" System="Technologies"/>
+		<Row ListType="KamisatoAyakaUZKWonders" LeaderType="TRAIT_LEADER_SHIRASAGI_HIMEGIMI" System="Buildings"/>
+		<Row ListType="KamisatoAyakaUZKCivics" LeaderType="TRAIT_LEADER_SHIRASAGI_HIMEGIMI" System="Civics"/>
+		<Row ListType="KamisatoAyakaHappinessPreference" LeaderType="TRAIT_AGENDA_FROSTFLAKE_HERON" System="PseudoYields"/>
+	</AiLists>
+
+	<AiFavoredItems>
+		<Row ListType="KeqingUZKTechs" Item="TECH_MASONRY" Favored="true"/>
+		<Row ListType="KeqingUZKTechs" Item="TECH_CONSTRUCTION" Favored="true"/>
+		<Row ListType="KeqingUZKTechs" Item="TECH_ENGINEERING" Favored="true"/>
+		<Row ListType="KeqingUZKTechs" Item="TECH_STEEL" Favored="true"/>
+		<Row ListType="KeqingUZKCivics" Item="CIVIC_STATE_WORKFORCE" Favored="true"/>
+		<Row ListType="KeqingUZKCivics" Item="CIVIC_CIVIL_SERVICE" Favored="true"/>
+		<Row ListType="KeqingUZKCivics" Item="CIVIC_HUMANISM" Favored="true"/>
+		<Row ListType="KeqingUZKCivics" Item="CIVIC_THE_ENLIGHTENMENT" Favored="true"/>
+		<Row ListType="KeqingUZKCivics" Item="CIVIC_CIVIL_ENGINEERING" Favored="true"/>
+		<Row ListType="KeqingUZKCivics" Item="CIVIC_MOBILIZATION" Favored="true"/>
+		<Row ListType="KeqingUZKCivics" Item="CIVIC_RAPID_DEPLOYMENT" Favored="true"/>
+		<Row ListType="KeqingUZKWonders" Item="BUILDING_PYRAMIDS" Favored="true"/>
+		<Row ListType="KeqingUZKWonders" Item="BUILDING_RUHR_VALLEY" Favored="true"/>
+		<Row ListType="KeqingUZKFavoredDistricts" Item="PSEUDOYIELD_DISTRICT" Value="50"/>
+		<Row ListType="KamisatoAyakaUZKTechs" Item="TECH_ASTROLOGY" Favored="true"/>
+		<!--For diplomatic district-->
+		<Row ListType="KamisatoAyakaUZKTechs" Item="TECH_MATHEMATICS" Favored="true"/>
+		<Row ListType="KamisatoAyakaUZKWonders" Item="BUILDING_COLOSSEUM" Favored="true"/>
+		<Row ListType="KamisatoAyakaUZKWonders" Item="BUILDING_MAHABODHI_TEMPLE" Favored="true"/>
+		<InsertOrIgnore ListType="KamisatoAyakaUZKWonders" Item="BUILDING_ANGKOR_WAT" Favored="true"/>
+		<Row ListType="KamisatoAyakaUZKWonders" Item="BUILDING_BOLSHOI_THEATRE" Favored="true"/>
+		<Row ListType="KamisatoAyakaUZKWonders" Item="BUILDING_BROADWAY" Favored="true"/>
+		<Row ListType="KamisatoAyakaUZKWonders" Item="BUILDING_SYDNEY_OPERA_HOUSE" Favored="true"/>
+		<Row ListType="KamisatoAyakaUZKCivics" Item="CIVIC_DRAMA_POETRY" Favored="true"/>
+		<Row ListType="KamisatoAyakaUZKCivics" Item="CIVIC_GAMES_RECREATION" Favored="true"/>
+		<Row ListType="KamisatoAyakaUZKCivics" Item="CIVIC_CIVIL_SERVICE" Favored="true"/>
+		<Row ListType="KamisatoAyakaUZKCivics" Item="CIVIC_FEUDALISM" Favored="true"/>
+		<Row ListType="KamisatoAyakaUZKCivics" Item="CIVIC_DIPLOMATIC_SERVICE" Favored="true"/>
+		<Row ListType="KamisatoAyakaUZKCivics" Item="CIVIC_SUFFRAGE" Favored="true"/>
+		<Row ListType="KamisatoAyakaHappinessPreference" Item="PSEUDOYIELD_HAPPINESS" Value="100"/>
+	</AiFavoredItems>
+
+	<Agendas>
+		<Row AgendaType="AGENDA_LAND_AND_CONSTUCTION" Name="LOC_AGENDA_LAND_AND_CONSTUCTION_NAME" Description="LOC_AGENDA_LAND_AND_CONSTUCTION_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_FROSTFLAKE_HERON" Name="LOC_AGENDA_FROSTFLAKE_HERON_NAME" Description="LOC_AGENDA_FROSTFLAKE_HERON_DESCRIPTION"/>
+	</Agendas>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_KEQING_UZK" AgendaType="AGENDA_LAND_AND_CONSTUCTION"/>
+		<Row LeaderType="LEADER_KAMISATO_AYAKA_UZK" AgendaType="AGENDA_FROSTFLAKE_HERON"/>
+	</HistoricalAgendas>
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_LAND_AND_CONSTUCTION" TraitType="TRAIT_AGENDA_LAND_AND_CONSTUCTION"/>
+		<Row AgendaType="AGENDA_FROSTFLAKE_HERON" TraitType="TRAIT_AGENDA_FROSTFLAKE_HERON"/>
+	</AgendaTraits>
+
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_LAND_AND_CONSTUCTION" AgendaTwo="AGENDA_EXPLOITATIVE"/>
+		<Row AgendaOne="AGENDA_LAND_AND_CONSTUCTION" AgendaTwo="AGENDA_ENVIRONMENTALIST"/>
+		<Row AgendaOne="AGENDA_FROSTFLAKE_HERON" AgendaTwo="AGENDA_FUN_LOVING"/>
+	</ExclusiveAgendas>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_KEQING_UZK" Quote="LOC_LEADER_KEQING_UZK_QUOTE" QuoteAudio="LIYU_KQ_MISC_PEP_TALK_A"/>
+		<Row LeaderType="LEADER_KAMISATO_AYAKA_UZK" Quote="LOC_LEADER_KAMISATO_AYAKA_UZK_QUOTE" QuoteAudio="INZM_KA_MISC_PEP_TALK_A"/>
+	</LeaderQuotes>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_IS_KAMISATO_AYAKA_UZK</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_IS_KAMISATO_AYAKA_UZK</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_KAMISATO_AYAKA_UZK</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQUIRES_PLAYER_IS_KAMISATO_AYAKA_UZK" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQUIRES_PLAYER_IS_KAMISATO_AYAKA_UZK" Name="LeaderType" Value="LEADER_KAMISATO_AYAKA_UZK"/>
+	</RequirementArguments>
+</GameData>

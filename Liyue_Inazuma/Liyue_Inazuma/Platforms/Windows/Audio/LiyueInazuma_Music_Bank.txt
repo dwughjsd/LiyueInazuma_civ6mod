@@ -1,0 +1,43 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1716637	Play_Leader_Music_INAZUMA_TEYVAT			\Default Work Unit\Music\Play_Leader_Music_INAZUMA_TEYVAT	
+	307780871	Start_Music_INAZUMA_TEYVAT			\Default Work Unit\Music\Start_Music_INAZUMA_TEYVAT	
+	966015140	Pause_Music_LIYUE_TEYVAT			\Default Work Unit\Music\Pause_Music_LIYUE_TEYVAT	
+	1142874926	Stop_Leader_Music_LIYUE_TEYVAT			\Default Work Unit\Music\Stop_Leader_Music_LIYUE_TEYVAT	
+	1287000585	Stop_Music_INAZUMA_TEYVAT			\Default Work Unit\Music\Stop_Music_INAZUMA_TEYVAT	
+	1947534844	Stop_Music_LIYUE_TEYVAT			\Default Work Unit\Music\Stop_Music_LIYUE_TEYVAT	
+	2022225088	Play_Leader_Music_LIYUE_TEYVAT			\Default Work Unit\Music\Play_Leader_Music_LIYUE_TEYVAT	
+	2530020651	Stop_Leader_Music_INAZUMA_TEYVAT			\Default Work Unit\Music\Stop_Leader_Music_INAZUMA_TEYVAT	
+	2650184402	Play_Music_LIYUE_TEYVAT			\Default Work Unit\Music\Play_Music_LIYUE_TEYVAT	
+	2712300970	Start_Music_LIYUE_TEYVAT			\Default Work Unit\Music\Start_Music_LIYUE_TEYVAT	
+	2761413890	Resume_Music_INAZUMA_TEYVAT			\Default Work Unit\Music\Resume_Music_INAZUMA_TEYVAT	
+	3168123839	Play_Music_INAZUMA_TEYVAT			\Default Work Unit\Music\Play_Music_INAZUMA_TEYVAT	
+	3910208351	Resume_Music_LIYUE_TEYVAT			\Default Work Unit\Music\Resume_Music_LIYUE_TEYVAT	
+	4144321281	Pause_Music_INAZUMA_TEYVAT			\Default Work Unit\Music\Pause_Music_INAZUMA_TEYVAT	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	55877717	Liyue_Ancient	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\Liyue_Ancient_17C11484.wem	55877717.wem	\Interactive Music Hierarchy\LiyueBackgroundMusic\LeaderMusic_LiyueUZK\LiyueUZKLeader_Ancient\Liyue_Ancient\Liyue_Ancient	
+	65369850	SojournersSweetDream	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\SojournersSweetDream_17C11484.wem	65369850.wem	\Interactive Music Hierarchy\LiyueBackgroundMusic\CivilizationMusic_LiyueUZK\LiyueUZKCivAncient\SojournersSweetDream\SojournersSweetDream	
+	116216438	Inazuma_Ancient	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\Inazuma_Ancient_17C11484.wem	116216438.wem	\Interactive Music Hierarchy\InazumaBackgroundMusic\CivilizationMusic_InazumaUZK\InazumaUZKCivAncient\Inazuma_Ancient\Inazuma_Ancient	
+	122969949	RelaxationInLiyue	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\RelaxationInLiyue_17C11484.wem	122969949.wem	\Interactive Music Hierarchy\LiyueBackgroundMusic\CivilizationMusic_LiyueUZK\LiyueUZKCivAncient\RelaxationInLiyue\RelaxationInLiyue	
+	150321931	TimeToSayFarewell	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\TimeToSayFarewell_17C11484.wem	150321931.wem	\Interactive Music Hierarchy\InazumaBackgroundMusic\CivilizationMusic_InazumaUZK\InazumaUZKCivAncient\TimeToSayFarewell\TimeToSayFarewell	
+	154441012	Liyue_Atomic	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\Liyue_Atomic_17C11484.wem	154441012.wem	\Interactive Music Hierarchy\LiyueBackgroundMusic\ThemeMusic_LiyueUZK\Liyue_Atomic\Liyue_Atomic	
+	168275434	Inazuma_Medieval	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\Inazuma_Medieval_17C11484.wem	168275434.wem	\Interactive Music Hierarchy\InazumaBackgroundMusic\CivilizationMusic_InazumaUZK\InazumaUZKCivIndustrial\Inazuma_Medieval\Inazuma_Medieval	
+	234300077	ANightWatch	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\ANightWatch_17C11484.wem	234300077.wem	\Interactive Music Hierarchy\InazumaBackgroundMusic\CivilizationMusic_InazumaUZK\InazumaUZKCivAncient\ANightWatch\ANightWatch	
+	235345272	DreamOfScatteredPetals	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\DreamOfScatteredPetals_17C11484.wem	235345272.wem	\Interactive Music Hierarchy\InazumaBackgroundMusic\CivilizationMusic_InazumaUZK\InazumaUZKCivAncient\DreamOfScatteredPetals\DreamOfScatteredPetals	
+	326837323	FreedomOfCrane	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\FreedomOfCrane_17C11484.wem	326837323.wem	\Interactive Music Hierarchy\LiyueBackgroundMusic\CivilizationMusic_LiyueUZK\LiyueUZKCivAncient\FreedomOfCrane\FreedomOfCrane	
+	407720255	FlowOfMildness	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\FlowOfMildness_17C11484.wem	407720255.wem	\Interactive Music Hierarchy\LiyueBackgroundMusic\CivilizationMusic_LiyueUZK\LiyueUZKCivAncient\FlowOfMildness\FlowOfMildness	
+	411938969	MurmuringCreek	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\MurmuringCreek_17C11484.wem	411938969.wem	\Interactive Music Hierarchy\InazumaBackgroundMusic\CivilizationMusic_InazumaUZK\InazumaUZKCivAncient\MurmuringCreek\MurmuringCreek	
+	423497702	TheLandOfHerSerenity	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\TheLandOfHerSerenity_17C11484.wem	423497702.wem	\Interactive Music Hierarchy\InazumaBackgroundMusic\CivilizationMusic_InazumaUZK\InazumaUZKCivAncient\TheLandOfHerSerenity\TheLandOfHerSerenity	
+	461469661	Inazuma_Industrial	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\Inazuma_Industrial_17C11484.wem	461469661.wem	\Interactive Music Hierarchy\InazumaBackgroundMusic\CivilizationMusic_InazumaUZK\InazumaUZKCivIndustrial\Inazuma_Industrial\Inazuma_Industrial	
+	527635684	AnotherConflictIncoming	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\AnotherConflictIncoming_17C11484.wem	527635684.wem	\Interactive Music Hierarchy\InazumaBackgroundMusic\CivilizationMusic_InazumaUZK\InazumaUZKCivAncient\AnotherConflictIncoming\AnotherConflictIncoming	
+	543239818	IslandOfHanabi	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\IslandOfHanabi_17C11484.wem	543239818.wem	\Interactive Music Hierarchy\InazumaBackgroundMusic\CivilizationMusic_InazumaUZK\InazumaUZKCivAncient\IslandOfHanabi\IslandOfHanabi	
+	604408744	Liyue_Medieval	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\Liyue_Medieval_17C11484.wem	604408744.wem	\Interactive Music Hierarchy\LiyueBackgroundMusic\LeaderMusic_LiyueUZK\LiyueUZKLeader_Medieval\Liyue_Medieval\Liyue_Medieval	
+	736154082	DrinkWithAHermit	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\DrinkWithAHermit_17C11484.wem	736154082.wem	\Interactive Music Hierarchy\LiyueBackgroundMusic\CivilizationMusic_LiyueUZK\LiyueUZKCivAncient\DrinkWithAHermit\DrinkWithAHermit	
+	750479573	MaidensLonging	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\MaidensLonging_17C11484.wem	750479573.wem	\Interactive Music Hierarchy\LiyueBackgroundMusic\CivilizationMusic_LiyueUZK\LiyueUZKCivAncient\MaidensLonging\MaidensLonging	
+	768241057	TheAbsenceOfAdepti	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\TheAbsenceOfAdepti_17C11484.wem	768241057.wem	\Interactive Music Hierarchy\LiyueBackgroundMusic\CivilizationMusic_LiyueUZK\LiyueUZKCivAncient\TheAbsenceOfAdepti\TheAbsenceOfAdepti	
+	822799866	ATransparentMoon	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\ATransparentMoon_17C11484.wem	822799866.wem	\Interactive Music Hierarchy\LiyueBackgroundMusic\CivilizationMusic_LiyueUZK\LiyueUZKCivAncient\ATransparentMoon\ATransparentMoon	
+	894876056	MelodiousFlute	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\MelodiousFlute_17C11484.wem	894876056.wem	\Interactive Music Hierarchy\LiyueBackgroundMusic\CivilizationMusic_LiyueUZK\LiyueUZKCivAncient\MelodiousFlute\MelodiousFlute	
+	945989699	WhereTheShirasagiDances	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\WhereTheShirasagiDances_17C11484.wem	945989699.wem	\Interactive Music Hierarchy\InazumaBackgroundMusic\CivilizationMusic_InazumaUZK\InazumaUZKCivAncient\WhereTheShirasagiDances\WhereTheShirasagiDances	
+	956775637	Liyue_Industrial	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\Liyue_Industrial_17C11484.wem	956775637.wem	\Interactive Music Hierarchy\LiyueBackgroundMusic\LeaderMusic_LiyueUZK\LiyueUZKLeader_Industrial\Liyue_Industrial\Liyue_Industrial	
+	1056838944	SakuraScentedKiseru	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\SFX\SakuraScentedKiseru_17C11484.wem	1056838944.wem	\Interactive Music Hierarchy\InazumaBackgroundMusic\CivilizationMusic_InazumaUZK\InazumaUZKCivAncient\SakuraScentedKiseru\SakuraScentedKiseru	
+

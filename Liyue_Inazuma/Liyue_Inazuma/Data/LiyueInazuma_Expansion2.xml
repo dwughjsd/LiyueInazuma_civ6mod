@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_LIYUE_TEYVAT_HARBOR" Texture="Moment_Infrastructure_LiyueTeyvat"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LIYUE_TEYVAT_MILLELITH" Texture="Moment_UniqueUnit_LiyueTeyvat"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_TRIARCHAL_COUNCIL" Texture="Moment_Infrastructure_InazumaTeyvat"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_INAZUMAN_SHOGUNATE_ASHIGARU" Texture="Moment_UniqueUnit_InazumaTeyvat"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_SHA_COMMISSION" Texture="Moment_Infrastructure_InazumaTeyvat_ShaCommission"/>
+	</MomentIllustrations>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_LIYUE_TEYVAT_HARBOR" YieldChangeId="Government_Gold"/>
+	</District_Adjacencies>
+	<Units_XP2>
+		<Row UnitType="UNIT_LIYUE_TEYVAT_MILLELITH" ResourceCost="10"/>
+	</Units_XP2>
+
+	<Types>
+		<Row Type="NAMED_LAKE_LUHUA_POOL" Kind="KIND_NAMED_LAKE"/>
+		<Row Type="NAMED_LAKE_QINGXU_POOL" Kind="KIND_NAMED_LAKE"/>
+		<Row Type="NAMED_MOUNTAIN_TIANHENG_MOUNTAINS" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_MOUNTAIN_THE_CHASM" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_RIVER_BISHUI_RIVER" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_SEA_SEA_OF_CLOUDS" Kind="KIND_NAMED_SEA"/>
+	</Types>
+
+	<NamedLakes>
+		<InsertOrIgnore NamedLakeType="NAMED_LAKE_LUHUA_POOL" Name="LOC_NAMED_LAKE_LUHUA_POOL_NAME"/>
+		<InsertOrIgnore NamedLakeType="NAMED_LAKE_QINGXU_POOL" Name="LOC_NAMED_LAKE_QINGXU_POOL_NAME"/>
+	</NamedLakes>
+	<NamedMountains>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_TIANHENG_MOUNTAINS" Name="LOC_NAMED_MOUNTAIN_TIANHENG_MOUNTAINS_NAME"/>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_THE_CHASM" Name="LOC_NAMED_MOUNTAIN_THE_CHASM_NAME"/>
+	</NamedMountains>
+	<NamedRivers>
+		<Row NamedRiverType="NAMED_RIVER_BISHUI_RIVER" Name="LOC_NAMED_RIVER_BISHUI_RIVER_NAME"/>
+	</NamedRivers>
+	<NamedSeas>
+		<Row NamedSeaType="NAMED_SEA_SEA_OF_CLOUDS" Name="LOC_NAMED_SEA_SEA_OF_CLOUDS_NAME"/>
+	</NamedSeas>
+	
+	<NamedLakeCivilizations>
+		<InsertOrIgnore NamedLakeType="NAMED_LAKE_LUHUA_POOL" CivilizationType="CIVILIZATION_LIYUE_TEYVAT"/>
+		<InsertOrIgnore NamedLakeType="NAMED_LAKE_QINGXU_POOL" CivilizationType="CIVILIZATION_LIYUE_TEYVAT"/>
+	</NamedLakeCivilizations>
+	<NamedMountainCivilizations>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_TIANHENG_MOUNTAINS" CivilizationType="CIVILIZATION_LIYUE_TEYVAT"/>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_THE_CHASM" CivilizationType="CIVILIZATION_LIYUE_TEYVAT"/>
+	</NamedMountainCivilizations>
+	<NamedRiverCivilizations>
+		<Row NamedRiverType="NAMED_RIVER_BISHUI_RIVER" CivilizationType="CIVILIZATION_LIYUE_TEYVAT"/>
+	</NamedRiverCivilizations>
+	<NamedSeaCivilizations>
+		<Row NamedSeaType="NAMED_SEA_SEA_OF_CLOUDS" CivilizationType="CIVILIZATION_LIYUE_TEYVAT"/>
+	</NamedSeaCivilizations>
+	
+	<!--ToDo: Keqing and Ayaka's Discussion AiList-->
+</GameData>

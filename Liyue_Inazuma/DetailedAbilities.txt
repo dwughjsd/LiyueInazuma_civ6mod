@@ -1,0 +1,75 @@
+For who wants a detailed description of these leader instead of a first-look-style text:
+
+Liyue - Harbor of Stone and Contracts
+
+Begin the game with the Mining technology unlocked. Your outgoing Trade Routes grant +1 Production to Liyue per Mine at the destination. Trade Routes sent to your cities grant +2 Gold to Liyue per Quarry at the destination.
+
+Keqing - Driving Thunder
+
+Units can immediately move after purchase. Builders and Military Engineers have their Movement fully restored after taking a building action once per turn.
+
+Millelith
+
+Liyue unique Classical era melee unit that replaces the Swordsman. Stronger than the Swordsman. Unlocked by Military Training. Faster Movement on Hill terrain. Receives double Great General bonus.
+
+Liyue Harbor
+
+A district unique to Liyue for naval activity in your city. Replaces the Harbor district and cheaper to build. Lighthouse grants +1 Trade Route capacity even if this city has a Market. Traders are 50% cheaper to purchase in this city.
+
+Inazuma - Realm of Tranquil Eternity
+
+All cities receive +5% Science and +5% Culture for each Ecstatic city (up to 50%). Accumulate double war weariness.
+
+Kamisato Ayaka - Shirasagi Himegimi
+
+Builds Entertainment Complex and Water Park districts and buildings in half the time. Each Entertainment Complex and Water Park district and building provides +25% Great People points generated per turn in the city. May construct the Yashiro Commission in the Government Plaza.
+
+Shogunate Ashigaru
+
+Inazuman unique Classical era melee unit. Has 3 Movement. +5 Combat Strength to adjacent military units other than Shogunate Ashigaru.
+
+Yashiro Commission
+
+Inazuman unique building when Kamisato Ayaka is their leader. Each city with a Governor or within 6 tiles of Yashiro Commission receives +2 Culture and +1 Amenity from entertainment for each specialty district it construct. Awards +1 Governor Title.
+
+Triarchal Council
+
+A district unique to Inazuma to commemorate your government choices. Replaces the Government Plaza district and cheaper to build. Provides +8 Loyalty per turn to this city, and an increase of +1 to the adjacency bonuses being earned by any adjacent district. Awards +3 Governor Title. The Triarchal Council district and each government building built in the district provide +2 Housing and +0.2 all yields per Citizen to your cities with Governors or within 6 tiles of it, but other cities receive -2 non-Food yields.
+
+提供给更喜欢直接看详细的能力说明的玩家：
+
+璃月 - 岩与契约之港
+
+游戏初始便解锁“采矿业”科技。研究“数学”科技后，您发起的贸易路线目的地每有一座矿山为璃月 +1 生产力，到达您的城市的贸易路线目的地每有一座采石场为璃月提供+2金币。
+
+刻晴 - 霆霓快雨
+
+单位购买后可立即移动。每回合建造者和军事工程师在建造后恢复全部移动力一次。
+
+千岩军
+
+璃月古典时代特色近战单位，取代剑客。更加强大，由“军事训练”市政解锁。在丘陵地区有更快的移动力。获得双倍大将军加成。
+
+璃月港
+
+璃月特色海军活动区域，替代港口，建造费用更低。即使此城市有市场，灯塔也提供 +1 贸易路线容量。此城市购买商人的费用降低50%。
+
+稻妻 - 宁寂永恒之国
+
+每座欣喜若狂的城市为所有城市 +5% 科技值和 +5% 文化值（上限50%）。积累双倍厌战情绪。
+
+神里绫华 - 白鹭公主
+
+用一半的时间即可建设娱乐中心和水上乐园区域和建筑。每座娱乐中心、水上乐园区域和建筑为所在城市+25%每回合伟人点数产出。可在市政广场中建造社奉行。
+
+幕府军足轻
+
+稻妻特色古典时代近战单位。拥有3点移动力。为邻接的非足轻陆地军事单位 +5 战斗力。
+
+社奉行
+
+神里绫华作为领袖时的稻妻特色建筑。每座拥有总督或距离社奉行6个单元格内的城市每建成一个特色区域获得 +2 文化和 +1 来自娱乐设施的宜居度。奖励1个总督头衔。
+
+评定所
+
+用以纪念所选政体的稻妻特色区域。取代市政广场，建造费用更低。使此城每回合的忠诚度 +8、使相邻区域获得的相邻加成 +1。奖励3个总督头衔。评定所和其中的每个体建筑为拥有总督或6个单元格内的城市提供 +2 住房以及每个公民 +0.2 所有产出，但其它城市 -2 非食物产出。

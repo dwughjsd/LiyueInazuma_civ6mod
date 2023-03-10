@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UILeaders"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="LEADER_KEQING_UZK_NEUTRAL"/>
+			<m_ObjectName text="LEADER_KEQING_UZK_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_KEQING_UZK_WORKAROUND"/>
+			<m_ObjectName text="LEADER_KEQING_UZK_WORKAROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_KAMISATO_AYAKA_UZK_NEUTRAL"/>
+			<m_ObjectName text="LEADER_KAMISATO_AYAKA_UZK_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_KAMISATO_AYAKA_UZK_WORKAROUND"/>
+			<m_ObjectName text="LEADER_KAMISATO_AYAKA_UZK_WORKAROUND"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

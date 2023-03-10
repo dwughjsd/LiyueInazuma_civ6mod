@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/PrideMoments"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Moment_Infrastructure_LiyueTeyvat"/>
+			<m_ObjectName text="Moment_Infrastructure_LiyueTeyvat"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_UniqueUnit_LiyueTeyvat"/>
+			<m_ObjectName text="Moment_UniqueUnit_LiyueTeyvat"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_Infrastructure_InazumaTeyvat"/>
+			<m_ObjectName text="Moment_Infrastructure_InazumaTeyvat"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_Infrastructure_InazumaTeyvat_ShaCommission"/>
+			<m_ObjectName text="Moment_Infrastructure_InazumaTeyvat_ShaCommission"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_UniqueUnit_InazumaTeyvat"/>
+			<m_ObjectName text="Moment_UniqueUnit_InazumaTeyvat"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

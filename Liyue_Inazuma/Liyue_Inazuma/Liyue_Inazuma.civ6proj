@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>LOC_LIYUE_INAZUMA_MOD_TITLE</Name>
+    <Guid>8772720f-9d8b-4f4f-a46d-87bdfa7b2966</Guid>
+    <ProjectGuid>cf5f861b-6902-4b83-a36e-566e0ccab032</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>LOC_LIYUE_INAZUMA_MOD_TEASER</Teaser>
+    <Description>LOC_LIYUE_INAZUMA_MOD_DESCRIPTION</Description>
+    <Authors>Shimamura et al.</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <AssemblyName>Liyue_Inazuma</AssemblyName>
+    <RootNamespace>Liyue_Inazuma</RootNamespace>
+    <AssociationData><![CDATA[<Associations>
+  <Reference type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Reference type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+</Associations>]]></AssociationData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="LiyueSettings"><File>Data/LiyueInazuma_Config.xml</File></UpdateDatabase><UpdateText id="LiyueSettingsText"><File>Text/LiyueInazuma_ConfigText_AFallback.xml</File><File>Text/LiyueInazuma_ConfigText_Translations.xml</File></UpdateText><UpdateIcons id="LiyueSettingsIcons"><File>Data/LiyueInazuma_Icons.xml</File></UpdateIcons><UpdateColors id="LiyueSettingsColors"><File>Data/LiyueInazuma_Colors.xml</File></UpdateColors><UpdateArt id="LiyueSettingsArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LiyueInazuma"><LeaderPlayable>Players:StandardPlayers::LEADER_KEQING_UZK,StandardPlayers::LEADER_KEQING_UZK,Players:Expansion1_Players::LEADER_KEQING_UZK,Players:Expansion2_Players::LEADER_KEQING_UZK,Players:StandardPlayers::LEADER_KAMISATO_AYAKA_UZK,StandardPlayers::LEADER_KAMISATO_AYAKA_UZK,Players:Expansion1_Players::LEADER_KAMISATO_AYAKA_UZK,Players:Expansion2_Players::LEADER_KAMISATO_AYAKA_UZK</LeaderPlayable><RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="LiyueInazuma_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_KEQING_UZK,Players:Expansion1_Players::LEADER_KAMISATO_AYAKA_UZK</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="LiyueInazuma_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_KEQING_UZK,Players:Expansion2_Players::LEADER_KAMISATO_AYAKA_UZK</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="SecretSocieties"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="LiyueGameplay"><Criteria>LiyueInazuma</Criteria><File>Data/LiyueInazuma_Civilizations.xml</File><File>Data/LiyueInazuma_Districts.xml</File><File>Data/LiyueInazuma_Leaders.xml</File><File>Data/LiyueInazuma_Units.xml</File><File>Data/LiyueInazuma_Buildings.xml</File></UpdateDatabase><UpdateText id="LiyueText"><Criteria>LiyueInazuma</Criteria><File>Text/LiyueInazuma_Text_AFallback.xml</File><File>Text/LiyueInazuma_Text_Translations.xml</File><File>Text/LiyueInazuma_ConfigText_AFallback.xml</File><File>Text/LiyueInazuma_ConfigText_Translations.xml</File></UpdateText><UpdateArt id="LiyueArt"><Criteria>LiyueInazuma</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="LiyueColors"><Criteria>LiyueInazuma</Criteria><File>Data/LiyueInazuma_Colors.xml</File></UpdateColors><UpdateIcons id="LiyueIcons"><Criteria>LiyueInazuma</Criteria><File>Data/LiyueInazuma_Icons.xml</File></UpdateIcons><UpdateDatabase id="LiyueExpansion1"><Criteria>LiyueInazuma_Expansion1</Criteria><File>Data/LiyueInazuma_Expansion1.xml</File></UpdateDatabase><UpdateDatabase id="LiyueExpansion2"><Criteria>LiyueInazuma_Expansion2</Criteria><File>Data/LiyueInazuma_Expansion2.xml</File></UpdateDatabase><UpdateAudio id="LiyueAudio"><Criteria>LiyueInazuma</Criteria><File>Platforms/Windows/Audio/LiyueInazumaBanks.ini</File></UpdateAudio><UpdateLogitechARX id="LiyueARX"><Criteria>LiyueInazuma</Criteria><File>Data/ARX/Civ_LEADER_KAMISATO_AYAKA_UZK.png</File><File>Data/ARX/Civ_LEADER_KEQING_UZK.png</File></UpdateLogitechARX><AddGameplayScripts id="LiyueScripts"><Criteria>LiyueInazuma</Criteria><File>Scripts/LiyueInazuma_KeqingGameplay.lua</File></AddGameplayScripts><AddUserInterfaces id="LiyueInGameUI"><Properties><Context>InGame</Context></Properties><Criteria>LiyueInazuma</Criteria><File>UI/Addition/LiyueInazuma_KeqingUI.xml</File><File>UI/Addition/LiyueInazuma_AmenitiesSupport.xml</File></AddUserInterfaces><UpdateDatabase id="Liyue_SecretSocieties_Mode"><Criteria>SecretSocieties</Criteria><File>Data/LiyueInazuma_SecretSocieties_MODE.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Liyue_Inazuma.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+    <Folder Include="Data\ARX" />
+    <Folder Include="UI" />
+    <Folder Include="Scripts" />
+    <Folder Include="Platforms" />
+    <Folder Include="Platforms\Windows" />
+    <Folder Include="Platforms\Windows\Audio" />
+    <Folder Include="Text" />
+    <Folder Include="UI\Addition" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\ARX\Civ_LEADER_KAMISATO_AYAKA_UZK.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\ARX\Civ_LEADER_KEQING_UZK.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\LiyueInazuma_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\LiyueInazuma_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\LiyueInazuma_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\LiyueInazuma_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\LiyueInazuma_Districts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\LiyueInazuma_Expansion1.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\LiyueInazuma_Expansion2.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\LiyueInazuma_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\LiyueInazuma_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\LiyueInazuma_SecretSocieties_MODE.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\LiyueInazuma_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\1056838944.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\116216438.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\122969949.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\150321931.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\154441012.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\168275434.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\234300077.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\235345272.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\326837323.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\407720255.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\411938969.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\423497702.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\461469661.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\527635684.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\543239818.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\55877717.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\604408744.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\65369850.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\736154082.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\750479573.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\768241057.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\822799866.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\894876056.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\945989699.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\956775637.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\LiyueInazuma_Music_Bank.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\LiyueInazuma_Music_Bank.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\LiyueInazuma_Music_Bank.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\LiyueInazumaBanks.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\LiyueInazuma_Speech.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\LiyueInazuma_Speech.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\LiyueInazuma_Speech.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\LiyueInazuma_KeqingGameplay.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\LiyueInazuma_ConfigText_AFallback.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\LiyueInazuma_ConfigText_Translations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\LiyueInazuma_Text_AFallback.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\LiyueInazuma_Text_Translations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Addition\LiyueInazuma_AmenitiesSupport.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Addition\LiyueInazuma_AmenitiesSupport.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Addition\LiyueInazuma_KeqingUI.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Addition\LiyueInazuma_KeqingUI.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

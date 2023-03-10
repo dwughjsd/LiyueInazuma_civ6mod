@@ -1,0 +1,135 @@
+[h1]↑轻点一下就能给出好评，激励我们继续努力，谢谢♪当然社区奖励我们也很欢迎～
+
+欢迎加入“圣特蕾莎文明mod学园”QQ群（519747236）寻访关于我们的作品的最新动态。[/h1]
+
+此mod需要迭起兴衰或风云变幻资料片的其中之一才能运行。平衡性以风云变幻资料片中的数值为准。
+
+[h1]强烈建议同时订阅[url=steamcommunity.com/sharedfiles/filedetails/?id=2882489805]提瓦特的日月包[/url]以获得完整体验。别忘了也给它好评哦。[/h1]
+
+支持语言：简体中文、英语
+
+[h1]刻晴领导的璃月和神里绫华领导的稻妻：先睹为快[/h1]
+
+补全合集——本文明包包含了璃月和稻妻两个文明，使得在一局游戏中出现《原神》游戏中已发布的的四个国家成为可能。
+
+[b]璃月[/b]的特色区域是[b]璃月港[/b]，它可以令灯塔在有市场的城市也提供贸易路线容量，还可以使商人变得更加廉价。特色单位[b]千岩军[/b]取代剑客，虽然更晚解锁，但却更加强大。千岩军在丘陵地区有更快的移动力。获得双倍大将军加成。
+
+文明特性是[b]“岩与契约之港”[/b]。游戏初始便解锁“采矿业”科技。研究“数学”科技后，您发起的贸易路线目的地每有一座矿山为璃月提供生产力，到达您的城市的贸易路线目的地每有一座采石场为璃月提供金币。
+
+[b]刻晴[/b]的特色能力是[b]“霆霓快雨”[/b]。单位购买后可立即移动。每回合建造者和军事工程师在建造后恢复全部移动力一次。善用这项能力，便可使其发展如雷霆般迅猛。
+
+[b]稻妻[/b]的特色区域是[b]评定所[/b]，取代市政广场。评定所可奖励3个总督头衔，为拥有总督或靠近评定所的城市提供住房以及每个公民产出，但其它城市将受到非食物产出惩罚。特色单位[b]幕府军足轻[/b]拥有3点移动力。为邻接的非足轻陆地军事单位 +5战斗力。若使用[b]神里绫华[/b]领导稻妻，他们还可以建设[b]社奉行[/b]，使拥有总督或靠近评定所的城市从每座特色区域中获得文化和宜居度。
+
+稻妻的文明特性是[b]“宁寂永恒之国”[/b]。每座欣喜若狂的城市都能提升所有城市的科技值和文化值产出，但积累双倍厌战情绪。[b]神里绫华[/b]的特色能力[b]“白鹭公主”[/b]可以帮助稻妻获得更多欣喜若狂的城市。他们可以加速建设娱乐中心和水上乐园区域和建筑。这些区域和建筑还能提升所在城市的伟人点数产出。
+
+您要领导追求繁荣的璃月还是心向永恒的稻妻？您将会如何带领他们建立起经得起时间考验的文明？
+
+[b]能力详情请参阅讨论贴。[/b]
+
+[h1]模组特性：[/h1]
+
+[b]强力而不超模。[/b]每位领袖的能力均鼓励一种独特的游玩方式，并在设计时充分考虑了领袖的能力强度，使其拥有充分的竞争力但并不显著过强。
+
+[b]忠于原作。[/b]本作品在制作过程中进行了精细的考证，包括人名、地名、城市名称和外交用语，以尽最大可能表现原作的风土人情和领袖性格特征。
+
+[b]和谐风格。[/b]所有已制作的美术素材均参照《文明6》游戏的规格进行处理，确保其在各个界面正确显示且整洁清爽。
+
+[b]背景音乐和领袖语音。[/b]璃月以及稻妻的领袖均有属于他们的音乐和语音。
+
+[h1]已知问题：[/h1]
+
+音乐播放有时会存在问题，具体表现与官方的越南和葡萄牙文明相同。
+
+文明百科仅支持简体中文。
+
+[h1]需要帮助：[/h1]
+
+（1）领袖动画
+（2）重新编曲的音乐
+（3）更多语言的本地化
+（4）图标和时代得分美术
+
+[h1]向大家介绍 Shimamura et al.[/h1]
+
+Shimamura et al. （字面意思为“岛村和其他人”）简而言之就是 UzukiShimamura卯月 与小伙伴们的合作团队——我们由一群富有经验的文明6mod制作者组成，致力于设计富有特色而与原版游戏相协调的领袖mod。当然，如果你能做得更好，我们也需要你的帮助！
+
+本领袖包的制作过程与[b][url=steamcommunity.com/id/Shiro404/]白菌[/url][/b]合作完成。本作品取用了一些由他处理的关于刻晴的美术素材，以及由他构想的能力。同时，我得到了他的许可，以便重用他的作品中（原由我编写）的文本。
+
+本领袖包的平衡性调整由[b][url=steamcommunity.com/profiles/76561198327796822/]www139154[/url][/b]完成。他同时提供了关于稻妻的基本玩法的相关构想。
+
+[b][url=steamcommunity.com/id/nea_baraja/]nea baraja[/url][/b]：为稻妻的文明特性提供技术支持。
+[b][url=steamcommunity.com/profiles/76561199087650404]KOTOMI[/url][/b]：帮助处理了神里绫华的领袖画像。
+[b][url=steamcommunity.com/id/BoaoftheBoaians]Boa of the Boaians[/url][/b]：帮助完成并调整了部分英文文本。
+[b][url=steamcommunity.com/profiles/76561198348087348]夕墨岚[/url][/b]：制作了又一批新的时代得分绘画的蒙版。
+[b][url=steamcommunity.com/profiles/76561198210283139]C1Sen[/url][/b]：加入了本mod的早期测试。
+
+需要mod制作支持，或者发现了什么问题吗？请在Steam私信，或加入QQ群“圣特蕾莎文明mod学园”（519747236）联系我。
+
+在[url=github.com/dwughjsd]我的GitHub[/url]（仅英文）上可以查看我所有作品的工程文件。给我Star或者提出Pull Request就更好了！
+
+[h1]↑ Positive rates can be easily given by simply clicking the thumbs up button. Click it and you can encourage us to do better! Community Awards are also welcome~[/h1]
+
+You need either Rise and Fall or Gathering Storm to use this mod. All gameplay balancing is set to fit Gathering Storm ruleset.
+
+[h1]It is HIGHLY RECOMMENDED to subscribe the [url=steamcommunity.com/sharedfiles/filedetails/?id=2882489805]Sun and Moon of Teyvat pack[/url] to have a complete experience. Also remember to leave a positive rate there XD[/h1]
+
+Supported language: Simplified Chinese, English
+
+[h1]Keqing Leads Liyue and Kamisato Ayaka Leads Inazuma: First Look[/h1]
+
+Complete the set - this civilization pack contains Liyue and Inazuma and makes it possible for you to have a Civilization game with all 4 nations released in the game Genshin Impact present.
+
+The unique district of [b]Liyue[/b] is [b]Liyue Harbor[/b]. It allows the Lighthouse in it grants Trade Route capacity even if the city has a Market. Their unique unit is [b]Millelith[/b] which replaces Swordsman. Though unlocked later, it is a stronger unit. Millelith has faster Movement on Hill terrain, and receives double Great General bonus.
+
+Liyue's unique ability is [b]Harbor of Stone and Contracts[/b]. They begin the game with the Mining technology unlocked. Your outgoing Trade Routes grant Production to Liyue per Mine at the destination. Trade Routes sent to your cities grant Gold to Liyue per Quarry at the destination.
+
+[b]Keqing[/b]'s leader ability is [b]Driving Thunder[/b]. Units can immediately move after purchase. Builders and Military Engineers have their Movement fully restored after taking a building action once per turn. Fully utilize her ability, and they can develop blazingly fast.
+
+The unique district of Inazuma is [b]Triarchal Council[/b] which replaces the Government Plaza district. It awards +3 Governor Titles instead of 1. The Triarchal Council district and each government building built in the district provide Housing and all yields per Citizen to your cities with Governors or near it, but other cities receive non-Food yields penalty. Inazuman unique unit [b]Shogunate Ashigaru[/b] has 3 Movement and grants +5 Combat Strength to adjacent military units other than Shogunate Ashigaru. If Inazuma is led by [b]Kamisato Ayaka[/b], they can build [b]Yashiro Commission[/b] which makes cities with Governors or near it receives bonus Culture and Amenities for each specialty district it construct.
+
+The unique ability of [b]Inazuma[/b] is [b]Realm of Tranquil Eternity[/b]. All cities receive Science and Culture for each Ecstatic city， but they accumulate double war weariness. The leader ability [b]Shirasagi Himegimi[/b] of [b]Kamisato Ayaka[/b] helps Inazuma to have more Ecstatic cities. They build Entertainment Complex and Water Park districts and buildings faster, and these districts and buildings boost Great People points output of the city they are in.
+
+Which one do you want to lead, Liyue pursuing prosperity, or Inazuma eagering for eternity? How would you lead them to build a civilization that stand the test of time?
+
+[b]For detailed ability description, see discussions.[/b]
+
+[h1]Mod Highlights:[/h1]
+
+[b]"Powered" without "Over"[/b]: Each leader has several abilities that promote a unique play-style. This mod is designed to make abilities of all leaders included competent but not overpowered.
+
+[b]Lore-Loyalty[/b]: This mod is made with a fine research of the original game, and provides full lists of named places, citizen names, city names and diplomacy statements to better represent lore and leader characteristics.
+
+[b]Harmonized Mix[/b]: All art assets included in this mod are processed to fit the need of Civilization VI, so that they can display correctly and neatly.
+
+[b]Background Music and Leader Speeches[/b]: All Liyue and Inazuman leaders have their own music and leader speech audio.
+
+[h1]Known issues:[/h1]
+
+Music playback can be sometimes glitchy, with the same issues of some official civilizations like Vietnam and Portugal.
+
+Some Civilopedia articles are in Simplified Chinese only.
+
+[h1]Help needed:[/h1]
+
+(1)Leader animations
+(2)Recomposed music
+(3)More localization (text)
+(4)Icons and historical moment assets
+
+[h1]Introducing Shimamura et al.[/h1]
+
+Shimamura et al. (literally means "Shimamura and other people") is the team of UzukiShimamura and his friends, a group of experienced modders trying their best to design some leader mods that are unique while keeping harmony with vanilla game. And of course, WE NEED YOUR SUPPORT if you can do better than us!
+
+This civilization pack is made in cooperation with [b][url=steamcommunity.com/id/Shiro404/]Shiro[/url][/b]. This mod used some art assets of Keqing which are processed by him and some abilities he came up with. Also I got his permission to reuse some text (written by me) in his previous mod.
+
+The balancing of this civilization pack is finished by [b][url=steamcommunity.com/profiles/76561198327796822/]www139154[/url][/b]. He also provided concepts of the basic playstyle of the Inazuma civilization.
+
+[b][url=steamcommunity.com/id/nea_baraja/]nea baraja[/url][/b]: For technical support for the unique ability of Inazuma.
+[b][url=steamcommunity.com/profiles/76561199087650404]KOTOMI[/url][/b]: For processing the leader portrait of Kamisato Ayaka.
+[b][url=steamcommunity.com/id/BoaoftheBoaians]Boa of the Boaians[/url][/b]: For revising part of English localization.
+[b][url=steamcommunity.com/profiles/76561198348087348]Xi Mo Lan[/url][/b]: For another set of new templates of historical moment illustrations.
+[b][url=steamcommunity.com/profiles/76561198210283139]C1Sen[/url][/b]: Joined closed test of this mod.
+
+Need modding support, or found some issues? PM me on Steam or join QQ group 519747236 to contact me.
+
+View project files of all my work on [url=github.com/dwughjsd]GitHub[/url]. It would be much appreciated if you can be my Stargazer or come up with some Pull Requests!

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="BUILDING_SHA_COMMISSION" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_SHA_COMMISSION" Name="LOC_BUILDING_SHA_COMMISSION_NAME" Description="LOC_BUILDING_SHA_COMMISSION_DESCRIPTION" PrereqDistrict="DISTRICT_GOVERNMENT" Cost="150" AdvisorType="ADVISOR_GENERIC" Maintenance="1" UnlocksGovernmentPolicy="True" GovernmentTierRequirement="Tier1" TraitType="TRAIT_LEADER_BUILDING_SHA_COMMISSION"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_GOV_CITYSTATES" PrereqBuilding="BUILDING_SHA_COMMISSION"/>
+		<Row Building="BUILDING_GOV_SPIES" PrereqBuilding="BUILDING_SHA_COMMISSION"/>
+		<Row Building="BUILDING_GOV_FAITH" PrereqBuilding="BUILDING_SHA_COMMISSION"/>
+	</BuildingPrereqs>
+	<MutuallyExclusiveBuildings>
+		<Row Building="BUILDING_GOV_TALL" MutuallyExclusiveBuilding="BUILDING_SHA_COMMISSION"/>
+		<Row Building="BUILDING_GOV_WIDE" MutuallyExclusiveBuilding="BUILDING_SHA_COMMISSION"/>
+		<Row Building="BUILDING_GOV_CONQUEST" MutuallyExclusiveBuilding="BUILDING_SHA_COMMISSION"/>
+		<Row Building="BUILDING_SHA_COMMISSION" MutuallyExclusiveBuilding="BUILDING_GOV_TALL"/>
+		<Row Building="BUILDING_SHA_COMMISSION" MutuallyExclusiveBuilding="BUILDING_GOV_WIDE"/>
+		<Row Building="BUILDING_SHA_COMMISSION" MutuallyExclusiveBuilding="BUILDING_GOV_CONQUEST"/>
+	</MutuallyExclusiveBuildings>
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_SHA_COMMISSION" ModifierId="SHACOMMISSION_GOVERNOR_CITIES_DISTRICT_CULTURE"/>
+		<Row BuildingType="BUILDING_SHA_COMMISSION" ModifierId="SHACOMMISSION_GOVERNOR_CITIES_DISTRICT_AMENITIES"/>
+	</BuildingModifiers>
+	<GameModifiers>
+		<Row ModifierId="SHACOMMISSION_GRANT_GOVERNOR_POINTS"/>
+	</GameModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>SHACOMMISSION_GOVERNOR_CITIES_DISTRICT_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_AND_SPECIALTY_DISTRICT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SHACOMMISSION_GOVERNOR_CITIES_DISTRICT_AMENITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_EXTRA_ENTERTAINMENT</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_AND_SPECIALTY_DISTRICT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SHACOMMISSION_GRANT_GOVERNOR_POINTS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ADJUST_GOVERNOR_POINTS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>PLAYER_HAS_SHACOMMISSION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>SHACOMMISSION_GOVERNOR_CITIES_DISTRICT_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SHACOMMISSION_GOVERNOR_CITIES_DISTRICT_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>SHACOMMISSION_GOVERNOR_CITIES_DISTRICT_AMENITIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>SHACOMMISSION_GRANT_GOVERNOR_POINTS</ModifierId>
+			<Name>Delta</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOVERNOR_AND_SPECIALTY_DISTRICT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>LIYUEINAZUMA_DISTRICT_IS_SPECIALTY_DISTRICT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>SHACOMMISSION_GRANT_GOVERNOR_POINTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_SHACOMMISSION_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>INAZUMA_TEYVAT_CITY_IS_NEAR_OR_HAS_GOVERNOR</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row RequirementSetId="LIYUEINAZUMA_DISTRICT_IS_SPECIALTY_DISTRICT" RequirementId="REQUIRES_DISTRICT_IS_CAMPUS"/>
+		<Row RequirementSetId="LIYUEINAZUMA_DISTRICT_IS_SPECIALTY_DISTRICT" RequirementId="REQUIRES_DISTRICT_IS_HOLY_SITE"/>
+		<Row RequirementSetId="LIYUEINAZUMA_DISTRICT_IS_SPECIALTY_DISTRICT" RequirementId="REQUIRES_DISTRICT_IS_COMMERCIAL_HUB"/>
+		<Row RequirementSetId="LIYUEINAZUMA_DISTRICT_IS_SPECIALTY_DISTRICT" RequirementId="REQUIRES_DISTRICT_IS_HARBOR"/>
+		<Row RequirementSetId="LIYUEINAZUMA_DISTRICT_IS_SPECIALTY_DISTRICT" RequirementId="REQUIRES_DISTRICT_IS_THEATER"/>
+		<Row RequirementSetId="LIYUEINAZUMA_DISTRICT_IS_SPECIALTY_DISTRICT" RequirementId="REQUIRES_DISTRICT_IS_ENCAMPMENT"/>
+		<Row RequirementSetId="LIYUEINAZUMA_DISTRICT_IS_SPECIALTY_DISTRICT" RequirementId="REQUIRES_DISTRICT_IS_INDUSTRIAL_ZONE"/>
+		<Row RequirementSetId="LIYUEINAZUMA_DISTRICT_IS_SPECIALTY_DISTRICT" RequirementId="REQUIRES_DISTRICT_IS_ENTERTAINMENT_COMPLEX"/>
+		<InsertOrIgnore RequirementSetId="LIYUEINAZUMA_DISTRICT_IS_SPECIALTY_DISTRICT" RequirementId="REQUIRES_DISTRICT_IS_WATER_PARK"/>
+		<InsertOrIgnore RequirementSetId="LIYUEINAZUMA_DISTRICT_IS_SPECIALTY_DISTRICT" RequirementId="REQUIRES_DISTRICT_IS_AERODROME_LIYUEINAZUMA"/>
+		<InsertOrIgnore RequirementSetId="LIYUEINAZUMA_DISTRICT_IS_SPECIALTY_DISTRICT" RequirementId="REQUIRES_DISTRICT_IS_GOVERNMENT_LIYUEINAZUMA"/>
+		<InsertOrIgnore RequirementSetId="LIYUEINAZUMA_DISTRICT_IS_SPECIALTY_DISTRICT" RequirementId="REQUIRES_DISTRICT_IS_PRESERVE_LIYUEINAZUMA"/>
+		<Row RequirementSetId="CITY_HAS_GOVERNOR_AND_SPECIALTY_DISTRICT" RequirementId="INAZUMA_TEYVAT_CITY_IS_NEAR_OR_HAS_GOVERNOR_FULFILLED_LIYUEINAZUMA"/>
+		<Row RequirementSetId="CITY_HAS_GOVERNOR_AND_SPECIALTY_DISTRICT" RequirementId="LIYUEINAZUMA_DISTRICT_IS_SPECIALTY_DISTRICT_FULFILLED_LIYUEINAZUMA"/>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_SHACOMMISSION_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_HAS_SHACOMMISSION_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>INAZUMA_TEYVAT_CITY_IS_NEAR_OR_HAS_GOVERNOR</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>INAZUMA_TEYVAT_CITY_IS_NEAR_OR_HAS_GOVERNOR</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_IS_NEAR_TRIARCHAL_COUNCIL</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_DISTRICT_IS_AERODROME_LIYUEINAZUMA</RequirementId>
+			<RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_DISTRICT_IS_GOVERNMENT_LIYUEINAZUMA</RequirementId>
+			<RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_DISTRICT_IS_PRESERVE_LIYUEINAZUMA</RequirementId>
+			<RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</InsertOrIgnore>
+		<Row>
+			<RequirementId>INAZUMA_TEYVAT_CITY_IS_NEAR_OR_HAS_GOVERNOR_FULFILLED_LIYUEINAZUMA</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>LIYUEINAZUMA_DISTRICT_IS_SPECIALTY_DISTRICT_FULFILLED_LIYUEINAZUMA</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_SHACOMMISSION_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_IS_NEAR_TRIARCHAL_COUNCIL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_DISTRICT_IS_AERODROME_LIYUEINAZUMA</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AERODROME</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_DISTRICT_IS_GOVERNMENT_LIYUEINAZUMA</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_GOVERNMENT</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_DISTRICT_IS_PRESERVE_LIYUEINAZUMA</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_PRESERVE</Value>
+		</InsertOrIgnore>
+		<Row>
+			<RequirementId>INAZUMA_TEYVAT_CITY_IS_NEAR_OR_HAS_GOVERNOR_FULFILLED_LIYUEINAZUMA</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>INAZUMA_TEYVAT_CITY_IS_NEAR_OR_HAS_GOVERNOR</Value>
+		</Row>
+		<Row>
+			<RequirementId>LIYUEINAZUMA_DISTRICT_IS_SPECIALTY_DISTRICT_FULFILLED_LIYUEINAZUMA</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>LIYUEINAZUMA_DISTRICT_IS_SPECIALTY_DISTRICT</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_SHACOMMISSION_REQUIREMENT</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_SHA_COMMISSION</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_IS_NEAR_TRIARCHAL_COUNCIL</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_IS_NEAR_TRIARCHAL_COUNCIL</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>6</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

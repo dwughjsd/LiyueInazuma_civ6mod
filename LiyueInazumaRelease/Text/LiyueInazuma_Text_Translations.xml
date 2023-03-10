@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_ABILITY_KEQING_UZK_OVERTIME_SHIFT_NAME" Language="zh_Hans_CN">
+			<Text>加班</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_KEQING_UZK_OVERTIME_SHIFT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>下次完成建造时可回复完整 [ICON_Movement] 移动力。</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_LAND_AND_CONSTUCTION_NAME" Language="zh_Hans_CN">
+			<Text>土地与建设</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_LAND_AND_CONSTUCTION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>钟情于建造各种不同类型的区域，清除所有地貌并改良所有可以改良的单元格。喜欢被改良的单元格占很高比例的文明。讨厌已改良的单元格占很低比例的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LAND_AND_CONSTRUCTION" Language="zh_Hans_CN">
+			<Text>刻晴正在观察您改良领土的进展</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_LIYUEHARBORTEYVAT_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Gold] 金币来自相邻璃月港。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>刻晴和她领导下的工人行事从不拖沓，力求开发他们帝国中的每一个单元格。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>刻晴能够利用行动迅速的建造者改良他们的城市中的单元格，让璃月的发展快人一步——这对于所有类型的胜利都至关重要。多多建设矿山、采石场和璃月港，璃月便可通过 [ICON_TradeRoute] 贸易路线获取可观的 [ICON_Production] 生产力和 [ICON_Gold] 金币，成就繁荣之道。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>刻晴是璃月七星的玉衡星，负责管理土地和建设。她坚信与人类命运相关的事，应当由人类去做，而且人类一定可以做得更好。为了证明这一点，她比任何人都要努力。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>刻晴出身名门望族。关于岩王帝君对璃月人民产生的影响，她的认识比大多数人都要深刻。每隔几年，请仙典仪过后璃月便会发生巨大动荡。帝君新公布的决策，总令几家欢喜几家愁。无论贫穷还是富裕，人们更热衷与追随帝君的决策进行投资。虽说这一选择在当时来看无可厚非，但刻晴却始终抱有顾虑。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>假如某一天帝君不再履行这份职责，璃月又将何去何从？刻晴明白，眼下璃月港的繁荣，就像沙滩上的宏伟沙堡，但决定大海是否涨潮的，却不是人类自己。她勇敢地选择了质疑——质疑帝君的溺爱，质疑人民的懒惰，质疑社会的运转方式，在请仙典仪上说出了著名的发言：“帝君已经守护了璃月千年，但下一个千年，十个千年，一百个千年，也会是如此吗？”听见这句话，帝君留下了意味深长的笑声——实际上，神明也对她抱有欣赏。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>或许有人跟得上刻晴的想法，但没有人跟得上她的步伐，她的行事步调总是无法与周围人统一。她时刻要求自己要拿出常人数倍的努力，同时，她也非常看不惯一切懒惰与低效。哪怕是一件需要半个月才能解决的事，她也会想尽办法压缩周期，赶在一两天里完成。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>在旁人眼中，她总是高效又完美。然而，并非所有人都拥有刻晴般强大的主观能动力。一开始，协助刻晴工作的人，没有一个能坚持超过三个月。她收到过无数进谏劝她不要那么急躁，但每次都被冷酷驳回。不过，随着时间流逝，刻晴多少也意识到，人员频繁调换本身便是一种低效的体现，因此最终也做出了一些让步。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>刻晴相信，昨天的经历都将成为明天的力量。为了磨练她雷霆般的判断力与执行力，实践经验必不可少。所以，只要是刻晴认为有价值的事，她一定会亲手操办。为了拟定工人待遇改善计划，她亲赴现场，体验了足足两个月工人生活。她在层岩巨渊拉过车，帮南码头的工人夯过土，在小餐馆里跑过堂。工作之余，她还随手搜集证据，举报了一个压榨工人的黑心恶霸。	</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>随着岩王帝君的离去，原本由帝君全权监管的事务，尽数分配到七星八门手中。对于璃月而言，这是一段艰难的时期——神治已成为旧时残影，遗留的老规矩也必须有所改变。起初，刻晴自认为她大展拳脚的时间到来，但不论如何奋斗，堆积的事务仍如泥潭一般紧裹着她。即便有所建树，也不过是从前帝君亦能轻松做到的事。她意识到，虽然自己从不敬神，但自己此时并没有能力取而代之。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>她沉敛心神，逐渐摒弃心中长久以来与岩王帝君的对抗意识，埋头于各色典籍，再次学习一切所需的知识。她将自己放到最低，以全然接受的姿态面对所有未知。现今的她并未失去雷厉风行的风格，但她对于帝君的态度悄悄发生了变化。她悄悄购买了一整柜的帝君的土偶，并自称以此激励自己，自我反省。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>如今，刻晴依旧在玉衡星的位置上精进着自身的能力，她正是新时代的璃月人富有活力、大胆行动的缩影。在繁荣市井之外，她常常会深入荒无人烟之地，博物强识，磨砺意志。而休息日，她会换上朴素的衣裳，约上三两好友，漫步在绯云坡与吃虎岩，享受购物乐趣。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>位于提瓦特大陆东方的璃月是岩与契约的海港，尘世七国之中信奉岩神摩拉克斯的国度。傲然矗立的山麓与石林、广袤的平原与生机勃勃的河滩共同构成了璃月的丰富地貌，而山石奇景间又埋藏着岩之魔神的古老馈赠等待着人们发掘。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>在提瓦特大陆的历史中，传说世界是由原初之人所创造的。巨人盘古的血液化作江河，普鲁沙的身体被切割滋养了宇宙众生，而伊米尔的脑髓成为天空云海。原初之人开辟鸿蒙后，元素诸神将文明赐予人类，同时与人一起生活在提瓦特大陆。但人类因为自己的贪欲，擅自研究禁忌的技术，由此带来战争并使文明遭到毁灭。之后，神明庇护着人类文明进行着缓慢的复兴，并建立了天空之岛。他们在天空岛上观察人类，并选出杰出之人登上天空岛成为神以守护世界秩序。而人类则藉由对神灵的信仰，获赐了驱动元素的力量，得以在荒野中筑起家园。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>岩神摩拉克斯出生于六千多年前。他降临如今的璃月地区，升起了天衡山，并消灭了无数远古海兽（其中之一被称为“八虬”）使海洋和浪潮平静。名为归终的尘王与他交好，在天衡山北侧带领人民耕种土地，并设置了名为“归终机”的强弩防御。他们的人民在璃月建立起高度发达的交通路线和居民点，市镇农田延伸至石门地区。归终以“流离民众在此如同归乡”为理由，将他们的新家园称之为“归离原”（另一种说法是，这个名字源自归终以及摩拉克斯当时使用的名字的一部分），而他们的古文明也被称为“归离集”（游民回归的部落）。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>关于归离集的毁灭，后世众说纷纭。有些传说认为，它毁于魔神战争的战火；有些文献记载其毁于自然灾害，还有人认为它毁于战争。无论如何，在魔神战争期间，南出天衡，东入瑶光，西登绝云，北访轻策，诸地萧条，生灵涂炭。璃月广袤，竟难容一处安宁。尽管摩拉克斯和归终尽力保护文明，归离集还是被彻底毁灭，归终也因此战死，荻花洲从丰饶的岛屿化为沼泽。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>在归终死去，归离集陷落的一段时间后，摩拉克斯带领他的人民前往天衡山南麓，与仙人签订契约并创建了璃月港。在这个期间，璃月七星和千岩军被设立了。摩拉克斯教导人民如何建造房屋，并铸造了以他的名字命名的，如今通行于提瓦特大陆的货币，摩拉。在璃月港创建以后，他认为要恢复秩序、保护人类，唯一的方法是与其他魔神继续作战。他并非为了统治而战，而是无法坐视百姓受难。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>在战争途中，甘雨和若陀龙王也分别签订契约，与摩拉克斯并肩作战。经过千百年的纷争，他最终击败了他的领地内所有其他魔神，成为了岩王帝君，恢复了如今被称为璃月地区的土地的和平。魔神战争就此结束，不愿承认失败的魔神逃往暗之外海的岛屿。此后，甘雨成为了璃月七星的秘书并延续至今，但若陀龙王的命运却更加悲惨：大约一千多年前，他的记忆逐渐受到侵蚀，尽管摩拉克斯尽力想恢复他的记忆，但他的方法却没有奏效。璃月人民对土地资源的采掘扰动了地脉，给龙王带来了极大的痛苦，使得他怒而向层岩巨渊发起进攻。这场攻击毁灭了天遒谷的居民区，最终摩拉克斯只得与三位仙人一起将龙王封印于南天门。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>此后，璃月所见的最后一次大动乱便是旅行者到达璃月时的500年前的“灾祸”。尽管对灾祸的起因的多种假说都未有证实，但无论如何，在此期间来自深渊的魔兽入侵了提瓦特大陆，造成了广泛的破坏。这场大灾难摧毁了没有神明保护的坎瑞亚王国，也给璃月留下了伤痕：如今的人们并不知晓在这场战斗中遁玉陵发生了什么，但当时的居民选择了放弃这座城市，并逃向璃月港。为了保护璃月免受从层岩巨渊涌出的魔兽破坏，摩拉克斯安排了千岩军以及夜叉进行防御并疏散群众。后两者的先锋在战斗中最终都永远地消失了。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>灾祸之后，璃月继续茁壮成长。但摩拉克斯意识到，自己不可能永远守护璃月。因此，他自导自演了一出岩神之死，通过一场送仙典仪，将璃月交给了居住在璃月，管理着璃月的日常事务的人类。经历近四千年的风雨，如今的璃月在璃月七星的领导下拥有繁荣的经济和独特的文化，并且有着规模庞大的采矿与铸造实业。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>璃月料理主要分为两大菜系：“璃菜”和“月菜”。璃菜以油重色浓、口味多变为特色，多使用山珍；月菜口味更讲究清淡鲜香，适合烹调海鲜。两种菜系历史都十分悠久，但双方的拥护者却常年互不待见。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_10" Language="zh_Hans_CN">
+			<Text>魔兽的灾厄平息后，游兵散勇流入民间。世间虽已经进入和平，却掀起了崇尚武术的浪潮。随着武家对精兵的要求日益增高，为寻求突破，锻造世家大当家云辉与名匠寒武闭门钻研而制造出“试作”的图谱。此后，璃月在武器铸造上也不断突破，使得许多法器降临世间。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_11" Language="zh_Hans_CN">
+			<Text>在璃月，人们每年庆祝一年之中的第一个月圆之夜，也就是璃月的海灯节。海灯节的庆典规模空前、热闹非凡。人们一同制造着灯火，最终汇聚起点亮夜海的光。那些灯的寓意着“愿薪火相传，美德不灭”。璃月的人们希望，这些夜海的明灯会引导过往的英魂归乡。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LIYUE_TEYVAT_MILLELITH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>千岩军是驻扎在璃月地区的守卫军队，主要职责便是守护璃月的安宁。这支军队的地位相当于蒙德的西风骑士团或者稻妻的幕府，直接效忠于璃月七星。千岩军的前身是在魔神战争中活跃的千岩团，成立于璃月港创立之初，几乎与璃月七星同时出现，其格言“千岩牢固，重嶂不移”从那时便流传至今。千岩军士兵常用长柄武器，多为可靠坚实的白缨枪或者钺矛。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_LIYUE_TEYVAT_HARBOR_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>璃月港位于提瓦特大陆的东海岸，是提瓦特最大的贸易港口。约3700年前，在归离集覆灭之后，岩神摩拉克斯将他带领的人民带向天衡山以南，并在此处建立起了未来的璃月港。因璃月的神是“契约”之神，璃月的人民也十分重视“契约”，世界各地的商人都十分乐意前来经商。整个璃月的海运业因其而腾飞，不计其数的货品从此地运进流出，令所有其他港口都相形见绌。在一年一度的海灯节时，上千灯火会在此处升入夜空，制造出造访璃月不可错过的美妙景象。</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_KEQING_UZK_QUOTE" Language="zh_Hans_CN">
+			<Text>觉得自己是正确的，就要大声地说出来坚决地去行动——这是我一直以来都贯彻的人生理念。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>很好，在需要随机应变的时候，又多了一种选择。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>璃月人不需要这样的友谊。就算遇上什么棘手的难题，我们也有自行解决的能力。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>璃月即将迎来剧变，有利的环境不可多得。要是你愿意接受我们的友谊，许多麻烦就迎刃而解了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>令人敬佩。执意做正确的事，这种魄力可不是谁都有的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>唉，看来想法还是太超前了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--被宣战（考虑配音）-->
+			<Text>敬酒不吃吃罚酒。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--主动宣战（考虑配音）-->
+			<Text>看来，到我们出手的时候了。放下兵器，束手就擒！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣-->
+			<Text>不错的礼物。收纳完毕，就继续工作吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>礼物？……嗯，我还有十来件事要处理，做完才能接待。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节 - 品星观月，遍踏山河 -->
+			<Text>我们的代表团给您备了薄礼。一些海货，两匹优质绸缎，还有美味的金丝虾球——哪怕就吃一个，也能满足味蕾，扫清身上积累的所有压力。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>高高在上却想要介入一切——你让我很是困惑：像你这种做法，真的能让你的国家长久吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>你岂不是太没原则了？唔……还是说，这就是你的原则？（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--初次见面（考虑配音）-->
+			<Text>我是刻晴，璃月七星中的“玉衡”。变革的时机已经到来，这历史性的时刻，你愿意和我一起见证吗?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>璃月幅员辽阔，物产丰饶。来看看我们附近的城市吧。我来领路，让你亲眼见证这里脱胎换骨的变化。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>走吧，时间紧迫。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>鸟儿先有对天空的向往才有飞翔的冲动，而对我来说璃月就是那片天空。你的首都，又是怎么样呢？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感（考虑配音）-->
+			<Text>我很欣赏你。心有所向，日复一日，必有精进。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家（考虑配音）-->
+			<Text>今日事，今日毕。不是我性子急，而是事情本来就不能拖延。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--请求结盟-->
+			<Text>我越来越觉得你就是我理想中的人——为了建成我理想中的璃月，与你结盟的确是不可或缺的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>你的军队在我的边境……真耽误事。所以如果你们想不宣而战，明明早就能开打了，何必拖到今天。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--战败（考虑配音）-->
+			<Text>时机……不对。太不甘心了……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>这笔交易真是有着令人难以抵御的魅力。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>无论是冒险还是做生意，机会都稍纵即逝。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过-->
+			<Text>来得正好。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意求和，但从未被使用过-->
+			<Text>此事暂告一段落，但我们不会懈怠。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝求和，但从未被使用过-->
+			<Text>只要撑住，后面就没有更难的了，是吧？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--理论上是求和，但从未被使用过-->
+			<Text>战争显得我们太没有谋略了。这样吧，我们和平共处。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意开放边界，但从未被使用过-->
+			<Text>还愿意来问我而不是直接赶来……这还挺文明的，真叫人意外。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝开放边界，但从未被使用过-->
+			<Text>凝光那个人呐…在她眼里，最好万事都能坐下商量——但这是不可能的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
+			<!--理论上是请求开放边界，但从未被使用过-->
+			<Text>实在抱歉，我的军队必须穿越你的国土。我们速战速决，绝不耽搁。</Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_1" Language="zh_Hans_CN">
+			<Text>嘉义</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_2" Language="zh_Hans_CN">
+			<Text>弘毅</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_3" Language="zh_Hans_CN">
+			<Text>夙凌</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_4" Language="zh_Hans_CN">
+			<Text>言笑</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_5" Language="zh_Hans_CN">
+			<Text>强</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_6" Language="zh_Hans_CN">
+			<Text>仲林</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_7" Language="zh_Hans_CN">
+			<Text>志华</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_8" Language="zh_Hans_CN">
+			<Text>茱萸</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_9" Language="zh_Hans_CN">
+			<Text>碧波</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_10" Language="zh_Hans_CN">
+			<Text>顺</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_1" Language="zh_Hans_CN">
+			<Text>宽</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>逢岩</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_3" Language="zh_Hans_CN">
+			<Text>鸿如</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_4" Language="zh_Hans_CN">
+			<Text>桂</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_5" Language="zh_Hans_CN">
+			<Text>镇海</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_6" Language="zh_Hans_CN">
+			<Text>东升</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_7" Language="zh_Hans_CN">
+			<Text>石头</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_8" Language="zh_Hans_CN">
+			<Text>旭</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_9" Language="zh_Hans_CN">
+			<Text>德贵</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_10" Language="zh_Hans_CN">
+			<Text>博来</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_1" Language="zh_Hans_CN">
+			<Text>绮命</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_2" Language="zh_Hans_CN">
+			<Text>长顺</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_3" Language="zh_Hans_CN">
+			<Text>紫微</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_4" Language="zh_Hans_CN">
+			<Text>汐零</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_5" Language="zh_Hans_CN">
+			<Text>绘星</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_6" Language="zh_Hans_CN">
+			<Text>无怨</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_7" Language="zh_Hans_CN">
+			<Text>秀华</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_8" Language="zh_Hans_CN">
+			<Text>银杏</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_9" Language="zh_Hans_CN">
+			<Text>黄衫</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_10" Language="zh_Hans_CN">
+			<Text>甜甜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_1" Language="zh_Hans_CN">
+			<Text>百晓</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_2" Language="zh_Hans_CN">
+			<Text>雨</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_3" Language="zh_Hans_CN">
+			<Text>纪芳</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_4" Language="zh_Hans_CN">
+			<Text>若心</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_5" Language="zh_Hans_CN">
+			<Text>公明</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_6" Language="zh_Hans_CN">
+			<Text>琳琅</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_7" Language="zh_Hans_CN">
+			<Text>落霞</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_8" Language="zh_Hans_CN">
+			<Text>慧心</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_9" Language="zh_Hans_CN">
+			<Text>星稀</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_10" Language="zh_Hans_CN">
+			<Text>月疏</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE"  Text="璃月港"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_DIHUA_MARSH"  Text="荻花洲"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_JUEYUN_KARST"  Text="绝云间"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_STONE_GATE"  Text="石门"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_QINGCE"  Text="轻策庄"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_GUILI_PLAINS"  Text="归离原"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_YUJING_TERRACE" Text="玉京台"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_FEIYUN_SLOPE" Text="绯云坡"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_CHIHU_ROCK"  Text="吃虎岩"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_MINGYUN" Text="明蕴镇"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_GUYUN_STONE_FOREST" Text="孤云阁"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LINGJU_PASS" Text="灵矩关"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_NANTIANMEN" Text="南天门"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_HUAGUANG_STONE_FOREST" Text="华光林"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_SAL_TERRAE" Text="地中之盐"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_DUNYU_RUINS" Text="遁玉陵"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_WUWANG_HILL" Text="无妄坡"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_TIANGONG_GORGE" Text="天工峡"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_CUIJUE_SLOPE" Text="翠玦坡"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_TIANQIU_VALLEY" Text="天遒谷"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_YAOGUANG_SHOAL" Text="瑶光滩"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_FUAO_VALE" Text="伏鳌谷"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_CINNABAR_CLIFF" Text="丹砂崖"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_GLAZE_PEAK" Text="琉璃峰"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LUMBERPICK_VALLEY" Text="采樵谷"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_QIONGJI_ESTUARY" Text="琼玑野"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_MINLIN" Text="珉林"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LISHA" Text="璃沙"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_CHENYU_VALE" Text="沉玉谷"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_QIAOYING" Text="翘英庄"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_LAKE_LUHUA_POOL_NAME" Text="渌华池"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_LAKE_QINGXU_POOL_NAME" Text="青墟浦"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_MOUNTAIN_TIANHENG_MOUNTAINS_NAME" Text="天衡山脉"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_MOUNTAIN_THE_CHASM_NAME" Text="层岩巨渊"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_RIVER_BISHUI_RIVER_NAME" Text="碧水河"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_SEA_SEA_OF_CLOUDS_NAME" Text="云来海"/>
+		<Row Tag="LOC_ABILITY_LIYUE_TEYVAT_MILLELITH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在丘陵地区有更快的 [ICON_Movement] 移动力。获得双倍大将军加成。</Text>
+		</Row>
+		
+		<Row Tag="LOC_CIVINFO_LIYUE_TEYVAT_LOCATION" Language="zh_Hans_CN">
+			<Text>提瓦特大陆</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIYUE_TEYVAT_SIZE" Language="zh_Hans_CN">
+			<Text>大约数十平方公里</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIYUE_TEYVAT_POPULATION" Language="zh_Hans_CN">
+			<Text>大约数十万到上百万</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIYUE_TEYVAT_CAPITAL" Language="zh_Hans_CN">
+			<Text>璃月港</Text>
+		</Row>
+		
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_1" Language="zh_Hans_CN">
+			<Text>宏一</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_2" Language="zh_Hans_CN">
+			<Text>智树</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_3" Language="zh_Hans_CN">
+			<Text>京之介</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_4" Language="zh_Hans_CN">
+			<Text>信盛</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_5" Language="zh_Hans_CN">
+			<Text>中西</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_6" Language="zh_Hans_CN">
+			<Text>德长</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_7" Language="zh_Hans_CN">
+			<Text>源一郎</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_8" Language="zh_Hans_CN">
+			<Text>创</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_9" Language="zh_Hans_CN">
+			<Text>龙二</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_10" Language="zh_Hans_CN">
+			<Text>茂</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_1" Language="zh_Hans_CN">
+			<Text>顺吉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>翔太</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_3" Language="zh_Hans_CN">
+			<Text>幸雄</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_4" Language="zh_Hans_CN">
+			<Text>纯平</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_5" Language="zh_Hans_CN">
+			<Text>大祐</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_6" Language="zh_Hans_CN">
+			<Text>博行</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_7" Language="zh_Hans_CN">
+			<Text>兴</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_8" Language="zh_Hans_CN">
+			<Text>宗全</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_9" Language="zh_Hans_CN">
+			<Text>朝秀</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_10" Language="zh_Hans_CN">
+			<Text>升</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_1" Language="zh_Hans_CN">
+			<Text>绿</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_2" Language="zh_Hans_CN">
+			<Text>菜菜子</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_3" Language="zh_Hans_CN">
+			<Text>荒谷</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_4" Language="zh_Hans_CN">
+			<Text>俊子</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_5" Language="zh_Hans_CN">
+			<Text>悦子</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_6" Language="zh_Hans_CN">
+			<Text>梢</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_7" Language="zh_Hans_CN">
+			<Text>澪</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_8" Language="zh_Hans_CN">
+			<Text>七月</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_9" Language="zh_Hans_CN">
+			<Text>惠理</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_10" Language="zh_Hans_CN">
+			<Text>萤美</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_1" Language="zh_Hans_CN">
+			<Text>清子</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_2" Language="zh_Hans_CN">
+			<Text>麻纪</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_3" Language="zh_Hans_CN">
+			<Text>未来</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_4" Language="zh_Hans_CN">
+			<Text>桃子</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_5" Language="zh_Hans_CN">
+			<Text>那希</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_6" Language="zh_Hans_CN">
+			<Text>望月</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_7" Language="zh_Hans_CN">
+			<Text>梨绘</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_8" Language="zh_Hans_CN">
+			<Text>葵</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_9" Language="zh_Hans_CN">
+			<Text>茜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_10" Language="zh_Hans_CN">
+			<Text>甘乐</Text>
+		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_INAZUMA"  Text="稻妻城"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_HANAMIZAKA" Text="花见坂"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_KONDA"  Text="绀田"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_RITOU" Text="离岛"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_ARAUMI" Text="荒海"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_HIGI" Text="绯木"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_FORT_MUMEI"  Text="无明砦"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_MOUNTAIN_YOUGOU" Text="影向山"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_AMAKANE_ISLAND"  Text="甘金岛"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_BYAKOO_PLAIN"  Text="白狐之野"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_CHINJU_FOREST"  Text="镇守之森"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_JINREN_ISLAND"  Text="刃连岛"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_JAKOTSU_MINE" Text="蛇骨矿洞"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_MUSOUJIN_GORGE" Text="无想刃狭间"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_NAZUCHI" Text="名椎滩"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_FORT_FUJITOU" Text="藤兜砦"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_TATARASUNA" Text="踏鞴砂"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_SEIRAI_ISLAND" Text="清籁岛"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_KOSEKI" Text="越石"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_FORT_HIRAUMI" Text="平海砦"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_AMAKUMO_PEAK" Text="天云峠"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_SANGONOMIYA" Text="珊瑚宫"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_BOUROU" Text="望泷"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_TSURUMI" Text="鹤观"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_MOUNTAIN_KANNA" Text="菅名山"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_WAKUKAU_SHOAL" Text="惑饲滩"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_AUTAKE_PLAINS" Text="逢岳之野"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_OINA_BEACH" Text="笈名海滨"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_SHIRIKORO_PEAK" Text="知比山"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_ENKANOMIYA" Text="渊下宫"/>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_KAMISATO_AYAKA_UZK" Language="zh_Hans_CN">
+			<Text>神里家的大小姐，您的内心如冰晶般纯洁。您珍重您的国民，也深受民众钦慕。若您坚守认真态度，完美地处理最为困难的事务，便能建立进取不止的恒常乐土。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>你们使我受益良多，我把你们当做我的朋友了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>请恕我礼数不周，但我只得拒绝。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊 - 鹤与白兔的诉说-->
+			<Text>您良善而守礼，又很可靠。若你们不嫌弃，就请跟我成为朋友吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>我把你当做朋友，也会坦诚以待。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>抱歉，跟你说了些闲话。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--被宣战（考虑配音）-->
+			<Text>久违的对手……不容小觑呢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--主动宣战（考虑配音）-->
+			<Text>该做出决断了……恕我失礼。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣-->
+			<Text>谢谢你让我有机会收下你们的礼物，我会好好品味的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>贸然接受代表团或许并不合礼数。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节-->
+			<Text>我派出了一支代表团给您带去了新衣服作为礼物。不知您习不习惯稻妻的特色服饰？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>无礼的家伙……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>在你的统治下，民众的愿望正在被肆意蹂躏践踏。（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--初次见面（考虑配音）-->
+			<Text>稻妻神里流太刀术免许皆传——神里绫华。请多指教。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>如你有空，移步我们附近的城市如何？在这样恬静的日子，略加交流茶艺心得，想来是颇具雅趣的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>呵呵，请多关照。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>我想试着和你讲讲我们各自的首都。可以麻烦你指导我当地的风俗还有礼仪规范吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感（考虑配音）-->
+			<Text>雷鸣电闪和狂风骤雨的到来永远不会顾及凡人的感受。但如果是你的话，一定能体会得到吧？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家（考虑配音）-->
+			<Text>奉行的权力根本上源自于民众的信任。如果对这样的情况坐视不理，又怎能够安寝？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--请求结盟 - 不动鸣神，恒常乐土-->
+			<Text>我一直确信您拥有改变时局的力量。请将你的力量借给我。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>我的边境上应该不会什么事都没有发生，对吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--战败（考虑配音）-->
+			<Text>我让家族……蒙羞了……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>我会珍惜这份幸运。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>怎么会……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过-->
+			<Text>烦请赐教。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意求和，但从未被使用过-->
+			<Text>我会珍惜这份幸运。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝求和，但从未被使用过-->
+			<Text>不行，我必须为我的民众而战！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--理论上是求和，但从未被使用过-->
+			<Text>我还有一些其它想做的事情……那我们和谈如何？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意开放边界，但从未被使用过-->
+			<Text>虽然不能介入您所处的冲突，但我可以允许您的国民通过。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝开放边界，但从未被使用过-->
+			<Text>不不，不行。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="zh_Hans_CN">
+			<!--理论上是请求开放边界，但从未被使用过-->
+			<Text>我有一个请求，能否允许我的国民路过您的领土？</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>神里绫华是受人爱戴的白鹭公主，致力于稻妻的文化活动，并为国民带来幸福。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>稻妻需要使国民保持欣喜若狂，以便最大化城市的 [ICON_Science] 科技值和 [ICON_Culture] 文化值产出。在神里绫华的领导下，他们可以建设娱乐中心和特色建筑“社奉行”来帮助他们做到这一点。对稻妻而言，在远方建立新城市可能不是好选择。相反，他们更加重视靠近评定所或者拥有 [ICON_Governor] 总督的城市的发展。稻妻不擅长获得统治胜利，但在文化胜利以及其他胜利方式上尤为强大。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>稻妻“社奉行”神里家的大小姐。端庄而文雅，聪慧又坚韧。继承稻妻城中至为尊崇的三家名门之一———神里家族的，是一对兄妹。哥哥绫人出任“家主”一职，掌管政务，妹妹绫华贵为“公主”，平日主理家族内外事宜。绫华常出现在社交场合，与民间交集也较多。因此，更被人们所熟悉的她反而获得了高于兄长的名望，被雅称为“白鹭公主”。众所周知，神里家的女儿绫华小姐容姿端丽、品行高洁，是深受民众钦慕的人物。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>问及她为何被称为白鹭公主，稻妻人各有说辞——有人说她如白鹭般优雅高洁，还有人认为她善良仁厚，很愿意对他人伸出援手。众说纷纭，却无人说得出“白鹭公主”之名的确切来由。不过，绫华受民众爱戴的事，倒是可见一斑。绫华对民生十分熟悉，深知即便在追寻永恒的国度之中，也会有人活得艰辛。也因此，她与兄长常去探望、慰问稻妻居民。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>另一方面，身为贵族，绫华还需要提防贵胄门庭之间的权力争斗。营造公众形象一事本是形式主义，但对神里家而言，地位使然，再无意义的惯例也有其社交意义。不在稻妻关系网中转圜腾挪，便会坐不稳社奉行之位。因此，兄妹俩达成了一致。兄长绫人政务繁忙且不喜抛头露面，到公众场合现身以树立神里家形象一事，便交给了举止优美、擅长与人打交道的妹妹绫华来办。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>凭借端庄娴静、风雅有礼的姿态，绫华在各种社交场合都占据了一席之地。无论是跟潜在的合作伙伴交涉，还是与难缠的贵族周旋，她都进退有据，无可挑剔。此外，家族内部诸多事物也由绫华掌理。如果没有她，内宅恐怕早已陷入混乱。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>在民众的想象中，贵族世家吃穿用度规格远超常人，神里绫华的生活也必将极其奢侈肆意。然而，这样的想法只对了一半。单从形式而言，绫华的生活确实较寻常百姓讲究得多。平日里钻研花道、茶道，品名茶、赏奇花的开销也着实不小。不过，这些都是身为贵族大小姐的她必须掌握的技能，并无“肆意”一说。真正能让绫华露出笑容的，反而是那些寻常百姓也能享受的小事。譬如制作点心，譬如在池塘边捞金鱼，又譬如躲起来阅读八重堂新出的小说……无一不是小事。唯有作为“少女绫华”时，她才能放下重担，做普通女孩也能做的事。虽然从未向他人说明，但绫华无比珍惜自己作为普通少女的时间。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>指导绫华诸门技艺的老师们曾欣慰地表示：无论茶道、剑道或棋道，诸般风雅，绫华都已完全掌握。她俨然是一位文武双全、风姿超绝的贵族小姐了。能教导这样一位学生，身为老师也感到非常愉快。但即便绫华已经精通了各种技艺，她却始终没能等来一个与她平等相对、并肩而立的朋友。绫华相信，她依然有机会找到这样的人。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>好些年前，家中发生重大变故，重担落到了兄长绫人肩上。那时，绫华还不是如今这副成熟能干的模样。她本是爱玩的孩子，并不懂得家族责任，更缺乏应对种种人物的手腕与经验。但看着病床上的母亲与劳碌的兄长，绫华意识到：她非得成长起来不可。她首先拾起荒废许久的剑术与诗歌——这是身为贵族的基础修养。绫华并非天赋异禀，也曾为诗歌背不下来、写字不够风雅、剑术毫无章法之类的事而苦恼。但她从未动摇过——母亲曾教导她：“千般锤磨，素振亦无人可当。”而在母亲离世后，她不再是从前那个小绫华，而是将军御下三家之一，社奉行神里家的大小姐。训练成为了绫华日常生活的一环，从开始那日延续至今，从未间断，就连神明也为之动容。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>位于提瓦特大陆远东的封闭群岛稻妻被称为“雷与永恒的群岛”。居民信奉雷神巴尔，是提瓦特大陆上的尘世七国之一。越过无尽的雷暴，踏上红枫与绯樱眷顾的诸岛，在环绕的砂堤、高耸的断崖与幽秘的山林之中，旅行者便可在此见证御建鸣神主尊大御所大人所追寻的永恒。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>有关古代稻妻的历史，目前人们所知甚少，但在魔神战争期间，稻妻的魔神也经历了旷日持久的斗争。大约2000年前，双子魔神雷电真与雷电影终于一统稻妻。虽然影的战斗力更胜一筹，她相信真更适合执政之位，便牺牲自己的身体使真成为雷神。真随即使用了神的力量重塑了影的身体，并使她成为自己的影武者（替身）。雷电影从此作为武人，负责履行真的命令。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>好景不长，影响整个提瓦特大陆的灾祸在一千多年后降临。真与其它几位魔神一起，不得不前往坎瑞亚。来自深渊的怪物入侵了提瓦特，因此影被留了下来防卫稻妻。在保卫稻妻的战斗中，影失去了许多与她一同战斗的友人。当她完成任务前往坎瑞亚与姐姐会合时，只看到她已奄奄一息。真死了。影接过了她的雷神之位。她是真的影武者，又亲手接过了她的头衔，因此稻妻的多数人都并不知道他们的神已经更替。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>在承受了在灾祸中失去许多的痛苦之后，影决心追求永恒，创造了一个被称为“将军”的人偶，令它按照自己设置的永恒之道来统领稻妻。在影的心中，只要万事都维持静止不变，便可以永恒存续。为了使她自己也能保持这种静止而不受到令魔神的精神逐渐受损的“磨损”影响，她让将军代行所有事务，并进入一心净土进行长久的冥想。经过多年时光，稻妻并未维持影所设想的一成不变。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>在愚人众在幕后操控的天领奉行和勘定奉行的建言下，雷电将军突然颁布锁国令和眼狩令——夺取境内所有的神之眼的法令。尽管雷电影早有发现愚人众的从中作梗，但并不认为此为对永恒的威胁，因此并未插手。在法令的影响下，稻妻民不聊生，开始有人反对这些规矩。有人向执行眼狩令之人发起决斗，但却败于执掌他们的九条裟罗，被雷电将军处死。但反抗并未就此消失，在此之后，珊瑚宫反抗军成立，在战争中与幕府军僵持不下。社奉行的领导者之一，神里家的大小姐绫华委托到来的旅行者对抗眼狩令。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>了解失去神之眼的稻妻国民所承受的苦难以后，旅行者答应了神里绫华。他在与雷电影的第一次正面交锋中落败，转而加入珊瑚宫心海的反抗军。在旅途中，旅行者先后发现了愚人众与九条家与柊家勾结，还向反抗军提供有毒害作用的邪眼的阴谋。于是在天守阁中，他揭露了以第八执行官“女士”为首的愚人众的罪行，向她发起决斗，战胜她并让雷电将军将她处死。杀死“女士”并没有使雷电影接受旅行者的建议——于是，旅行者只得在八重神子的帮助下，唤起万千人的心愿，将她也击败，这才就此废除眼狩令。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>废除眼狩令后，此前被收缴的神之眼悉数奉还。珊瑚宫与幕府议和，战事暂时平息，但双方各留一定分寸。珊瑚宫军在战后继续存在，主要负责保持地区稳定并重建经济，以及清除愚人众的影响。九条家的家主九条孝行以及柊家的家主柊慎介因勾结愚人众，在此后被剥夺了家主地位。这场战斗使得雷电影重新认真审视“永恒”的意义。在她的姐姐真看来，永恒是在日新月异的世界中保持恒久不变的进取之心，但她一直无法理解这种想法。在旅行者的影响下，雷电影接受了对永恒的新看法，并宣布解除锁国。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>眼狩令解除，腐败官员也得以惩治，稻妻的生活开始逐步转好，紧张和危险的气氛也渐渐消失。虽说锁国仍然制约了一段时间的经济，但随着其最终也得以废除，整个国家的经贸重启，外国游客也蜂拥而至。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>稻妻的文化丰富多样。由雷电将军长期统治的鸣神岛、曾信奉魔神奥罗巴斯的海祇岛以及被菅名卡帕奇莉所毁灭的鹤观虽都属于稻妻，但地理环境和文化组成却大为不同。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_10" Language="zh_Hans_CN">
+			<Text>人类占了稻妻居民的绝大部分，但这里也有许多妖怪：天狗、鬼族和狐族等等也与人共存。稻妻还存在叫做狸妖的怪物，会将树叶和泥巴伪装作食宿来戏弄过路人。不过，就像璃月的仙人一样，妖怪在稻妻也已所剩无几，多数过着隐居生活。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_11" Language="zh_Hans_CN">
+			<Text>稻妻有着独特的武士文化，围绕着一种荣誉体系运作。在稻妻，武士家族相当常见，并且一般都有对荣誉的强烈追求。他们会将子女送往幕府军，以提升他们的荣誉和名望。武士们时常进行决斗，并且对自己的战技极为看重。在战斗或对决中被击败或是得到外来者的帮助，在稻妻人眼中一般被视为一种耻辱。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_INAZUMAN_SHOGUNATE_ASHIGARU_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>幕府军是雷电将军（影）的军队。这支军队主要负责维持整个稻妻的和平与秩序，成员被分为多支，分别为三奉行（即勘定奉行、天领奉行和社奉行）服役。足轻是在幕府军中的步兵，一般认为这个职位源自执行杂务并充当预备兵的“下部”。尽管地位不高，足轻人数众多，善使长枪，是幕府军战斗人员的中流砥柱。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_TRIARCHAL_COUNCIL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>放眼稻妻领土，未上至雷电将军视听的事务大多由评定所处理。评定所的形式非常接近于镰仓时代幕府的最高政务机关“评定众”，后者是由最高级别的政府官员组成的议事会。评定所的议事权分属三家，人称三奉行：社奉行、天领奉行与勘定奉行，大致相当于璃月的七星八门或是蒙德的西风骑士团。三奉行会在天守阁举行会议，来决定各项政府事务。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_SHA_COMMISSION_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>由神里家领导的社奉行是稻妻三奉行之一，主要负责祭祀活动、庆典娱乐和文化事务，因此他们在三奉行之中的影响力相较勘定奉行和天领奉行较小。他们的职责主要贴近民生，因此分配给社奉行的幕府军也比起后两者更加清闲。社奉行麾下还有秘密组织终末番，终末番中大部分是忍者，擅长执行情报收集工作。在愚人众筹划针对稻妻的阴谋时，神里家的家主神里绫人拒绝了他们的邀约，因此社奉行在旅行者来到稻妻时引发的风波中并未受到太多影响。经历此事后，社奉行在民间得到了更广泛的同情，并扩大了影响力。</Text>
+		</Row>		
+
+		<Row Tag="LOC_LEADER_KAMISATO_AYAKA_UZK_QUOTE" Language="zh_Hans_CN">
+			<Text>刀剑抱业，名工怀宝。</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_FROSTFLAKE_HERON_NAME" Language="zh_Hans_CN">
+			<Text>白鹭霜华</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_FROSTFLAKE_HERON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>设法让每个城市的公民幸福。喜欢同样这样做的文明。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_INAZUMAN_SHOGUNATE_ASHIGARU_NAME" Language="zh_Hans_CN">
+			<Text>后勤部队</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_INAZUMAN_SHOGUNATE_ASHIGARU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为邻接的非足轻陆地军事单位 +5 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS_NAME" Language="zh_Hans_CN">
+			<Text>给养充分</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>幕府军足轻提供 +5 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_SHOGUNATE_ASHIGARU_STRENGTH_BONUS" Language="zh_Hans_CN">
+			<Text>幕府军足轻提供 +5 [ICON_Strength] 战斗力</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_FROSTFLAKE_HERON_HIGH_AMENITIES" Language="zh_Hans_CN">
+			<Text>绫华喜欢公民幸福快乐的文明</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_FROSTFLAKE_HERON_LOW_AMENITIES" Language="zh_Hans_CN">
+			<Text>绫华讨厌公民不快乐的文明</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_TRIARCHALCOUNCIL_CULTURE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Culture] 文化值来自相邻评定所。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_TRIARCHALCOUNCIL_FAITH" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Faith] 信仰值来自相邻评定所。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_TRIARCHALCOUNCIL_GOLD" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Gold] 金币来自相邻评定所。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_TRIARCHALCOUNCIL_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Production] 生产力来自相邻评定所。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_TRIARCHALCOUNCIL_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Science] 科技值来自相邻评定所。</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_INAZUMA_TEYVAT_LOCATION" Language="zh_Hans_CN">
+			<Text>提瓦特大陆</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_INAZUMA_TEYVAT_SIZE" Language="zh_Hans_CN">
+			<Text>大约数十平方公里</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_INAZUMA_TEYVAT_POPULATION" Language="zh_Hans_CN">
+			<Text>大约数十万到上百万</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_INAZUMA_TEYVAT_CAPITAL" Language="zh_Hans_CN">
+			<Text>稻妻城</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

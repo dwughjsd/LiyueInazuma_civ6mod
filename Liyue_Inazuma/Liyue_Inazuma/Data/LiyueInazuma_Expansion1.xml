@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_LIYUE_TEYVAT_HARBOR" Texture="Moment_Infrastructure_LiyueTeyvat"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LIYUE_TEYVAT_MILLELITH" Texture="Moment_UniqueUnit_LiyueTeyvat"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_TRIARCHAL_COUNCIL" Texture="Moment_Infrastructure_InazumaTeyvat"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_INAZUMAN_SHOGUNATE_ASHIGARU" Texture="Moment_UniqueUnit_InazumaTeyvat"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_SHA_COMMISSION" Texture="Moment_Infrastructure_InazumaTeyvat_ShaCommission"/>
+	</MomentIllustrations>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_LIYUE_TEYVAT_HARBOR" YieldChangeId="Government_Gold"/>
+	</District_Adjacencies>
+</GameData>

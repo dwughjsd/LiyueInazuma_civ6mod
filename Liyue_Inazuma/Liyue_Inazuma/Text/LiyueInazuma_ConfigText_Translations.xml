@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_LIYUE_TEYVAT_NAME" Language="zh_Hans_CN">
+			<Text>璃月</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LIYUE_TEYVAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>璃月帝国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LIYUE_TEYVAT_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>璃月的</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_TEYVAT_STONE_AND_CONTRACTS_NAME" Language="zh_Hans_CN">
+			<Text>岩与契约之港</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_TEYVAT_STONE_AND_CONTRACTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>游戏初始便解锁“采矿业”科技。研究“数学”科技后，您发起的 [ICON_TradeRoute] 贸易路线目的地每有一座矿山为璃月 +1 [ICON_Production] 生产力，到达您的城市的 [ICON_TradeRoute] 贸易路线目的地每有一座采石场为璃月提供+2 [ICON_Gold] 金币。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_LIYUE_TEYVAT_HARBOR_NAME" Language="zh_Hans_CN">
+			<Text>璃月港</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_LIYUE_TEYVAT_HARBOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>璃月特色海军活动区域，替代港口，建造费用更低。即使此城市有市场，灯塔也提供 +1 [ICON_TradeRoute] 贸易路线容量。此城市购买商人的费用降低50%。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LIYUE_TEYVAT_MILLELITH_NAME" Language="zh_Hans_CN">
+			<Text>千岩军</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LIYUE_TEYVAT_MILLELITH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>璃月古典时代特色近战单位，取代剑客。更加强大，由“军事训练”市政解锁。在丘陵地区有更快的 [ICON_Movement] 移动力。获得双倍大将军加成。</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KEQING_UZK_NAME" Language="zh_Hans_CN">
+			<Text>刻晴</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER_NAME" Language="zh_Hans_CN">
+			<Text>霆霓快雨</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单位购买后可立即移动。每回合建造者和军事工程师在建造后恢复全部 [ICON_Movement] 移动力一次。</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING_UZK" Language="zh_Hans_CN">
+			<Text>刻晴，璃月七星的玉衡星，璃月的前景掌握在您的手中。您是人民的表率，决策如雷一般迅捷。在您的带领下，您的人民将改写维持千年的秩序，真正取代神明当家作主。站在时代最前沿，亲手开创新的道路吧，将您的想法化为行动。</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_INAZUMA_TEYVAT_NAME" Language="zh_Hans_CN">
+			<Text>稻妻</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_INAZUMA_TEYVAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>稻妻帝国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_INAZUMA_TEYVAT_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>稻妻的</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KAMISATO_AYAKA_UZK_NAME" Language="zh_Hans_CN">
+			<Text>神里绫华</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_SHIRASAGI_HIMEGIMI_NAME" Language="zh_Hans_CN">
+			<Text>白鹭公主</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SHIRASAGI_HIMEGIMI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>用一半的时间即可建设娱乐中心和水上乐园区域和建筑。每座娱乐中心、水上乐园区域和建筑为所在城市+25%每回合伟人点数产出。可在市政广场中建造社奉行。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_REALM_OF_TRANQUIL_ETERNITY_NAME" Language="zh_Hans_CN">
+			<Text>宁寂永恒之国</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_REALM_OF_TRANQUIL_ETERNITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每座欣喜若狂的城市为所有城市 +5% [ICON_Science] 科技值和 +5% [ICON_Culture] 文化值（上限50%）。积累双倍厌战情绪。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SHA_COMMISSION_NAME" Language="zh_Hans_CN">
+			<Text>社奉行</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SHA_COMMISSION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>神里绫华作为领袖时的稻妻特色建筑。每座拥有 [ICON_Governor] 总督或距离社奉行6个单元格内的城市每建成一个特色区域获得 +2 [ICON_Culture] 文化和 +1 来自娱乐设施的 [ICON_Amenities] 宜居度。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_TRIARCHAL_COUNCIL_NAME" Language="zh_Hans_CN">
+			<Text>评定所</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_TRIARCHAL_COUNCIL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>用以纪念所选政体的稻妻特色区域。取代市政广场，建造费用更低。使此城每回合的忠诚度+8、使相邻区域获得的相邻加成+1。奖励3个 [Icon_Governor] 总督头衔。评定所和其中的每个体建筑为拥有 [ICON_Governor] 总督或6个单元格内的城市提供 +2 [ICON_Housing] 住房以及每个公民 +0.2 所有产出，但其它城市-2非 [ICON_Food] 食物产出。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_INAZUMAN_SHOGUNATE_ASHIGARU_NAME" Language="zh_Hans_CN">
+			<Text>幕府军足轻</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_INAZUMAN_SHOGUNATE_ASHIGARU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>稻妻特色古典时代近战单位。拥有3点 [ICON_Movement] 移动力。为邻接的非足轻陆地军事单位 +5 [ICON_Strength] 战斗力。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

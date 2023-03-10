@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="InazumaTeyvat128"/>
+			<m_ObjectName text="InazumaTeyvat128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="InazumaTeyvat200"/>
+			<m_ObjectName text="InazumaTeyvat200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="InazumaTeyvat22"/>
+			<m_ObjectName text="InazumaTeyvat22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="InazumaTeyvat256"/>
+			<m_ObjectName text="InazumaTeyvat256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="InazumaTeyvat30"/>
+			<m_ObjectName text="InazumaTeyvat30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="InazumaTeyvat32"/>
+			<m_ObjectName text="InazumaTeyvat32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="InazumaTeyvat36"/>
+			<m_ObjectName text="InazumaTeyvat36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="InazumaTeyvat44"/>
+			<m_ObjectName text="InazumaTeyvat44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="InazumaTeyvat45"/>
+			<m_ObjectName text="InazumaTeyvat45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="InazumaTeyvat48"/>
+			<m_ObjectName text="InazumaTeyvat48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="InazumaTeyvat50"/>
+			<m_ObjectName text="InazumaTeyvat50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="InazumaTeyvat64"/>
+			<m_ObjectName text="InazumaTeyvat64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="InazumaTeyvat80"/>
+			<m_ObjectName text="InazumaTeyvat80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LiyueTeyvat128"/>
+			<m_ObjectName text="LiyueTeyvat128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LiyueTeyvat200"/>
+			<m_ObjectName text="LiyueTeyvat200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LiyueTeyvat22"/>
+			<m_ObjectName text="LiyueTeyvat22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LiyueTeyvat256"/>
+			<m_ObjectName text="LiyueTeyvat256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LiyueTeyvat30"/>
+			<m_ObjectName text="LiyueTeyvat30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LiyueTeyvat32"/>
+			<m_ObjectName text="LiyueTeyvat32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LiyueTeyvat36"/>
+			<m_ObjectName text="LiyueTeyvat36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LiyueTeyvat44"/>
+			<m_ObjectName text="LiyueTeyvat44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LiyueTeyvat45"/>
+			<m_ObjectName text="LiyueTeyvat45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LiyueTeyvat48"/>
+			<m_ObjectName text="LiyueTeyvat48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LiyueTeyvat50"/>
+			<m_ObjectName text="LiyueTeyvat50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LiyueTeyvat64"/>
+			<m_ObjectName text="LiyueTeyvat64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LiyueTeyvat80"/>
+			<m_ObjectName text="LiyueTeyvat80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKeqingUZK256"/>
+			<m_ObjectName text="LeaderKeqingUZK256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKeqingUZK32"/>
+			<m_ObjectName text="LeaderKeqingUZK32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKeqingUZK45"/>
+			<m_ObjectName text="LeaderKeqingUZK45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKeqingUZK48"/>
+			<m_ObjectName text="LeaderKeqingUZK48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKeqingUZK50"/>
+			<m_ObjectName text="LeaderKeqingUZK50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKeqingUZK55"/>
+			<m_ObjectName text="LeaderKeqingUZK55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKeqingUZK64"/>
+			<m_ObjectName text="LeaderKeqingUZK64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKeqingUZK80"/>
+			<m_ObjectName text="LeaderKeqingUZK80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Millelith22"/>
+			<m_ObjectName text="Millelith22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Millelith256"/>
+			<m_ObjectName text="Millelith256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Millelith32"/>
+			<m_ObjectName text="Millelith32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Millelith38"/>
+			<m_ObjectName text="Millelith38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Millelith50"/>
+			<m_ObjectName text="Millelith50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Millelith80"/>
+			<m_ObjectName text="Millelith80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKamisatoAyakaUZK256"/>
+			<m_ObjectName text="LeaderKamisatoAyakaUZK256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKamisatoAyakaUZK32"/>
+			<m_ObjectName text="LeaderKamisatoAyakaUZK32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKamisatoAyakaUZK45"/>
+			<m_ObjectName text="LeaderKamisatoAyakaUZK45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKamisatoAyakaUZK48"/>
+			<m_ObjectName text="LeaderKamisatoAyakaUZK48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKamisatoAyakaUZK50"/>
+			<m_ObjectName text="LeaderKamisatoAyakaUZK50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKamisatoAyakaUZK55"/>
+			<m_ObjectName text="LeaderKamisatoAyakaUZK55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKamisatoAyakaUZK64"/>
+			<m_ObjectName text="LeaderKamisatoAyakaUZK64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKamisatoAyakaUZK80"/>
+			<m_ObjectName text="LeaderKamisatoAyakaUZK80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ashigaru22"/>
+			<m_ObjectName text="Ashigaru22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ashigaru256"/>
+			<m_ObjectName text="Ashigaru256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ashigaru32"/>
+			<m_ObjectName text="Ashigaru32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ashigaru38"/>
+			<m_ObjectName text="Ashigaru38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ashigaru50"/>
+			<m_ObjectName text="Ashigaru50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ashigaru80"/>
+			<m_ObjectName text="Ashigaru80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

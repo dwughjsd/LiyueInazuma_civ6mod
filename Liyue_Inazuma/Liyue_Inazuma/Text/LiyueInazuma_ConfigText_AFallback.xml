@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_LIYUE_TEYVAT_NAME" Language="en_US">
+			<Text>Liyue</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LIYUE_TEYVAT_DESCRIPTION" Language="en_US">
+			<Text>Liyue Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LIYUE_TEYVAT_ADJECTIVE" Language="en_US">
+			<Text>Liyue</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_TEYVAT_STONE_AND_CONTRACTS_NAME" Language="en_US">
+			<Text>Harbor of Stone and Contracts</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_TEYVAT_STONE_AND_CONTRACTS_DESCRIPTION" Language="en_US">
+			<Text>Begin the game with the Mining technology unlocked. Your outgoing [ICON_TradeRoute] Trade Routes grant +1 [ICON_Production] Production to Liyue per Mine at the destination. [ICON_TradeRoute] Trade Routes sent to your cities grant +2 [ICON_Gold] Gold to Liyue per Quarry at the destination.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_LIYUE_TEYVAT_HARBOR_NAME" Language="en_US">
+			<Text>Liyue Harbor</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_LIYUE_TEYVAT_HARBOR_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Liyue for naval activity in your city. Replaces the Harbor district and cheaper to build. Lighthouse grants +1 [ICON_TradeRoute] Trade Route capacity even if this city has a Market. Traders are 50% cheaper to purchase in this city.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LIYUE_TEYVAT_MILLELITH_NAME" Language="en_US">
+			<Text>Millelith</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LIYUE_TEYVAT_MILLELITH_DESCRIPTION" Language="en_US">
+			<Text>Liyue unique Classical era melee unit that replaces the Swordsman. Stronger than the Swordsman. Unlocked by Military Training. Faster [ICON_Movement] Movement on Hill terrain. Receives double Great General bonus.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KEQING_UZK_NAME" Language="en_US">
+			<Text>Keqing</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER_NAME" Language="en_US">
+			<Text>Driving Thunder</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER_DESCRIPTION" Language="en_US">
+			<Text>Units can immediately move after purchase. Builders and Military Engineers have their [ICON_Movement] Movement fully restored after taking a building action once per turn.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING_UZK" Language="en_US">
+			<Text>Keqing, Yuheng of the Liyue Qixing, the future of Liyue lies in your hands. You are a role model for your people, and make your decisions as fast as nimble lightning. Under your leadership, your people shall rewrite the order that has existed for millennia and replace the old gods as the masters of your own universe. Stand at the cutting edge of the time, create new paths with your own hands, and forge your ideas into actions.</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_INAZUMA_TEYVAT_NAME" Language="en_US">
+			<Text>Inazuma</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_INAZUMA_TEYVAT_DESCRIPTION" Language="en_US">
+			<Text>Inazuman Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_INAZUMA_TEYVAT_ADJECTIVE" Language="en_US">
+			<Text>Inazuman</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KAMISATO_AYAKA_UZK_NAME" Language="en_US">
+			<Text>Kamisato Ayaka</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_SHIRASAGI_HIMEGIMI_NAME" Language="en_US">
+			<Text>Shirasagi Himegimi</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SHIRASAGI_HIMEGIMI_DESCRIPTION" Language="en_US">
+			<Text>Builds Entertainment Complex and Water Park districts and buildings in half the time. Each Entertainment Complex and Water Park district and building provides +25% [ICON_GreatPerson] Great People points generated per turn in the city. May construct the Yashiro Commission in the Government Plaza.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_REALM_OF_TRANQUIL_ETERNITY_NAME" Language="en_US">
+			<Text>Realm of Tranquil Eternity</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_REALM_OF_TRANQUIL_ETERNITY_DESCRIPTION" Language="en_US">
+			<Text>All cities receive +5% [ICON_Science] Science and +5% [ICON_Culture] Culture for each Ecstatic city (up to 50%). Accumulate double war weariness.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_SHA_COMMISSION_NAME" Language="en_US">
+			<Text>Yashiro Commission</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SHA_COMMISSION_DESCRIPTION" Language="en_US">
+			<Text>Inazuman unique building when Kamisato Ayaka is their leader. Each city with a [ICON_Governor] Governor or within 6 tiles of Yashiro Commission receives +2 [ICON_Culture] Culture and +1 [ICON_Amenities] Amenity from entertainment for each specialty district it construct.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_TRIARCHAL_COUNCIL_NAME" Language="en_US">
+			<Text>Triarchal Council</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_TRIARCHAL_COUNCIL_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Inazuma to commemorate your government choices. Replaces the Government Plaza district and cheaper to build. Provides +8 Loyalty per turn to this city, and an increase of +1 to the adjacency bonuses being earned by any adjacent district. Awards +3 [Icon_Governor] Governor Title. The Triarchal Council district and each government building built in the district provide +2 [ICON_Housing] Housing and +0.2 all yields per [ICON_Citizen] Citizen to your cities with [ICON_Governor] Governors or within 6 tiles of it, but other cities receive -2 non-[ICON_Food]Food yields.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_INAZUMAN_SHOGUNATE_ASHIGARU_NAME" Language="en_US">
+			<Text>Shogunate Ashigaru</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_INAZUMAN_SHOGUNATE_ASHIGARU_DESCRIPTION" Language="en_US">
+			<Text>Inazuman unique Classical era melee unit. Has 3 [ICON_Movement] Movement. +5 [ICON_Strength] Combat Strength to adjacent military units other than Shogunate Ashigaru.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_LIYUE_TEYVAT_MILLELITH" Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_LIYUE_TEYVAT_MILLELITH" Kind="KIND_ABILITY"/>
+		<Row Type="UNIT_INAZUMAN_SHOGUNATE_ASHIGARU" Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_INAZUMAN_SHOGUNATE_ASHIGARU" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS" Kind="KIND_ABILITY"/>
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_LIYUE_TEYVAT_MILLELITH" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_INAZUMAN_SHOGUNATE_ASHIGARU" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_LIYUE_TEYVAT_MILLELITH" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_LIYUE_TEYVAT_MILLELITH" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_LIYUE_TEYVAT_MILLELITH" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_LIYUE_TEYVAT_MILLELITH" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_INAZUMAN_SHOGUNATE_ASHIGARU" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_INAZUMAN_SHOGUNATE_ASHIGARU" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_INAZUMAN_SHOGUNATE_ASHIGARU" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_INAZUMAN_SHOGUNATE_ASHIGARU" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<TypeTags>
+		<Row Type="UNIT_LIYUE_TEYVAT_MILLELITH" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_LIYUE_TEYVAT_MILLELITH" Tag="CLASS_LIYUE_TEYVAT_MILLELITH"/>
+		<Row Type="ABILITY_LIYUE_TEYVAT_MILLELITH" Tag="CLASS_LIYUE_TEYVAT_MILLELITH"/>
+		<Row Type="UNIT_INAZUMAN_SHOGUNATE_ASHIGARU" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_INAZUMAN_SHOGUNATE_ASHIGARU" Tag="CLASS_INAZUMAN_SHOGUNATE_ASHIGARU"/>
+		<Row Type="ABILITY_INAZUMAN_SHOGUNATE_ASHIGARU" Tag="CLASS_INAZUMAN_SHOGUNATE_ASHIGARU"/>
+		<Row Type="ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS" Tag="CLASS_WARRIOR_MONK"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_LIYUE_TEYVAT_MILLELITH" Name="LOC_ABILITY_LIYUE_TEYVAT_MILLELITH_NAME" Description="LOC_ABILITY_LIYUE_TEYVAT_MILLELITH_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_INAZUMAN_SHOGUNATE_ASHIGARU" Name="LOC_ABILITY_INAZUMAN_SHOGUNATE_ASHIGARU_NAME" Description="LOC_ABILITY_INAZUMAN_SHOGUNATE_ASHIGARU_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS" Name="LOC_ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS_NAME" Description="LOC_ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS_DESCRIPTION" Inactive="true" Permanent="false"/>
+	</UnitAbilities>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_LIYUE_TEYVAT_MILLELITH" ReplacesUnitType="UNIT_SWORDSMAN"/>
+	</UnitReplaces>
+	<Units>
+		<Row UnitType="UNIT_LIYUE_TEYVAT_MILLELITH" Cost="100" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="40" StrategicResource="RESOURCE_IRON" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_LIYUE_TEYVAT_MILLELITH_NAME" Description="LOC_UNIT_LIYUE_TEYVAT_MILLELITH_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqCivic="CIVIC_MILITARY_TRAINING" TraitType="TRAIT_CIVILIZATION_UNIT_LIYUE_TEYVAT_MILLELITH"/>
+		<Row UnitType="UNIT_INAZUMAN_SHOGUNATE_ASHIGARU" Cost="80" Maintenance="2" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="32" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_INAZUMAN_SHOGUNATE_ASHIGARU_NAME" Description="LOC_UNIT_INAZUMAN_SHOGUNATE_ASHIGARU_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" TraitType="TRAIT_CIVILIZATION_UNIT_INAZUMAN_SHOGUNATE_ASHIGARU" PrereqTech="TECH_IRON_WORKING"/>
+	</Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_LIYUE_TEYVAT_MILLELITH" UpgradeUnit="UNIT_MUSKETMAN"/>
+		<Row Unit="UNIT_INAZUMAN_SHOGUNATE_ASHIGARU" UpgradeUnit="UNIT_MUSKETMAN"/>
+	</UnitUpgrades>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_LIYUE_TEYVAT_MILLELITH</UnitAbilityType>
+			<ModifierId>MILLELITH_DOUBLE_GENERAL_BONUS_MOVEMENT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LIYUE_TEYVAT_MILLELITH</UnitAbilityType>
+			<ModifierId>MILLELITH_DOUBLE_GENERAL_BONUS_STRENGTH</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LIYUE_TEYVAT_MILLELITH</UnitAbilityType>
+			<ModifierId>ALPINE_IGNORE_HILLS_MOVEMENT_PENALTY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_INAZUMAN_SHOGUNATE_ASHIGARU</UnitAbilityType>
+			<ModifierId>SHOGUNATE_ASHIGARU_GRANT_STRENGTH_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS</UnitAbilityType>
+			<ModifierId>SHOGUNATE_ASHIGARU_STRENGTH_BONUS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MILLELITH_DOUBLE_GENERAL_BONUS_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+			<SubjectRequirementSetId>MILLELITH_HAS_GENERAL_BONUS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MILLELITH_DOUBLE_GENERAL_BONUS_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<OwnerRequirementSetId>MILLELITH_HAS_GENERAL_BONUS</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SHOGUNATE_ASHIGARU_GRANT_STRENGTH_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>ASHIGARU_RECEIVE_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SHOGUNATE_ASHIGARU_STRENGTH_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MILLELITH_DOUBLE_GENERAL_BONUS_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MILLELITH_DOUBLE_GENERAL_BONUS_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>SHOGUNATE_ASHIGARU_GRANT_STRENGTH_BONUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_RECEIVE_ASHIGARU_STRENGTH_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>SHOGUNATE_ASHIGARU_STRENGTH_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="MILLELITH_DOUBLE_GENERAL_BONUS_STRENGTH" Context="Preview" Text="{LOC_GREATPERSON_COMBAT_STRENGTH_AOE_LAND_MODIFIER}"/>
+		<Row ModifierId="SHOGUNATE_ASHIGARU_STRENGTH_BONUS" Context="Preview" Text="LOC_SHOGUNATE_ASHIGARU_STRENGTH_BONUS"/>
+	</ModifierStrings>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MILLELITH_HAS_GENERAL_BONUS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>ASHIGARU_RECEIVE_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>	
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MILLELITH_HAS_GENERAL_BONUS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_HAS_GENERAL_BONUS_LIYUE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>ASHIGARU_RECEIVE_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_ADJACENT_TO_ASHIGARU</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>ASHIGARU_RECEIVE_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_IS_NOT_ASHIGARU</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_HAS_GENERAL_BONUS_LIYUE</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_HAS_ABILITY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_ADJACENT_TO_ASHIGARU</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_IS_NOT_ASHIGARU</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TYPE_MATCHES</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_HAS_GENERAL_BONUS_LIYUE</RequirementId>
+			<Name>UnitAbilityType</Name>
+			<Value>ABILITY_GREAT_GENERAL_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_ADJACENT_TO_ASHIGARU</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_ADJACENT_TO_ASHIGARU</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_IS_NOT_ASHIGARU</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_INAZUMAN_SHOGUNATE_ASHIGARU</Value>
+		</Row>
+	</RequirementArguments>
+	
+	<!--These entries are designed to work with the lua script, so don't expect them to work properly without modifying the script! -->
+	<!--Set an ability for builders and military engineers so that they can restore movement.-->
+	<Types>
+		<Row Type="ABILITY_KEQING_UZK_OVERTIME_SHIFT" Kind="KIND_ABILITY"/>
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_OVERTIME_SHIFT" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="ABILITY_KEQING_UZK_OVERTIME_SHIFT" Tag="CLASS_OVERTIME_SHIFT"/>
+		<Row Type="UNIT_BUILDER" Tag="CLASS_OVERTIME_SHIFT"/>
+		<Row Type="UNIT_MILITARY_ENGINEER" Tag="CLASS_OVERTIME_SHIFT"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_KEQING_UZK_OVERTIME_SHIFT" Name="LOC_ABILITY_KEQING_UZK_OVERTIME_SHIFT_NAME" Description="LOC_ABILITY_KEQING_UZK_OVERTIME_SHIFT_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	
+</GameData>

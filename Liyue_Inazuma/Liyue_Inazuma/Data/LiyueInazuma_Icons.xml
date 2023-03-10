@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Filename="LiyueTeyvat256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_LIYUE_TEYVAT"/>
+		<Row Filename="LiyueTeyvat128" IconsPerColumn="1" IconsPerRow="1" IconSize="128" Name="ICON_ATLAS_LIYUE_TEYVAT"/>
+		<Row Filename="LiyueTeyvat80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_LIYUE_TEYVAT"/>
+		<Row Filename="LiyueTeyvat64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_LIYUE_TEYVAT"/>
+		<Row Filename="LiyueTeyvat50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_LIYUE_TEYVAT"/>
+		<Row Filename="LiyueTeyvat48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_LIYUE_TEYVAT"/>
+		<Row Filename="LiyueTeyvat45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_LIYUE_TEYVAT"/>
+		<Row Filename="LiyueTeyvat44" IconsPerColumn="1" IconsPerRow="1" IconSize="44" Name="ICON_ATLAS_LIYUE_TEYVAT"/>
+		<Row Filename="LiyueTeyvat36" IconsPerColumn="1" IconsPerRow="1" IconSize="36" Name="ICON_ATLAS_LIYUE_TEYVAT"/>
+		<Row Filename="LiyueTeyvat32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_LIYUE_TEYVAT"/>
+		<Row Filename="LiyueTeyvat30" IconsPerColumn="1" IconsPerRow="1" IconSize="30" Name="ICON_ATLAS_LIYUE_TEYVAT"/>
+		<Row Filename="LiyueTeyvat22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_LIYUE_TEYVAT"/>
+
+		<Row Filename="LeaderKeqingUZK32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_KEQING_UZK"/>
+		<Row Filename="LeaderKeqingUZK45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_KEQING_UZK"/>
+		<Row Filename="LeaderKeqingUZK48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_KEQING_UZK"/>
+		<Row Filename="LeaderKeqingUZK50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_KEQING_UZK"/>
+		<Row Filename="LeaderKeqingUZK55" IconsPerColumn="1" IconsPerRow="1" IconSize="55" Name="ICON_ATLAS_KEQING_UZK"/>
+		<Row Filename="LeaderKeqingUZK64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_KEQING_UZK"/>
+		<Row Filename="LeaderKeqingUZK80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_KEQING_UZK"/>
+		<Row Filename="LeaderKeqingUZK256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_KEQING_UZK"/>
+
+		<Row Filename="LeaderKamisatoAyakaUZK32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_KAMISATO_AYAKA_UZK"/>
+		<Row Filename="LeaderKamisatoAyakaUZK45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_KAMISATO_AYAKA_UZK"/>
+		<Row Filename="LeaderKamisatoAyakaUZK48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_KAMISATO_AYAKA_UZK"/>
+		<Row Filename="LeaderKamisatoAyakaUZK50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_KAMISATO_AYAKA_UZK"/>
+		<Row Filename="LeaderKamisatoAyakaUZK55" IconsPerColumn="1" IconsPerRow="1" IconSize="55" Name="ICON_ATLAS_KAMISATO_AYAKA_UZK"/>
+		<Row Filename="LeaderKamisatoAyakaUZK64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_KAMISATO_AYAKA_UZK"/>
+		<Row Filename="LeaderKamisatoAyakaUZK80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_KAMISATO_AYAKA_UZK"/>
+		<Row Filename="LeaderKamisatoAyakaUZK256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_KAMISATO_AYAKA_UZK"/>
+
+		<Row Filename="InazumaTeyvat256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_INAZUMA_TEYVAT"/>
+		<Row Filename="InazumaTeyvat128" IconsPerColumn="1" IconsPerRow="1" IconSize="128" Name="ICON_ATLAS_INAZUMA_TEYVAT"/>
+		<Row Filename="InazumaTeyvat80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_INAZUMA_TEYVAT"/>
+		<Row Filename="InazumaTeyvat64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_INAZUMA_TEYVAT"/>
+		<Row Filename="InazumaTeyvat50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_INAZUMA_TEYVAT"/>
+		<Row Filename="InazumaTeyvat48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_INAZUMA_TEYVAT"/>
+		<Row Filename="InazumaTeyvat45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_INAZUMA_TEYVAT"/>
+		<Row Filename="InazumaTeyvat44" IconsPerColumn="1" IconsPerRow="1" IconSize="44" Name="ICON_ATLAS_INAZUMA_TEYVAT"/>
+		<Row Filename="InazumaTeyvat36" IconsPerColumn="1" IconsPerRow="1" IconSize="36" Name="ICON_ATLAS_INAZUMA_TEYVAT"/>
+		<Row Filename="InazumaTeyvat32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_INAZUMA_TEYVAT"/>
+		<Row Filename="InazumaTeyvat30" IconsPerColumn="1" IconsPerRow="1" IconSize="30" Name="ICON_ATLAS_INAZUMA_TEYVAT"/>
+		<Row Filename="InazumaTeyvat22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_INAZUMA_TEYVAT"/>
+
+		<Row Filename="Millelith256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_LIYUE_TEYVAT_MILLELITH"/>
+		<Row Filename="Millelith80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_LIYUE_TEYVAT_MILLELITH"/>
+		<Row Filename="Millelith50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_LIYUE_TEYVAT_MILLELITH"/>
+		<Row Filename="Millelith38" IconsPerColumn="1" IconsPerRow="1" IconSize="38" Name="ICON_ATLAS_LIYUE_TEYVAT_MILLELITH"/>
+		<Row Filename="Millelith32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_LIYUE_TEYVAT_MILLELITH"/>
+		<Row Filename="Millelith22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_LIYUE_TEYVAT_MILLELITH"/>
+
+		<Row Filename="Ashigaru256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_INAZUMA_TEYVAT_ASHIGARU"/>
+		<Row Filename="Ashigaru80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_INAZUMA_TEYVAT_ASHIGARU"/>
+		<Row Filename="Ashigaru50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_INAZUMA_TEYVAT_ASHIGARU"/>
+		<Row Filename="Ashigaru38" IconsPerColumn="1" IconsPerRow="1" IconSize="38" Name="ICON_ATLAS_INAZUMA_TEYVAT_ASHIGARU"/>
+		<Row Filename="Ashigaru32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_INAZUMA_TEYVAT_ASHIGARU"/>
+		<Row Filename="Ashigaru22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_INAZUMA_TEYVAT_ASHIGARU"/>
+
+		<Row Name="ICON_ATLAS_SHA_COMMISSION" IconSize="32" IconsPerRow="4" IconsPerColumn="4"  Filename="XP1_DistrictBuildings32.dds"/>
+		<Row Name="ICON_ATLAS_SHA_COMMISSION" IconSize="38" IconsPerRow="4" IconsPerColumn="4"  Filename="XP1_DistrictBuildings38.dds"/>
+		<Row Name="ICON_ATLAS_SHA_COMMISSION" IconSize="50" IconsPerRow="4" IconsPerColumn="4"  Filename="XP1_DistrictBuildings50.dds"/>
+		<Row Name="ICON_ATLAS_SHA_COMMISSION" IconSize="80" IconsPerRow="4" IconsPerColumn="4"  Filename="XP1_DistrictBuildings80.dds"/>
+		<Row Name="ICON_ATLAS_SHA_COMMISSION" IconSize="128" IconsPerRow="4" IconsPerColumn="4" Filename="XP1_DistrictBuildings128.dds"/>
+		<Row Name="ICON_ATLAS_SHA_COMMISSION" IconSize="256" IconsPerRow="4" IconsPerColumn="4" Filename="XP1_DistrictBuildings256.dds"/>
+
+		<Row Name="ICON_ATLAS_SHA_COMMISSION_FOW" IconSize="32"  IconsPerRow="4" IconsPerColumn="4" Filename="XP1_DistrictBuildings32_FOW.dds"/>
+		<Row Name="ICON_ATLAS_SHA_COMMISSION_FOW" IconSize="38"  IconsPerRow="4" IconsPerColumn="4" Filename="XP1_DistrictBuildings38_FOW.dds"/>
+		<Row Name="ICON_ATLAS_SHA_COMMISSION_FOW" IconSize="50"  IconsPerRow="4" IconsPerColumn="4" Filename="XP1_DistrictBuildings50_FOW.dds"/>
+		<Row Name="ICON_ATLAS_SHA_COMMISSION_FOW" IconSize="80"  IconsPerRow="4" IconsPerColumn="4" Filename="XP1_DistrictBuildings80_FOW.dds"/>
+		<Row Name="ICON_ATLAS_SHA_COMMISSION_FOW" IconSize="128" IconsPerRow="4" IconsPerColumn="4" Filename="XP1_DistrictBuildings128_FOW.dds"/>
+		<Row Name="ICON_ATLAS_SHA_COMMISSION_FOW" IconSize="256" IconsPerRow="4" IconsPerColumn="4" Filename="XP1_DistrictBuildings256_FOW.dds"/>
+
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_LIYUE_TEYVAT" Atlas="ICON_ATLAS_LIYUE_TEYVAT" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_INAZUMA_TEYVAT" Atlas="ICON_ATLAS_INAZUMA_TEYVAT" Index="0"/>
+		<Row Name="ICON_LEADER_KEQING_UZK" Atlas="ICON_ATLAS_KEQING_UZK" Index="0"/>
+		<Row Name="ICON_LEADER_KAMISATO_AYAKA_UZK" Atlas="ICON_ATLAS_KAMISATO_AYAKA_UZK" Index="0"/>
+		<!--ToDo: Millelith Portrait-->
+		<Row Name="ICON_UNIT_LIYUE_TEYVAT_MILLELITH"                          Atlas="ICON_ATLAS_LIYUE_TEYVAT_MILLELITH" Index="0"/>
+		<Row Name="ICON_UNIT_LIYUE_TEYVAT_MILLELITH_FOW"                          Atlas="ICON_ATLAS_LIYUE_TEYVAT_MILLELITH" Index="0"/>
+		<Row Name="ICON_UNIT_LIYUE_TEYVAT_MILLELITH_PORTRAIT"                   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"   Index="28"/>
+		<Row Name="ICON_DISTRICT_LIYUE_TEYVAT_HARBOR" Atlas="ICON_ATLAS_DISTRICTS" Index="4"/>
+		<Row Name="ICON_DISTRICT_LIYUE_TEYVAT_HARBOR_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="4"/>
+		<Row Name="DISTRICT_LIYUE_TEYVAT_HARBOR" Atlas="ICON_ATLAS_FONT_ICON_BASELINE_4" Index="184"/>
+		<Row Name="ICON_DISTRICT_TRIARCHAL_COUNCIL" Atlas="ICON_ATLAS_XP1_DISTRICTS" Index="0"/>
+		<Row Name="ICON_DISTRICT_TRIARCHAL_COUNCIL_FOW" Atlas="ICON_ATLAS_XP1_DISTRICTS_FOW" Index="0"/>
+		<Row Name="DISTRICT_TRIARCHAL_COUNCIL" Atlas="ICON_ATLAS_EXPANSION1_FONT_ICON_DISTRICTS_BASELINE_4" Index="0"/>
+		<!--ToDo: Ashigaru Portrait-->
+		<Row Name="ICON_UNIT_INAZUMAN_SHOGUNATE_ASHIGARU"                 Atlas="ICON_ATLAS_INAZUMA_TEYVAT_ASHIGARU" Index="0"/>
+		<Row Name="ICON_UNIT_INAZUMAN_SHOGUNATE_FOW"                 Atlas="ICON_ATLAS_INAZUMA_TEYVAT_ASHIGARU" Index="0"/>
+		<Row Name="ICON_UNIT_INAZUMAN_SHOGUNATE_ASHIGARU_PORTRAIT"                     Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="28"/>
+		<!--ToDo: Yashiro Commission Icon-->
+		<Row Name="ICON_BUILDING_SHA_COMMISSION"          Atlas="ICON_ATLAS_SHA_COMMISSION" Index="0"/>
+		<Row Name="ICON_BUILDING_SHA_COMMISSION_FOW"          Atlas="ICON_ATLAS_SHA_COMMISSION_FOW" Index="0"/>
+	</IconDefinitions>
+</GameData>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="StrategicView_Sprite"/>
+	<m_PackageName text="strategicview/strategicview_uilenses"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="StrategicView_Loyalty_Overlay_InazumaTeyvat"/>
+			<m_ObjectName text="StrategicView_Loyalty_Overlay_InazumaTeyvat"/>
+		</Element>
+		<Element>
+			<m_EntryID text="StrategicView_Loyalty_Overlay_LiyueTeyvat"/>
+			<m_ObjectName text="StrategicView_Loyalty_Overlay_LiyueTeyvat"/>
+		</Element>
+		<Element>
+			<m_EntryID text="StrategicView_Loyalty_Pressure_InazumaTeyvat"/>
+			<m_ObjectName text="StrategicView_Loyalty_Pressure_InazumaTeyvat"/>
+		</Element>
+		<Element>
+			<m_EntryID text="StrategicView_Loyalty_Pressure_LiyueTeyvat"/>
+			<m_ObjectName text="StrategicView_Loyalty_Pressure_LiyueTeyvat"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

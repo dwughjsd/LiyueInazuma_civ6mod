@@ -1,0 +1,14 @@
+  <LocalizedText>
+    <Text id="LOC_LIYUE_INAZUMA_MOD_TITLE">
+      <en_US>Liyue and Inazuma Pack</en_US>
+      <zh_Hans_CN>璃月与稻妻包</zh_Hans_CN>
+    </Text>
+      <Text id="LOC_LIYUE_INAZUMA_MOD_TEASER">
+      <en_US>New Civilizations and Leaders - Keqing of Liyue and Kamisato Ayaka of Inazuma</en_US>
+      <zh_Hans_CN>新文明和领袖——璃月的刻晴和稻妻的神里绫华</zh_Hans_CN>
+    </Text>
+      <Text id="LOC_LIYUE_INAZUMA_MOD_DESCRIPTION">
+      <en_US>Contains two new civilizations and leaders.</en_US>
+      <zh_Hans_CN>包含2个新文明及领袖。</zh_Hans_CN>
+    </Text>
+  </LocalizedText>

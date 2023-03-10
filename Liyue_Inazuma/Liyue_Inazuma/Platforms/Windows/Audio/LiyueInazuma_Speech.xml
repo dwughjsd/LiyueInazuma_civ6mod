@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="2564056675" Language="SFX">
+			<ShortName>LiyueInazuma_Speech</ShortName>
+			<Path>LiyueInazuma_Speech.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1481783482" Name="INZM_KA_DECLARE_WAR_A"/>
+				<Event Id="1106990666" Name="INZM_KA_DECLARE_WAR_FROM_AI_A"/>
+				<Event Id="164254472" Name="INZM_KA_DEFEAT_A"/>
+				<Event Id="4159689317" Name="INZM_KA_FIRST_MEET_A"/>
+				<Event Id="2375682033" Name="INZM_KA_KUDOS_A"/>
+				<Event Id="3802998712" Name="INZM_KA_MISC_PEP_TALK_A"/>
+				<Event Id="381572771" Name="INZM_KA_WARNING_A"/>
+				<Event Id="4039406905" Name="LIYU_KQ_DECLARE_WAR_A"/>
+				<Event Id="1974377937" Name="LIYU_KQ_DECLARE_WAR_FROM_AI_A"/>
+				<Event Id="204937325" Name="LIYU_KQ_DEFEAT_A"/>
+				<Event Id="3103058664" Name="LIYU_KQ_FIRST_MEET_A"/>
+				<Event Id="2356862222" Name="LIYU_KQ_KUDOS_A"/>
+				<Event Id="2085929727" Name="LIYU_KQ_MISC_PEP_TALK_A"/>
+				<Event Id="1575775952" Name="LIYU_KQ_WARNING_A"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="211844969" Language="SFX">
+					<ShortName>LIYU_KQ_KUDOS_A.wav</ShortName>
+					<Path>SFX\LIYU_KQ_KUDOS_A_B93921CF.wem</Path>
+				</File>
+				<File Id="290815673" Language="SFX">
+					<ShortName>LIYU_KQ_DEFEAT_A.wav</ShortName>
+					<Path>SFX\LIYU_KQ_DEFEAT_A_B93921CF.wem</Path>
+				</File>
+				<File Id="360254604" Language="SFX">
+					<ShortName>LIYU_KQ_DECLARE_WAR_A.wav</ShortName>
+					<Path>SFX\LIYU_KQ_DECLARE_WAR_A_B93921CF.wem</Path>
+				</File>
+				<File Id="496845153" Language="SFX">
+					<ShortName>INZM_KA_MISC_PEP_TALK_A.wav</ShortName>
+					<Path>SFX\INZM_KA_MISC_PEP_TALK_A_B93921CF.wem</Path>
+				</File>
+				<File Id="565563165" Language="SFX">
+					<ShortName>LIYU_KQ_DECLARE_WAR_FROM_AI_A.wav</ShortName>
+					<Path>SFX\LIYU_KQ_DECLARE_WAR_FROM_AI_A_B93921CF.wem</Path>
+				</File>
+				<File Id="597984102" Language="SFX">
+					<ShortName>INZM_KA_WARNING_A.wav</ShortName>
+					<Path>SFX\INZM_KA_WARNING_A_B93921CF.wem</Path>
+				</File>
+				<File Id="657003362" Language="SFX">
+					<ShortName>INZM_KA_FIRST_MEET_A.wav</ShortName>
+					<Path>SFX\INZM_KA_FIRST_MEET_A_B93921CF.wem</Path>
+				</File>
+				<File Id="690030663" Language="SFX">
+					<ShortName>LIYU_KQ_FIRST_MEET_A.wav</ShortName>
+					<Path>SFX\LIYU_KQ_FIRST_MEET_A_B93921CF.wem</Path>
+				</File>
+				<File Id="712419802" Language="SFX">
+					<ShortName>LIYU_KQ_MISC_PEP_TALK_A.wav</ShortName>
+					<Path>SFX\LIYU_KQ_MISC_PEP_TALK_A_B93921CF.wem</Path>
+				</File>
+				<File Id="757547096" Language="SFX">
+					<ShortName>INZM_KA_DEFEAT_A.wav</ShortName>
+					<Path>SFX\INZM_KA_DEFEAT_A_B93921CF.wem</Path>
+				</File>
+				<File Id="905826816" Language="SFX">
+					<ShortName>INZM_KA_DECLARE_WAR_A.wav</ShortName>
+					<Path>SFX\INZM_KA_DECLARE_WAR_A_B93921CF.wem</Path>
+				</File>
+				<File Id="1039271694" Language="SFX">
+					<ShortName>INZM_KA_DECLARE_WAR_FROM_AI_A.wav</ShortName>
+					<Path>SFX\INZM_KA_DECLARE_WAR_FROM_AI_A_B93921CF.wem</Path>
+				</File>
+				<File Id="1055742236" Language="SFX">
+					<ShortName>LIYU_KQ_WARNING_A.wav</ShortName>
+					<Path>SFX\LIYU_KQ_WARNING_A_B93921CF.wem</Path>
+				</File>
+				<File Id="1066823909" Language="SFX">
+					<ShortName>INZM_KA_KUDOS_A.wav</ShortName>
+					<Path>SFX\INZM_KA_KUDOS_A_B93921CF.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

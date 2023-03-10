@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3076683367" Language="SFX">
+			<ShortName>LiyueInazuma_Music_Bank</ShortName>
+			<Path>LiyueInazuma_Music_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4144321281" Name="Pause_Music_INAZUMA_TEYVAT"/>
+				<Event Id="966015140" Name="Pause_Music_LIYUE_TEYVAT"/>
+				<Event Id="1716637" Name="Play_Leader_Music_INAZUMA_TEYVAT"/>
+				<Event Id="2022225088" Name="Play_Leader_Music_LIYUE_TEYVAT"/>
+				<Event Id="3168123839" Name="Play_Music_INAZUMA_TEYVAT"/>
+				<Event Id="2650184402" Name="Play_Music_LIYUE_TEYVAT"/>
+				<Event Id="2761413890" Name="Resume_Music_INAZUMA_TEYVAT"/>
+				<Event Id="3910208351" Name="Resume_Music_LIYUE_TEYVAT"/>
+				<Event Id="307780871" Name="Start_Music_INAZUMA_TEYVAT"/>
+				<Event Id="2712300970" Name="Start_Music_LIYUE_TEYVAT"/>
+				<Event Id="2530020651" Name="Stop_Leader_Music_INAZUMA_TEYVAT"/>
+				<Event Id="1142874926" Name="Stop_Leader_Music_LIYUE_TEYVAT"/>
+				<Event Id="1287000585" Name="Stop_Music_INAZUMA_TEYVAT"/>
+				<Event Id="1947534844" Name="Stop_Music_LIYUE_TEYVAT"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="55877717" Language="SFX">
+					<ShortName>Liyue_Ancient.wav</ShortName>
+					<Path>SFX\Liyue_Ancient_17C11484.wem</Path>
+				</File>
+				<File Id="65369850" Language="SFX">
+					<ShortName>SojournersSweetDream.wav</ShortName>
+					<Path>SFX\SojournersSweetDream_17C11484.wem</Path>
+				</File>
+				<File Id="116216438" Language="SFX">
+					<ShortName>Inazuma_Ancient.wav</ShortName>
+					<Path>SFX\Inazuma_Ancient_17C11484.wem</Path>
+				</File>
+				<File Id="122969949" Language="SFX">
+					<ShortName>RelaxationInLiyue.wav</ShortName>
+					<Path>SFX\RelaxationInLiyue_17C11484.wem</Path>
+				</File>
+				<File Id="150321931" Language="SFX">
+					<ShortName>TimeToSayFarewell.wav</ShortName>
+					<Path>SFX\TimeToSayFarewell_17C11484.wem</Path>
+				</File>
+				<File Id="154441012" Language="SFX">
+					<ShortName>Liyue_Atomic.wav</ShortName>
+					<Path>SFX\Liyue_Atomic_17C11484.wem</Path>
+				</File>
+				<File Id="168275434" Language="SFX">
+					<ShortName>Inazuma_Medieval.wav</ShortName>
+					<Path>SFX\Inazuma_Medieval_17C11484.wem</Path>
+				</File>
+				<File Id="234300077" Language="SFX">
+					<ShortName>ANightWatch.wav</ShortName>
+					<Path>SFX\ANightWatch_17C11484.wem</Path>
+				</File>
+				<File Id="235345272" Language="SFX">
+					<ShortName>DreamOfScatteredPetals.wav</ShortName>
+					<Path>SFX\DreamOfScatteredPetals_17C11484.wem</Path>
+				</File>
+				<File Id="326837323" Language="SFX">
+					<ShortName>FreedomOfCrane.wav</ShortName>
+					<Path>SFX\FreedomOfCrane_17C11484.wem</Path>
+				</File>
+				<File Id="407720255" Language="SFX">
+					<ShortName>FlowOfMildness.wav</ShortName>
+					<Path>SFX\FlowOfMildness_17C11484.wem</Path>
+				</File>
+				<File Id="411938969" Language="SFX">
+					<ShortName>MurmuringCreek.wav</ShortName>
+					<Path>SFX\MurmuringCreek_17C11484.wem</Path>
+				</File>
+				<File Id="423497702" Language="SFX">
+					<ShortName>TheLandOfHerSerenity.wav</ShortName>
+					<Path>SFX\TheLandOfHerSerenity_17C11484.wem</Path>
+				</File>
+				<File Id="461469661" Language="SFX">
+					<ShortName>Inazuma_Industrial.wav</ShortName>
+					<Path>SFX\Inazuma_Industrial_17C11484.wem</Path>
+				</File>
+				<File Id="527635684" Language="SFX">
+					<ShortName>AnotherConflictIncoming.wav</ShortName>
+					<Path>SFX\AnotherConflictIncoming_17C11484.wem</Path>
+				</File>
+				<File Id="543239818" Language="SFX">
+					<ShortName>IslandOfHanabi.wav</ShortName>
+					<Path>SFX\IslandOfHanabi_17C11484.wem</Path>
+				</File>
+				<File Id="604408744" Language="SFX">
+					<ShortName>Liyue_Medieval.wav</ShortName>
+					<Path>SFX\Liyue_Medieval_17C11484.wem</Path>
+				</File>
+				<File Id="736154082" Language="SFX">
+					<ShortName>DrinkWithAHermit.wav</ShortName>
+					<Path>SFX\DrinkWithAHermit_17C11484.wem</Path>
+				</File>
+				<File Id="750479573" Language="SFX">
+					<ShortName>MaidensLonging.wav</ShortName>
+					<Path>SFX\MaidensLonging_17C11484.wem</Path>
+				</File>
+				<File Id="768241057" Language="SFX">
+					<ShortName>TheAbsenceOfAdepti.wav</ShortName>
+					<Path>SFX\TheAbsenceOfAdepti_17C11484.wem</Path>
+				</File>
+				<File Id="822799866" Language="SFX">
+					<ShortName>ATransparentMoon.wav</ShortName>
+					<Path>SFX\ATransparentMoon_17C11484.wem</Path>
+				</File>
+				<File Id="894876056" Language="SFX">
+					<ShortName>MelodiousFlute.wav</ShortName>
+					<Path>SFX\MelodiousFlute_17C11484.wem</Path>
+				</File>
+				<File Id="945989699" Language="SFX">
+					<ShortName>WhereTheShirasagiDances.wav</ShortName>
+					<Path>SFX\WhereTheShirasagiDances_17C11484.wem</Path>
+				</File>
+				<File Id="956775637" Language="SFX">
+					<ShortName>Liyue_Industrial.wav</ShortName>
+					<Path>SFX\Liyue_Industrial_17C11484.wem</Path>
+				</File>
+				<File Id="1056838944" Language="SFX">
+					<ShortName>SakuraScentedKiseru.wav</ShortName>
+					<Path>SFX\SakuraScentedKiseru_17C11484.wem</Path>
+				</File>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
