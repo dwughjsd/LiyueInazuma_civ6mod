@@ -62,38 +62,22 @@ function OnCityMadePurchase_GrantMovement(playerID, cityID, iX, iY, purchaseType
     end
 end
 
-function OnUnitOperationStarted_OvertimeShift(playerID:number, unitID:number, operationID:number)
-	if (operationID ~= UnitOperationTypes.BUILD_IMPROVEMENT and operationID ~= UnitOperationTypes.BUILD_IMPROVEMENT_ADJACENT and operationID ~= UnitOperationTypes.BUILD_ROUTE and operationID ~= UnitOperationTypes.CLEAR_CONTAMINATION and operationID ~= UnitOperationTypes.HARVEST_RESOURCE and operationID ~= 744183902 and operationID ~= UnitOperationTypes.REMOVE_FEATURE and operationID ~= UnitOperationTypes.REMOVE_IMPROVEMENT and operationID ~= UnitOperationTypes.REPAIR and operationID ~= UnitOperationTypes.REPAIR_ROUTE) then return; end -- So many operations that cost all movement!
-	-- For unknown reason the actual operation ID (744183902) of planting forest cannot be obtained by UnitOperationTypes.PLANT_FOREST (nil). A workaround has been used for that.
-	OvertimeShiftAction(playerID, unitID);
-end
-
-function OnUnitCommandStarted_OvertimeShift(player, unitId, hCommand, iData1)
-    if (hCommand ~= UnitCommandTypes.BUILDING_PRODUCTION and hCommand ~= UnitCommandTypes.DISTRICT_PRODUCTION and hCommand ~= UnitCommandTypes.HARVEST_WONDER and hCommand ~= UnitCommandTypes.PROJECT_PRODUCTION and hCommand ~= UnitCommandTypes.WONDER_PRODUCTION) then return; end -- Not that many commands that cost all movement!
-	OvertimeShiftAction(playerID, unitID);
-end
-
-function OvertimeShiftAction(playerID:number, unitID:number)
-	if (not HasTrait("TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER", playerID)) then return; end
-
+function OvertimeShiftActionShort(playerID:number, unitID:number)
 	local pUnit = Players[playerID]:GetUnits():FindID(unitID);
 	if (not pUnit) then return; end
+	UnitManager.RestoreMovementToFormation(pUnit);
+	pUnit:GetAbility():ChangeAbilityCount("ABILITY_KEQING_UZK_OVERTIME_SHIFT", -1);	
+end
 
-	local unitType = GameInfo.Units[pUnit:GetType()].UnitType;
-	if (unitType == "UNIT_BUILDER" or unitType == "UNIT_MILITARY_ENGINEER") then
-	
-		if (pUnit:GetAbility():GetAbilityCount("ABILITY_KEQING_UZK_OVERTIME_SHIFT") > 0) then
-			UnitManager.RestoreMovementToFormation(pUnit);
-			pUnit:GetAbility():ChangeAbilityCount("ABILITY_KEQING_UZK_OVERTIME_SHIFT", -1);	
-			--ExposedMembers.TEYVAT.SelectUnitTeyvat(playerID, unitID); For some reason the movement of unit is always finished by game engine and there is no way AFAIK to overwrite it.
-		end
-	end
+function GetOvertimeShiftAbilityCount(playerID:number, unitID:number)
+	local pUnit = Players[playerID]:GetUnits():FindID(unitID);
+	if (not pUnit) then return; end
+	count = pUnit:GetAbility():GetAbilityCount("ABILITY_KEQING_UZK_OVERTIME_SHIFT")
+	return count;
 end
 
 Events.TurnBegin.Add(OnTurnBegin_ResetShift);
 Events.CityMadePurchase.Add(OnCityMadePurchase_GrantMovement);
-Events.UnitOperationStarted.Add(OnUnitOperationStarted_OvertimeShift);
-Events.UnitCommandStarted.Add(OnUnitCommandStarted_OvertimeShift);
 
 --ExposedMembers for UI support
 
@@ -108,3 +92,7 @@ GameEvents.LiyueInazumaGetPlotProperty.Add(function(plotID, key)
     local plot = Map.GetPlotByIndex(plotID)
     plot:GetProperty(key)
 end)
+
+ExposedMembers.LIYUEINAZUMA = ExposedMembers.LIYUEINAZUMA or {}
+ExposedMembers.LIYUEINAZUMA.OvertimeShiftActionShort = OvertimeShiftActionShort
+ExposedMembers.LIYUEINAZUMA.GetOvertimeShiftAbilityCount = GetOvertimeShiftAbilityCount
