@@ -170,7 +170,7 @@
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
 			<!--初次见面（考虑配音）-->
-			<Text>我是刻晴，璃月七星中的“玉衡”。变革的时机已经到来，这历史性的时刻，你愿意和我一起见证吗?</Text>
+			<Text>我是刻晴，璃月七星中的“玉衡”。变革的时机已经到来，这历史性的时刻，你愿意和我一起见证吗？</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KEQING_UZK_ANY" Language="zh_Hans_CN">
