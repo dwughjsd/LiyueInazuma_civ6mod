@@ -21,7 +21,7 @@ end
 
 function OnUnitOperationsCleared_OvertimeShift(playerID, unitID, hCommand, iData1)
 	local pUnit = Players[playerID]:GetUnits():FindID(unitID);
-	if pUnit ~= nil and pUnit:GetMovesRemaining() >= 0 then
+	if pUnit ~= nil and pUnit:GetMovesRemaining() >= 0 and Game.GetLocalPlayer() == playerID then
 		UI.DeselectAllUnits();
 		UI.DeselectAllCities();
 		UI.SelectUnit(pUnit);
