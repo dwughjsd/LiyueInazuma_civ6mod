@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<MomentIllustrations>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_LIYUE_TEYVAT_HARBOR" Texture="Moment_Infrastructure_LiyueTeyvat"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LIYUE_TEYVAT_MILLELITH" Texture="Moment_UniqueUnit_LiyueTeyvat"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_TRIARCHAL_COUNCIL" Texture="Moment_Infrastructure_InazumaTeyvat"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_INAZUMAN_SHOGUNATE_ASHIGARU" Texture="Moment_UniqueUnit_InazumaTeyvat"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_SHA_COMMISSION" Texture="Moment_Infrastructure_InazumaTeyvat_ShaCommission"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_LIYUE_TVT_HARBOR" Texture="Moment_Infrastructure_LiyueTVT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LIYUE_TVT_MILLELITH" Texture="Moment_UniqueUnit_LiyueTVT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_TRIARCHAL_COUNCIL" Texture="Moment_Infrastructure_InazumaTVT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_INAZUMAN_SHOGUNATE_ASHIGARU" Texture="Moment_UniqueUnit_InazumaTVT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_SHA_COMMISSION" Texture="Moment_Infrastructure_InazumaTVT_ShaCommission"/>
 	</MomentIllustrations>
 	<District_Adjacencies>
-		<Row DistrictType="DISTRICT_LIYUE_TEYVAT_HARBOR" YieldChangeId="Government_Gold"/>
+		<Row DistrictType="DISTRICT_LIYUE_TVT_HARBOR" YieldChangeId="Government_Gold"/>
 	</District_Adjacencies>
 	<Units_XP2>
-		<Row UnitType="UNIT_LIYUE_TEYVAT_MILLELITH" ResourceCost="10"/>
+		<Row UnitType="UNIT_LIYUE_TVT_MILLELITH" ResourceCost="10"/>
 	</Units_XP2>
 
 	<Types>
@@ -39,18 +39,18 @@
 	</NamedSeas>
 	
 	<NamedLakeCivilizations>
-		<InsertOrIgnore NamedLakeType="NAMED_LAKE_LUHUA_POOL" CivilizationType="CIVILIZATION_LIYUE_TEYVAT"/>
-		<InsertOrIgnore NamedLakeType="NAMED_LAKE_QINGXU_POOL" CivilizationType="CIVILIZATION_LIYUE_TEYVAT"/>
+		<InsertOrIgnore NamedLakeType="NAMED_LAKE_LUHUA_POOL" CivilizationType="CIVILIZATION_LIYUE_TVT"/>
+		<InsertOrIgnore NamedLakeType="NAMED_LAKE_QINGXU_POOL" CivilizationType="CIVILIZATION_LIYUE_TVT"/>
 	</NamedLakeCivilizations>
 	<NamedMountainCivilizations>
-		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_TIANHENG_MOUNTAINS" CivilizationType="CIVILIZATION_LIYUE_TEYVAT"/>
-		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_THE_CHASM" CivilizationType="CIVILIZATION_LIYUE_TEYVAT"/>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_TIANHENG_MOUNTAINS" CivilizationType="CIVILIZATION_LIYUE_TVT"/>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_THE_CHASM" CivilizationType="CIVILIZATION_LIYUE_TVT"/>
 	</NamedMountainCivilizations>
 	<NamedRiverCivilizations>
-		<Row NamedRiverType="NAMED_RIVER_BISHUI_RIVER" CivilizationType="CIVILIZATION_LIYUE_TEYVAT"/>
+		<Row NamedRiverType="NAMED_RIVER_BISHUI_RIVER" CivilizationType="CIVILIZATION_LIYUE_TVT"/>
 	</NamedRiverCivilizations>
 	<NamedSeaCivilizations>
-		<Row NamedSeaType="NAMED_SEA_SEA_OF_CLOUDS" CivilizationType="CIVILIZATION_LIYUE_TEYVAT"/>
+		<Row NamedSeaType="NAMED_SEA_SEA_OF_CLOUDS" CivilizationType="CIVILIZATION_LIYUE_TVT"/>
 	</NamedSeaCivilizations>
 	
 	<!--ToDo: Keqing and Ayaka's Discussion AiList-->

@@ -39,7 +39,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="Loyalty_Pressure_LiyueTeyvat_Box"/>
+										<m_EntryName text="Loyalty_Pressure_LiyueTVT_Box"/>
 										<m_XLPClass text="UILensAsset"/>
 										<m_XLPPath text="uilensmodels.xlp"/>
 										<m_BLPPackage text="UILensAssets"/>
@@ -49,14 +49,14 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="CIVILIZATION_LIYUE_TEYVAT"/>
+							<m_Name text="CIVILIZATION_LIYUE_TVT"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="Loyalty_Pressure_InazumaTeyvat_Box"/>
+										<m_EntryName text="Loyalty_Pressure_InazumaTVT_Box"/>
 										<m_XLPClass text="UILensAsset"/>
 										<m_XLPPath text="uilensmodels.xlp"/>
 										<m_BLPPackage text="UILensAssets"/>
@@ -66,7 +66,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="CIVILIZATION_INAZUMA_TEYVAT"/>
+							<m_Name text="CIVILIZATION_INAZUMA_TVT"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -102,7 +102,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="Loyalty_Overlay_InazumaTeyvat_Box"/>
+										<m_EntryName text="Loyalty_Overlay_InazumaTVT_Box"/>
 										<m_XLPClass text="UILensAsset"/>
 										<m_XLPPath text="uilensmodels.xlp"/>
 										<m_BLPPackage text="UILensAssets"/>
@@ -117,7 +117,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="LoyaltyWarning_CIVILIZATION_INAZUMA_TEYVAT"/>
+				<m_Name text="LoyaltyWarning_CIVILIZATION_INAZUMA_TVT"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
@@ -148,7 +148,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="Loyalty_Overlay_LiyueTeyvat_Box"/>
+										<m_EntryName text="Loyalty_Overlay_LiyueTVT_Box"/>
 										<m_XLPClass text="UILensAsset"/>
 										<m_XLPPath text="uilensmodels.xlp"/>
 										<m_BLPPackage text="UILensAssets"/>
@@ -163,7 +163,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="LoyaltyWarning_CIVILIZATION_LIYUE_TEYVAT"/>
+				<m_Name text="LoyaltyWarning_CIVILIZATION_LIYUE_TVT"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>

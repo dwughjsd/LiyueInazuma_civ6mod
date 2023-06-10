@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
 	<RootPaths>
-		<ProjectRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\</ProjectRoot>
-		<SourceFilesRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2564056675" Language="SFX">

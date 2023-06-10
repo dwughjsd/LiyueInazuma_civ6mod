@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
 	<RootPaths>
-		<ProjectRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\</ProjectRoot>
-		<SourceFilesRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\LiyueInazuma\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="3076683367" Language="SFX">
 			<ShortName>LiyueInazuma_Music_Bank</ShortName>
 			<Path>LiyueInazuma_Music_Bank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4144321281" Name="Pause_Music_INAZUMA_TEYVAT"/>
-				<Event Id="966015140" Name="Pause_Music_LIYUE_TEYVAT"/>
-				<Event Id="1716637" Name="Play_Leader_Music_INAZUMA_TEYVAT"/>
-				<Event Id="2022225088" Name="Play_Leader_Music_LIYUE_TEYVAT"/>
-				<Event Id="3168123839" Name="Play_Music_INAZUMA_TEYVAT"/>
-				<Event Id="2650184402" Name="Play_Music_LIYUE_TEYVAT"/>
-				<Event Id="2761413890" Name="Resume_Music_INAZUMA_TEYVAT"/>
-				<Event Id="3910208351" Name="Resume_Music_LIYUE_TEYVAT"/>
-				<Event Id="307780871" Name="Start_Music_INAZUMA_TEYVAT"/>
-				<Event Id="2712300970" Name="Start_Music_LIYUE_TEYVAT"/>
-				<Event Id="2530020651" Name="Stop_Leader_Music_INAZUMA_TEYVAT"/>
-				<Event Id="1142874926" Name="Stop_Leader_Music_LIYUE_TEYVAT"/>
-				<Event Id="1287000585" Name="Stop_Music_INAZUMA_TEYVAT"/>
-				<Event Id="1947534844" Name="Stop_Music_LIYUE_TEYVAT"/>
+				<Event Id="610557976" Name="Pause_Music_INAZUMA_TVT"/>
+				<Event Id="2957443367" Name="Pause_Music_LIYUE_TVT"/>
+				<Event Id="451346612" Name="Play_Leader_Music_INAZUMA_TVT"/>
+				<Event Id="410667779" Name="Play_Leader_Music_LIYUE_TVT"/>
+				<Event Id="1917651314" Name="Play_Music_INAZUMA_TVT"/>
+				<Event Id="3732774745" Name="Play_Music_LIYUE_TVT"/>
+				<Event Id="4215353353" Name="Resume_Music_INAZUMA_TVT"/>
+				<Event Id="2549954194" Name="Resume_Music_LIYUE_TVT"/>
+				<Event Id="2130178042" Name="Start_Music_INAZUMA_TVT"/>
+				<Event Id="1871063665" Name="Start_Music_LIYUE_TVT"/>
+				<Event Id="3006434430" Name="Stop_Leader_Music_INAZUMA_TVT"/>
+				<Event Id="1648002933" Name="Stop_Leader_Music_LIYUE_TVT"/>
+				<Event Id="1901844736" Name="Stop_Music_INAZUMA_TVT"/>
+				<Event Id="3396239391" Name="Stop_Music_LIYUE_TVT"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="55877717" Language="SFX">

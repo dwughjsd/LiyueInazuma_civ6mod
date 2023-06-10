@@ -57,7 +57,7 @@
 					</m_Values>
 				</m_Fields>
 				<m_ChildCollections/>
-				<m_Name text="LEADER_KAMISATO_AYAKA_UZK"/>
+				<m_Name text="LEADER_KAMISATO_AYAKA_TVT"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
@@ -106,7 +106,7 @@
 					</m_Values>
 				</m_Fields>
 				<m_ChildCollections/>
-				<m_Name text="LEADER_KEQING_UZK"/>
+				<m_Name text="LEADER_KEQING_TVT"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>

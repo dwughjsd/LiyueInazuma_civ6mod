@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<Row Tag="LOC_CIVILIZATION_LIYUE_TEYVAT_NAME" Language="zh_Hans_CN">
+		<Row Tag="LOC_CIVILIZATION_LIYUE_TVT_NAME" Language="zh_Hans_CN">
 			<Text>璃月</Text>
 		</Row>
-		<Row Tag="LOC_CIVILIZATION_LIYUE_TEYVAT_DESCRIPTION" Language="zh_Hans_CN">
+		<Row Tag="LOC_CIVILIZATION_LIYUE_TVT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>璃月帝国</Text>
 		</Row>
-		<Row Tag="LOC_CIVILIZATION_LIYUE_TEYVAT_ADJECTIVE" Language="zh_Hans_CN">
+		<Row Tag="LOC_CIVILIZATION_LIYUE_TVT_ADJECTIVE" Language="zh_Hans_CN">
 			<Text>璃月的</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_TEYVAT_STONE_AND_CONTRACTS_NAME" Language="zh_Hans_CN">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_TVT_STONE_AND_CONTRACTS_NAME" Language="zh_Hans_CN">
 			<Text>岩与契约之港</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_TEYVAT_STONE_AND_CONTRACTS_DESCRIPTION" Language="zh_Hans_CN">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_TVT_STONE_AND_CONTRACTS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>游戏初始便解锁“采矿业”科技。研究“数学”科技后，您发起的 [ICON_TradeRoute] 贸易路线目的地每有一座矿山为璃月 +1 [ICON_Production] 生产力，到达您的城市的 [ICON_TradeRoute] 贸易路线目的地每有一座采石场为璃月提供+2 [ICON_Gold] 金币。</Text>
 		</Row>
-		<Row Tag="LOC_DISTRICT_LIYUE_TEYVAT_HARBOR_NAME" Language="zh_Hans_CN">
+		<Row Tag="LOC_DISTRICT_LIYUE_TVT_HARBOR_NAME" Language="zh_Hans_CN">
 			<Text>璃月港</Text>
 		</Row>
-		<Row Tag="LOC_DISTRICT_LIYUE_TEYVAT_HARBOR_DESCRIPTION" Language="zh_Hans_CN">
+		<Row Tag="LOC_DISTRICT_LIYUE_TVT_HARBOR_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>璃月特色海军活动区域，替代港口，建造费用更低。即使此城市有市场，灯塔也提供 +1 [ICON_TradeRoute] 贸易路线容量。此城市购买商人的费用降低50%。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_LIYUE_TEYVAT_MILLELITH_NAME" Language="zh_Hans_CN">
+		<Row Tag="LOC_UNIT_LIYUE_TVT_MILLELITH_NAME" Language="zh_Hans_CN">
 			<Text>千岩军</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_LIYUE_TEYVAT_MILLELITH_DESCRIPTION" Language="zh_Hans_CN">
+		<Row Tag="LOC_UNIT_LIYUE_TVT_MILLELITH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>璃月古典时代特色近战单位，取代剑客。更加强大，由“军事训练”市政解锁。在丘陵地区有更快的 [ICON_Movement] 移动力。获得双倍大将军加成。</Text>
 		</Row>
-		<Row Tag="LOC_LEADER_KEQING_UZK_NAME" Language="zh_Hans_CN">
+		<Row Tag="LOC_LEADER_KEQING_TVT_NAME" Language="zh_Hans_CN">
 			<Text>刻晴</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER_NAME" Language="zh_Hans_CN">
@@ -37,20 +37,20 @@
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>单位购买后可立即移动。每回合建造者和军事工程师在建造后恢复全部 [ICON_Movement] 移动力一次。</Text>
 		</Row>
-		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING_UZK" Language="zh_Hans_CN">
+		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING_TVT" Language="zh_Hans_CN">
 			<Text>刻晴，璃月七星的玉衡星，璃月的前景掌握在您的手中。您是人民的表率，决策如雷一般迅捷。在您的带领下，您的人民将改写维持千年的秩序，真正取代神明当家作主。站在时代最前沿，亲手开创新的道路吧，将您的想法化为行动。</Text>
 		</Row>
 
-		<Row Tag="LOC_CIVILIZATION_INAZUMA_TEYVAT_NAME" Language="zh_Hans_CN">
+		<Row Tag="LOC_CIVILIZATION_INAZUMA_TVT_NAME" Language="zh_Hans_CN">
 			<Text>稻妻</Text>
 		</Row>
-		<Row Tag="LOC_CIVILIZATION_INAZUMA_TEYVAT_DESCRIPTION" Language="zh_Hans_CN">
+		<Row Tag="LOC_CIVILIZATION_INAZUMA_TVT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>稻妻帝国</Text>
 		</Row>
-		<Row Tag="LOC_CIVILIZATION_INAZUMA_TEYVAT_ADJECTIVE" Language="zh_Hans_CN">
+		<Row Tag="LOC_CIVILIZATION_INAZUMA_TVT_ADJECTIVE" Language="zh_Hans_CN">
 			<Text>稻妻的</Text>
 		</Row>
-		<Row Tag="LOC_LEADER_KAMISATO_AYAKA_UZK_NAME" Language="zh_Hans_CN">
+		<Row Tag="LOC_LEADER_KAMISATO_AYAKA_TVT_NAME" Language="zh_Hans_CN">
 			<Text>神里绫华</Text>
 		</Row>
 

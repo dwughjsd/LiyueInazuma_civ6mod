@@ -155,7 +155,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="PLAY_AMBIENCE_DISTRICT_LIYUE_TEYVAT_HARBOR"/>
+							<m_Name text="PLAY_AMBIENCE_DISTRICT_LIYUE_TVT_HARBOR"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -172,12 +172,12 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="STOP_AMBIENCE_DISTRICT_LIYUE_TEYVAT_HARBOR"/>
+							<m_Name text="STOP_AMBIENCE_DISTRICT_LIYUE_TVT_HARBOR"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="DISTRICT_LIYUE_TEYVAT_HARBOR"/>
+				<m_Name text="DISTRICT_LIYUE_TVT_HARBOR"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>

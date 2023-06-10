@@ -165,7 +165,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="LoyaltyPressureIcon_LiyueTeyvat"/>
+										<m_ElementName text="LoyaltyPressureIcon_LiyueTVT"/>
 										<m_RootCollectionName text="UILensEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -180,7 +180,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="CIVILIZATION_LIYUE_TEYVAT"/>
+				<m_Name text="CIVILIZATION_LIYUE_TVT"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
@@ -245,7 +245,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="LoyaltyPressureIcon_InazumaTeyvat"/>
+										<m_ElementName text="LoyaltyPressureIcon_InazumaTVT"/>
 										<m_RootCollectionName text="UILensEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -260,7 +260,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="CIVILIZATION_INAZUMA_TEYVAT"/>
+				<m_Name text="CIVILIZATION_INAZUMA_TVT"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
@@ -308,7 +308,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="LoyaltyOverlayIcon_LiyueTeyvat"/>
+										<m_ElementName text="LoyaltyOverlayIcon_LiyueTVT"/>
 										<m_RootCollectionName text="UILensEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -323,7 +323,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="LoyaltyWarning_CIVILIZATION_LIYUE_TEYVAT"/>
+				<m_Name text="LoyaltyWarning_CIVILIZATION_LIYUE_TVT"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
@@ -371,7 +371,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="LoyaltyOverlayIcon_InazumaTeyvat"/>
+										<m_ElementName text="LoyaltyOverlayIcon_InazumaTVT"/>
 										<m_RootCollectionName text="UILensEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -386,7 +386,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="LoyaltyWarning_CIVILIZATION_INAZUMA_TEYVAT"/>
+				<m_Name text="LoyaltyWarning_CIVILIZATION_INAZUMA_TVT"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>
@@ -397,7 +397,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="StrategicView_Loyalty_Overlay_LiyueTeyvat"/>
+							<m_EntryName text="StrategicView_Loyalty_Overlay_LiyueTVT"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="strategicview_uilenses.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
@@ -415,7 +415,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="StrategicView_Loyalty_Overlay_LiyueTeyvat"/>
+							<m_EntryName text="StrategicView_Loyalty_Overlay_LiyueTVT"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="strategicview_uilenses.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
@@ -445,14 +445,14 @@
 					</m_Values>
 				</m_Fields>
 				<m_ChildCollections/>
-				<m_Name text="LoyaltyOverlayIcon_LiyueTeyvat"/>
+				<m_Name text="LoyaltyOverlayIcon_LiyueTVT"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="StrategicView_Loyalty_Overlay_InazumaTeyvat"/>
+							<m_EntryName text="StrategicView_Loyalty_Overlay_InazumaTVT"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="strategicview_uilenses.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
@@ -470,7 +470,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="StrategicView_Loyalty_Overlay_InazumaTeyvat"/>
+							<m_EntryName text="StrategicView_Loyalty_Overlay_InazumaTVT"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="strategicview_uilenses.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
@@ -500,14 +500,14 @@
 					</m_Values>
 				</m_Fields>
 				<m_ChildCollections/>
-				<m_Name text="LoyaltyOverlayIcon_InazumaTeyvat"/>
+				<m_Name text="LoyaltyOverlayIcon_InazumaTVT"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="StrategicView_Loyalty_Pressure_LiyueTeyvat"/>
+							<m_EntryName text="StrategicView_Loyalty_Pressure_LiyueTVT"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="strategicview_uilenses.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
@@ -525,7 +525,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="StrategicView_Loyalty_Pressure_LiyueTeyvat"/>
+							<m_EntryName text="StrategicView_Loyalty_Pressure_LiyueTVT"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="strategicview_uilenses.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
@@ -555,14 +555,14 @@
 					</m_Values>
 				</m_Fields>
 				<m_ChildCollections/>
-				<m_Name text="LoyaltyPressureIcon_LiyueTeyvat"/>
+				<m_Name text="LoyaltyPressureIcon_LiyueTVT"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="StrategicView_Loyalty_Pressure_InazumaTeyvat"/>
+							<m_EntryName text="StrategicView_Loyalty_Pressure_InazumaTVT"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="strategicview_uilenses.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
@@ -580,7 +580,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="StrategicView_Loyalty_Pressure_InazumaTeyvat"/>
+							<m_EntryName text="StrategicView_Loyalty_Pressure_InazumaTVT"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="strategicview_uilenses.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
@@ -610,7 +610,7 @@
 					</m_Values>
 				</m_Fields>
 				<m_ChildCollections/>
-				<m_Name text="LoyaltyPressureIcon_InazumaTeyvat"/>
+				<m_Name text="LoyaltyPressureIcon_InazumaTVT"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>

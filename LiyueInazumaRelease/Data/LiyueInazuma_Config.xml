@@ -3,118 +3,118 @@
 	<Players>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE_TEYVAT</CivilizationType>
-			<LeaderType>LEADER_KEQING_UZK</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_LIYUE_TEYVAT_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_LIYUE_TEYVAT</CivilizationIcon>
-			<LeaderName>LOC_LEADER_KEQING_UZK_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_KEQING_UZK</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_LIYUE_TEYVAT_STONE_AND_CONTRACTS_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LIYUE_TEYVAT_STONE_AND_CONTRACTS_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_LIYUE_TEYVAT</CivilizationAbilityIcon>
+			<CivilizationType>CIVILIZATION_LIYUE_TVT</CivilizationType>
+			<LeaderType>LEADER_KEQING_TVT</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_LIYUE_TVT_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_LIYUE_TVT</CivilizationIcon>
+			<LeaderName>LOC_LEADER_KEQING_TVT_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_KEQING_TVT</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_LIYUE_TVT_STONE_AND_CONTRACTS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LIYUE_TVT_STONE_AND_CONTRACTS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_LIYUE_TVT</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_KEQING_UZK</LeaderAbilityIcon>
-			<Portrait>LEADER_KEQING_UZK_WORKAROUND</Portrait>
-			<PortraitBackground>LEADER_KEQING_UZK_BACKGROUND</PortraitBackground>
+			<LeaderAbilityIcon>ICON_LEADER_KEQING_TVT</LeaderAbilityIcon>
+			<Portrait>LEADER_KEQING_TVT_WORKAROUND</Portrait>
+			<PortraitBackground>LEADER_KEQING_TVT_BACKGROUND</PortraitBackground>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE_TEYVAT</CivilizationType>
-			<LeaderType>LEADER_KEQING_UZK</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_LIYUE_TEYVAT_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_LIYUE_TEYVAT</CivilizationIcon>
-			<LeaderName>LOC_LEADER_KEQING_UZK_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_KEQING_UZK</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_LIYUE_TEYVAT_STONE_AND_CONTRACTS_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LIYUE_TEYVAT_STONE_AND_CONTRACTS_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_LIYUE_TEYVAT</CivilizationAbilityIcon>
+			<CivilizationType>CIVILIZATION_LIYUE_TVT</CivilizationType>
+			<LeaderType>LEADER_KEQING_TVT</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_LIYUE_TVT_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_LIYUE_TVT</CivilizationIcon>
+			<LeaderName>LOC_LEADER_KEQING_TVT_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_KEQING_TVT</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_LIYUE_TVT_STONE_AND_CONTRACTS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LIYUE_TVT_STONE_AND_CONTRACTS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_LIYUE_TVT</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_KEQING_UZK</LeaderAbilityIcon>
-			<Portrait>LEADER_KEQING_UZK_WORKAROUND</Portrait>
-			<PortraitBackground>LEADER_KEQING_UZK_BACKGROUND</PortraitBackground>
+			<LeaderAbilityIcon>ICON_LEADER_KEQING_TVT</LeaderAbilityIcon>
+			<Portrait>LEADER_KEQING_TVT_WORKAROUND</Portrait>
+			<PortraitBackground>LEADER_KEQING_TVT_BACKGROUND</PortraitBackground>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_INAZUMA_TEYVAT</CivilizationType>
-			<LeaderType>LEADER_KAMISATO_AYAKA_UZK</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_INAZUMA_TEYVAT_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_INAZUMA_TEYVAT</CivilizationIcon>
-			<LeaderName>LOC_LEADER_KAMISATO_AYAKA_UZK_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_KAMISATO_AYAKA_UZK</LeaderIcon>
+			<CivilizationType>CIVILIZATION_INAZUMA_TVT</CivilizationType>
+			<LeaderType>LEADER_KAMISATO_AYAKA_TVT</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_INAZUMA_TVT_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_INAZUMA_TVT</CivilizationIcon>
+			<LeaderName>LOC_LEADER_KAMISATO_AYAKA_TVT_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_KAMISATO_AYAKA_TVT</LeaderIcon>
 			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_REALM_OF_TRANQUIL_ETERNITY_NAME</CivilizationAbilityName>
 			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_REALM_OF_TRANQUIL_ETERNITY_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_INAZUMA_TEYVAT</CivilizationAbilityIcon>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_INAZUMA_TVT</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_SHIRASAGI_HIMEGIMI_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_SHIRASAGI_HIMEGIMI_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_KAMISATO_AYAKA_UZK</LeaderAbilityIcon>
-			<Portrait>LEADER_KAMISATO_AYAKA_UZK_WORKAROUND</Portrait>
-			<PortraitBackground>LEADER_KAMISATO_AYAKA_UZK_BACKGROUND</PortraitBackground>
+			<LeaderAbilityIcon>ICON_LEADER_KAMISATO_AYAKA_TVT</LeaderAbilityIcon>
+			<Portrait>LEADER_KAMISATO_AYAKA_TVT_WORKAROUND</Portrait>
+			<PortraitBackground>LEADER_KAMISATO_AYAKA_TVT_BACKGROUND</PortraitBackground>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_INAZUMA_TEYVAT</CivilizationType>
-			<LeaderType>LEADER_KAMISATO_AYAKA_UZK</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_INAZUMA_TEYVAT_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_INAZUMA_TEYVAT</CivilizationIcon>
-			<LeaderName>LOC_LEADER_KAMISATO_AYAKA_UZK_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_KAMISATO_AYAKA_UZK</LeaderIcon>
+			<CivilizationType>CIVILIZATION_INAZUMA_TVT</CivilizationType>
+			<LeaderType>LEADER_KAMISATO_AYAKA_TVT</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_INAZUMA_TVT_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_INAZUMA_TVT</CivilizationIcon>
+			<LeaderName>LOC_LEADER_KAMISATO_AYAKA_TVT_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_KAMISATO_AYAKA_TVT</LeaderIcon>
 			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_REALM_OF_TRANQUIL_ETERNITY_NAME</CivilizationAbilityName>
 			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_REALM_OF_TRANQUIL_ETERNITY_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_INAZUMA_TEYVAT</CivilizationAbilityIcon>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_INAZUMA_TVT</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_SHIRASAGI_HIMEGIMI_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_SHIRASAGI_HIMEGIMI_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_KAMISATO_AYAKA_UZK</LeaderAbilityIcon>
-			<Portrait>LEADER_KAMISATO_AYAKA_UZK_WORKAROUND</Portrait>
-			<PortraitBackground>LEADER_KAMISATO_AYAKA_UZK_BACKGROUND</PortraitBackground>
+			<LeaderAbilityIcon>ICON_LEADER_KAMISATO_AYAKA_TVT</LeaderAbilityIcon>
+			<Portrait>LEADER_KAMISATO_AYAKA_TVT_WORKAROUND</Portrait>
+			<PortraitBackground>LEADER_KAMISATO_AYAKA_TVT_BACKGROUND</PortraitBackground>
 		</Row>
 	</Players>
 	<PlayerItems>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE_TEYVAT</CivilizationType>
-			<LeaderType>LEADER_KEQING_UZK</LeaderType>
-			<Type>DISTRICT_LIYUE_TEYVAT_HARBOR</Type>
-			<Name>LOC_DISTRICT_LIYUE_TEYVAT_HARBOR_NAME</Name>
-			<Description>LOC_DISTRICT_LIYUE_TEYVAT_HARBOR_DESCRIPTION</Description>
-			<Icon>ICON_DISTRICT_LIYUE_TEYVAT_HARBOR</Icon>
+			<CivilizationType>CIVILIZATION_LIYUE_TVT</CivilizationType>
+			<LeaderType>LEADER_KEQING_TVT</LeaderType>
+			<Type>DISTRICT_LIYUE_TVT_HARBOR</Type>
+			<Name>LOC_DISTRICT_LIYUE_TVT_HARBOR_NAME</Name>
+			<Description>LOC_DISTRICT_LIYUE_TVT_HARBOR_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_LIYUE_TVT_HARBOR</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE_TEYVAT</CivilizationType>
-			<LeaderType>LEADER_KEQING_UZK</LeaderType>
-			<Type>UNIT_LIYUE_TEYVAT_MILLELITH</Type>
-			<Name>LOC_UNIT_LIYUE_TEYVAT_MILLELITH_NAME</Name>
-			<Description>LOC_UNIT_LIYUE_TEYVAT_MILLELITH_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_LIYUE_TEYVAT_MILLELITH</Icon>
+			<CivilizationType>CIVILIZATION_LIYUE_TVT</CivilizationType>
+			<LeaderType>LEADER_KEQING_TVT</LeaderType>
+			<Type>UNIT_LIYUE_TVT_MILLELITH</Type>
+			<Name>LOC_UNIT_LIYUE_TVT_MILLELITH_NAME</Name>
+			<Description>LOC_UNIT_LIYUE_TVT_MILLELITH_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_LIYUE_TVT_MILLELITH</Icon>
 			<SortIndex>9</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE_TEYVAT</CivilizationType>
-			<LeaderType>LEADER_KEQING_UZK</LeaderType>
-			<Type>DISTRICT_LIYUE_TEYVAT_HARBOR</Type>
-			<Name>LOC_DISTRICT_LIYUE_TEYVAT_HARBOR_NAME</Name>
-			<Description>LOC_DISTRICT_LIYUE_TEYVAT_HARBOR_DESCRIPTION</Description>
-			<Icon>ICON_DISTRICT_LIYUE_TEYVAT_HARBOR</Icon>
+			<CivilizationType>CIVILIZATION_LIYUE_TVT</CivilizationType>
+			<LeaderType>LEADER_KEQING_TVT</LeaderType>
+			<Type>DISTRICT_LIYUE_TVT_HARBOR</Type>
+			<Name>LOC_DISTRICT_LIYUE_TVT_HARBOR_NAME</Name>
+			<Description>LOC_DISTRICT_LIYUE_TVT_HARBOR_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_LIYUE_TVT_HARBOR</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE_TEYVAT</CivilizationType>
-			<LeaderType>LEADER_KEQING_UZK</LeaderType>
-			<Type>UNIT_LIYUE_TEYVAT_MILLELITH</Type>
-			<Name>LOC_UNIT_LIYUE_TEYVAT_MILLELITH_NAME</Name>
-			<Description>LOC_UNIT_LIYUE_TEYVAT_MILLELITH_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_LIYUE_TEYVAT_MILLELITH</Icon>
+			<CivilizationType>CIVILIZATION_LIYUE_TVT</CivilizationType>
+			<LeaderType>LEADER_KEQING_TVT</LeaderType>
+			<Type>UNIT_LIYUE_TVT_MILLELITH</Type>
+			<Name>LOC_UNIT_LIYUE_TVT_MILLELITH_NAME</Name>
+			<Description>LOC_UNIT_LIYUE_TVT_MILLELITH_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_LIYUE_TVT_MILLELITH</Icon>
 			<SortIndex>9</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_INAZUMA_TEYVAT</CivilizationType>
-			<LeaderType>LEADER_KAMISATO_AYAKA_UZK</LeaderType>
+			<CivilizationType>CIVILIZATION_INAZUMA_TVT</CivilizationType>
+			<LeaderType>LEADER_KAMISATO_AYAKA_TVT</LeaderType>
 			<Type>BUILDING_SHA_COMMISSION</Type>
 			<Name>LOC_BUILDING_SHA_COMMISSION_NAME</Name>
 			<Description>LOC_BUILDING_SHA_COMMISSION_DESCRIPTION</Description>
@@ -123,8 +123,8 @@
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_INAZUMA_TEYVAT</CivilizationType>
-			<LeaderType>LEADER_KAMISATO_AYAKA_UZK</LeaderType>
+			<CivilizationType>CIVILIZATION_INAZUMA_TVT</CivilizationType>
+			<LeaderType>LEADER_KAMISATO_AYAKA_TVT</LeaderType>
 			<Type>UNIT_INAZUMAN_SHOGUNATE_ASHIGARU</Type>
 			<Name>LOC_UNIT_INAZUMAN_SHOGUNATE_ASHIGARU_NAME</Name>
 			<Description>LOC_UNIT_INAZUMAN_SHOGUNATE_ASHIGARU_DESCRIPTION</Description>
@@ -133,8 +133,8 @@
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_INAZUMA_TEYVAT</CivilizationType>
-			<LeaderType>LEADER_KAMISATO_AYAKA_UZK</LeaderType>
+			<CivilizationType>CIVILIZATION_INAZUMA_TVT</CivilizationType>
+			<LeaderType>LEADER_KAMISATO_AYAKA_TVT</LeaderType>
 			<Type>DISTRICT_TRIARCHAL_COUNCIL</Type>
 			<Name>LOC_DISTRICT_TRIARCHAL_COUNCIL_NAME</Name>
 			<Description>LOC_DISTRICT_TRIARCHAL_COUNCIL_DESCRIPTION</Description>
@@ -143,8 +143,8 @@
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_INAZUMA_TEYVAT</CivilizationType>
-			<LeaderType>LEADER_KAMISATO_AYAKA_UZK</LeaderType>
+			<CivilizationType>CIVILIZATION_INAZUMA_TVT</CivilizationType>
+			<LeaderType>LEADER_KAMISATO_AYAKA_TVT</LeaderType>
 			<Type>BUILDING_SHA_COMMISSION</Type>
 			<Name>LOC_BUILDING_SHA_COMMISSION_NAME</Name>
 			<Description>LOC_BUILDING_SHA_COMMISSION_DESCRIPTION</Description>
@@ -153,8 +153,8 @@
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_INAZUMA_TEYVAT</CivilizationType>
-			<LeaderType>LEADER_KAMISATO_AYAKA_UZK</LeaderType>
+			<CivilizationType>CIVILIZATION_INAZUMA_TVT</CivilizationType>
+			<LeaderType>LEADER_KAMISATO_AYAKA_TVT</LeaderType>
 			<Type>UNIT_INAZUMAN_SHOGUNATE_ASHIGARU</Type>
 			<Name>LOC_UNIT_INAZUMAN_SHOGUNATE_ASHIGARU_NAME</Name>
 			<Description>LOC_UNIT_INAZUMAN_SHOGUNATE_ASHIGARU_DESCRIPTION</Description>
@@ -163,8 +163,8 @@
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_INAZUMA_TEYVAT</CivilizationType>
-			<LeaderType>LEADER_KAMISATO_AYAKA_UZK</LeaderType>
+			<CivilizationType>CIVILIZATION_INAZUMA_TVT</CivilizationType>
+			<LeaderType>LEADER_KAMISATO_AYAKA_TVT</LeaderType>
 			<Type>DISTRICT_TRIARCHAL_COUNCIL</Type>
 			<Name>LOC_DISTRICT_TRIARCHAL_COUNCIL_NAME</Name>
 			<Description>LOC_DISTRICT_TRIARCHAL_COUNCIL_DESCRIPTION</Description>

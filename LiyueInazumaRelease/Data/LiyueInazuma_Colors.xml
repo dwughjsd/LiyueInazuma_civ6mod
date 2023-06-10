@@ -2,7 +2,7 @@
 <GameData>
 	<PlayerColors>
 		<Row>
-			<Type>LEADER_KEQING_UZK</Type>
+			<Type>LEADER_KEQING_TVT</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_STANDARD_PURPLE_LT</PrimaryColor>
 			<SecondaryColor>COLOR_STANDARD_WHITE_LT</SecondaryColor>
@@ -14,7 +14,7 @@
 			<Alt3SecondaryColor>COLOR_STANDARD_WHITE_DK</Alt3SecondaryColor>
 		</Row>
 		<Row>
-			<Type>LEADER_KAMISATO_AYAKA_UZK</Type>
+			<Type>LEADER_KAMISATO_AYAKA_TVT</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_STANDARD_BLUE_LT</PrimaryColor>
 			<SecondaryColor>COLOR_STANDARD_MAGENTA_LT</SecondaryColor>

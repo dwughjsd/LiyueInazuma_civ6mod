@@ -3,7 +3,7 @@
   <Properties>
     <Name>LOC_LIYUE_INAZUMA_MOD_TITLE</Name>
     <Description>LOC_LIYUE_INAZUMA_MOD_DESCRIPTION</Description>
-    <Created>1678452343</Created>
+    <Created>1686408366</Created>
     <Teaser>LOC_LIYUE_INAZUMA_MOD_TEASER</Teaser>
     <Authors>Shimamura et al.</Authors>
     <CompatibleVersions>2.0</CompatibleVersions>
@@ -12,31 +12,17 @@
     <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
     <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
   </References>
-  <LocalizedText>
-    <Text id="LOC_LIYUE_INAZUMA_MOD_TITLE">
-      <en_US>Liyue and Inazuma Pack</en_US>
-      <zh_Hans_CN>璃月与稻妻包</zh_Hans_CN>
-    </Text>
-      <Text id="LOC_LIYUE_INAZUMA_MOD_TEASER">
-      <en_US>New Civilizations and Leaders - Keqing of Liyue and Kamisato Ayaka of Inazuma</en_US>
-      <zh_Hans_CN>新文明和领袖——璃月的刻晴和稻妻的神里绫华</zh_Hans_CN>
-    </Text>
-      <Text id="LOC_LIYUE_INAZUMA_MOD_DESCRIPTION">
-      <en_US>Contains two new civilizations and leaders.</en_US>
-      <zh_Hans_CN>包含2个新文明及领袖。</zh_Hans_CN>
-    </Text>
-  </LocalizedText>
   <ActionCriteria>
     <Criteria id="LiyueInazuma">
-      <LeaderPlayable>Players:StandardPlayers::LEADER_KEQING_UZK,StandardPlayers::LEADER_KEQING_UZK,Players:Expansion1_Players::LEADER_KEQING_UZK,Players:Expansion2_Players::LEADER_KEQING_UZK,Players:StandardPlayers::LEADER_KAMISATO_AYAKA_UZK,StandardPlayers::LEADER_KAMISATO_AYAKA_UZK,Players:Expansion1_Players::LEADER_KAMISATO_AYAKA_UZK,Players:Expansion2_Players::LEADER_KAMISATO_AYAKA_UZK</LeaderPlayable>
+      <LeaderPlayable>Players:StandardPlayers::LEADER_KEQING_TVT,StandardPlayers::LEADER_KEQING_TVT,Players:Expansion1_Players::LEADER_KEQING_TVT,Players:Expansion2_Players::LEADER_KEQING_TVT,Players:StandardPlayers::LEADER_KAMISATO_AYAKA_TVT,StandardPlayers::LEADER_KAMISATO_AYAKA_TVT,Players:Expansion1_Players::LEADER_KAMISATO_AYAKA_TVT,Players:Expansion2_Players::LEADER_KAMISATO_AYAKA_TVT</LeaderPlayable>
       <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
     </Criteria>
     <Criteria id="LiyueInazuma_Expansion1">
-      <LeaderPlayable>Players:Expansion1_Players::LEADER_KEQING_UZK,Players:Expansion1_Players::LEADER_KAMISATO_AYAKA_UZK</LeaderPlayable>
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_KEQING_TVT,Players:Expansion1_Players::LEADER_KAMISATO_AYAKA_TVT</LeaderPlayable>
       <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
     </Criteria>
     <Criteria id="LiyueInazuma_Expansion2">
-      <LeaderPlayable>Players:Expansion2_Players::LEADER_KEQING_UZK,Players:Expansion2_Players::LEADER_KAMISATO_AYAKA_UZK</LeaderPlayable>
+      <LeaderPlayable>Players:Expansion2_Players::LEADER_KEQING_TVT,Players:Expansion2_Players::LEADER_KAMISATO_AYAKA_TVT</LeaderPlayable>
       <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
     </Criteria>
     <Criteria id="SecretSocieties">
@@ -107,8 +93,8 @@
     </UpdateAudio>
     <UpdateLogitechARX id="LiyueARX">
       <Criteria>LiyueInazuma</Criteria>
-      <File>Data/ARX/Civ_LEADER_KAMISATO_AYAKA_UZK.png</File>
-      <File>Data/ARX/Civ_LEADER_KEQING_UZK.png</File>
+      <File>Data/ARX/Civ_LEADER_KAMISATO_AYAKA_TVT.png</File>
+      <File>Data/ARX/Civ_LEADER_KEQING_TVT.png</File>
     </UpdateLogitechARX>
     <AddGameplayScripts id="LiyueScripts">
       <Criteria>LiyueInazuma</Criteria>
@@ -127,6 +113,20 @@
       <File>Data/LiyueInazuma_SecretSocieties_MODE.xml</File>
     </UpdateDatabase>
   </InGameActions>
+  <LocalizedText>
+    <Text id="LOC_LIYUE_INAZUMA_MOD_TITLE">
+      <en_US>Liyue and Inazuma Pack</en_US>
+      <zh_Hans_CN>璃月与稻妻包</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_LIYUE_INAZUMA_MOD_TEASER">
+      <en_US>New Civilizations and Leaders - Keqing of Liyue and Kamisato Ayaka of Inazuma</en_US>
+      <zh_Hans_CN>新文明和领袖——璃月的刻晴和稻妻的神里绫华</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_LIYUE_INAZUMA_MOD_DESCRIPTION">
+      <en_US>Contains two new civilizations and leaders.</en_US>
+      <zh_Hans_CN>包含2个新文明及领袖。</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
   <Files>
     <File>ArtDefs/Buildings.artdef</File>
     <File>ArtDefs/Civilizations.artdef</File>
@@ -138,8 +138,8 @@
     <File>ArtDefs/Overlay.artdef</File>
     <File>ArtDefs/StrategicView.artdef</File>
     <File>ArtDefs/Units.artdef</File>
-    <File>Data/ARX/Civ_LEADER_KAMISATO_AYAKA_UZK.png</File>
-    <File>Data/ARX/Civ_LEADER_KEQING_UZK.png</File>
+    <File>Data/ARX/Civ_LEADER_KAMISATO_AYAKA_TVT.png</File>
+    <File>Data/ARX/Civ_LEADER_KEQING_TVT.png</File>
     <File>Data/LiyueInazuma_Buildings.xml</File>
     <File>Data/LiyueInazuma_Civilizations.xml</File>
     <File>Data/LiyueInazuma_Colors.xml</File>
@@ -188,10 +188,10 @@
     <File>Platforms/Windows/BLPs/leaders/leader_kamisatoayaka.blp</File>
     <File>Platforms/Windows/BLPs/leaders/leader_keqing.blp</File>
     <File>Platforms/Windows/BLPs/leaders/light_rigs.blp</File>
-    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_InazumaTeyvat</File>
-    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_LiyueTeyvat</File>
-    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_InazumaTeyvat</File>
-    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_LiyueTeyvat</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_InazumaTVT</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_LiyueTVT</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_InazumaTVT</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_LiyueTVT</File>
     <File>Platforms/Windows/BLPs/strategicview/strategicview_uilenses.blp</File>
     <File>Platforms/Windows/BLPs/UILeaders.blp</File>
     <File>Platforms/Windows/BLPs/UILensAssets.blp</File>
