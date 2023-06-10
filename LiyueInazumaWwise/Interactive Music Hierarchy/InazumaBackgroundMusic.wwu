@@ -3,7 +3,7 @@
 	<InteractiveMusic>
 		<WorkUnit Name="InazumaBackgroundMusic" ID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}" PersistMode="Standalone">
 			<ChildrenList>
-				<MusicSwitchContainer Name="LeaderMusic_InazumaUZK" ID="{4A020DE0-194F-4274-B04C-B661C8AB2BB5}" ShortID="629069667">
+				<MusicSwitchContainer Name="LeaderMusic_InazumaTVT" ID="{4A020DE0-194F-4274-B04C-B661C8AB2BB5}" ShortID="629069667">
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -552,7 +552,7 @@
 						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
-				<MusicSwitchContainer Name="CivilizationMusic_InazumaUZK" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" ShortID="668259580">
+				<MusicSwitchContainer Name="CivilizationMusic_InazumaTVT" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" ShortID="668259580">
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -2234,7 +2234,7 @@
 						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
-				<MusicSwitchContainer Name="ThemeMusic_InazumaUZK" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" ShortID="712407681">
+				<MusicSwitchContainer Name="ThemeMusic_InazumaTVT" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" ShortID="712407681">
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>

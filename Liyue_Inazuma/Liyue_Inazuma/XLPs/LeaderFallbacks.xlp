@@ -10,12 +10,12 @@
 	<m_PackageName text="LeaderFallbacks"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="FALLBACK_NEUTRAL_KEQING_UZK"/>
-			<m_ObjectName text="FALLBACK_NEUTRAL_KEQING_UZK"/>
+			<m_EntryID text="FALLBACK_NEUTRAL_KEQING_TVT"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_KEQING_TVT"/>
 		</Element>
 		<Element>
-			<m_EntryID text="FALLBACK_NEUTRAL_KAMISATOAYAKA_UZK"/>
-			<m_ObjectName text="FALLBACK_NEUTRAL_KAMISATOAYAKA_UZK"/>
+			<m_EntryID text="FALLBACK_NEUTRAL_KAMISATOAYAKA_TVT"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_KAMISATOAYAKA_TVT"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

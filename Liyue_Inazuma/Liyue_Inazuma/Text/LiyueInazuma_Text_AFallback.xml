@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<Row Tag="LOC_ABILITY_KEQING_UZK_OVERTIME_SHIFT_NAME" Language="en_US">
+		<Row Tag="LOC_ABILITY_KEQING_TVT_OVERTIME_SHIFT_NAME" Language="en_US">
 			<Text>Overtime Shift</Text>
 		</Row>
-		<Row Tag="LOC_ABILITY_KEQING_UZK_OVERTIME_SHIFT_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_ABILITY_KEQING_TVT_OVERTIME_SHIFT_DESCRIPTION" Language="en_US">
 			<Text>Can restore [ICON_Movement] Movement fully after next build action.</Text>
 		</Row>
 		<Row Tag="LOC_AGENDA_LAND_AND_CONSTUCTION_NAME" Language="en_US">
@@ -17,332 +17,332 @@
 			<Text>Keqing is watching your progress on improving your territory</Text>
 		</Row>
 
-		<Row Tag="LOC_DISTRICT_LIYUEHARBORTEYVAT_GOLD" Language="en_US">
+		<Row Tag="LOC_DISTRICT_LIYUEHARBORTVT_GOLD" Language="en_US">
 			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Liyue Harbor district.</Text>
 		</Row>
 
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_CAPSULE_BODY" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_TVT_CHAPTER_CAPSULE_BODY" Language="en_US">
 			<Text>Keqing and workers under her leadership never procrastinate and try to improve every single tile in their empire.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_DETAILED_BODY" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_TVT_CHAPTER_DETAILED_BODY" Language="en_US">
 			<Text>Keqing can improve tiles in their cities with their swift Builders to accelerate development of Liyue, which is essential for all victory paths. Build more Mines, Quarries and Liyue Harbors, and Liyue can earn a large amount of [ICON_Production] Production and [ICON_Gold] Gold through [ICON_TradeRoute] Trade Routes to achieve prosperity.</Text>
 		</Row>
 
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_TVT_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilopedia articles are not translated yet.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_2" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_TVT_CHAPTER_HISTORY_PARA_2" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_3" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_TVT_CHAPTER_HISTORY_PARA_3" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_4" Language="en_US">
-			<Text></Text>
-		</Row>
-
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_5" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_TVT_CHAPTER_HISTORY_PARA_4" Language="en_US">
 			<Text></Text>
 		</Row>
 
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_6" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_TVT_CHAPTER_HISTORY_PARA_5" Language="en_US">
 			<Text></Text>
 		</Row>
 
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_7" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_TVT_CHAPTER_HISTORY_PARA_6" Language="en_US">
 			<Text></Text>
 		</Row>
 
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_8" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_TVT_CHAPTER_HISTORY_PARA_7" Language="en_US">
 			<Text></Text>
 		</Row>
 
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_UZK_CHAPTER_HISTORY_PARA_9" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_TVT_CHAPTER_HISTORY_PARA_8" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_TVT_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TVT_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilopedia articles are not translated yet.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_2" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TVT_CHAPTER_HISTORY_PARA_2" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_3" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TVT_CHAPTER_HISTORY_PARA_3" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_4" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TVT_CHAPTER_HISTORY_PARA_4" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_5" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TVT_CHAPTER_HISTORY_PARA_5" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_6" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TVT_CHAPTER_HISTORY_PARA_6" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_7" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TVT_CHAPTER_HISTORY_PARA_7" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_8" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TVT_CHAPTER_HISTORY_PARA_8" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_9" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TVT_CHAPTER_HISTORY_PARA_9" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_10" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TVT_CHAPTER_HISTORY_PARA_10" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TEYVAT_CHAPTER_HISTORY_PARA_11" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_TVT_CHAPTER_HISTORY_PARA_11" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LIYUE_TEYVAT_MILLELITH_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>Civilopedia articles are not translated yet.</Text>
-		</Row>
-
-		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_LIYUE_TEYVAT_HARBOR_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LIYUE_TVT_MILLELITH_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilopedia articles are not translated yet.</Text>
 		</Row>
 
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_LIYUE_TVT_HARBOR_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
 
-		<Row Tag="LOC_LEADER_KEQING_UZK_QUOTE" Language="en_US">
+
+		<Row Tag="LOC_LEADER_KEQING_TVT_QUOTE" Language="en_US">
 			<Text>If you feel strongly about something, you should speak up and take action. That's the philosophy I live by.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>Great, having another trick up my sleeve gives me more flexibility.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>We don't need a friendship of this kind. We are capable of working through the challenges we face on our own strength.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>Given that Liyue is about to undergo a radical transformation, a favorable environment is in great demand. With you accepting our friendship, I could spare myself a great deal of trouble.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>I have a lot of respect for you. Not everyone has the guts to do right things.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>I'm too forward-thinking, I suppose.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>Alright, so you want to do this the hard way.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>It looks that it's time to make our move. Drop your weapons and surrender immediatly!</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>Not bad, as far as gifts are concerned. Now let's move on to our next work if that's all.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>Gifts? Uh... I still have a handful of things on my to-do list, so I'll receive your delegation once they are done.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>Our delegation have got gifts for you: some seasonal goods, two bolts of fine silk, and Golden Shrimp Balls. The taste of a single ball brings so much joy that all the stress of work just melts away.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>You just poke your nose into everything that's going on for some reason... You baffle me a lot. How exactly do any of your actions contribute to the longevity of your country?</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>Don't you have any principles? Or... maybe being untrustworthy is your principle? (Denounces You)</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>I am Keqing, Yuheng of the Liyue Qixing. We live in an era of change, so join me. Let us bear witness to this historical moment together.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>Liyue is a vast place with abundant resources. Come and visit our city nearby. I will show you around, you deserve to see its rebirth with your own eyes.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>Let's go, time is against us.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>Birds must first possess a yearning for the boundless skies before they have any inclination to try to fly. For me, Liyue is that boundless sky. What is your capital like?</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>I have huge respect for you! When your heart is set on something, you get closer to your goal with each passing day.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>When you drag your heels on one thing, you're actually causing chaos for a whole bunch of other connected issues too. You should never put off until tomorrow what you can do today...</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>The more time we spend together, the more I think that you're the person of my dreams. An alliance with you is a crucial part of my dreams for the new Liyue.</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>Your army is at my borders... They must be moved away at once. Let this be a lesson to those who say "I'll do it later."</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>Right idea, wrong time... I will not go quietly...</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>This deal is of irresistible appeal.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>You always have to seize the opportunity while it's there.</Text>
 		</Row>
 		
-		<Row Tag="LOC_DIPLO_GREETING_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>You are just in time.</Text>
 		</Row>
 		
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>The matter has finally come to an end, but we mustn't lower our guard.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>If we hold here, there's nothing worse to come, right?</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>War would only make us look foolhardy. Let us have peace.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>To think that you would ask me rather than come down here directly... How surprisingly civilized of you.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>Well, for Ningguang... She would talk anything and everything out if she could. But I doubt we can do that here.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_KEQING_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_KEQING_TVT_ANY" Language="en_US">
 			<Text>I'm sorry that I have to move my army through your land. I promise to make this quick.</Text>
 		</Row>
 
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_1" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MALE_1" Language="en_US">
 			<Text>Jiayi</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_2" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MALE_2" Language="en_US">
 			<Text>Hongyi</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_3" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MALE_3" Language="en_US">
 			<Text>Suling</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_4" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MALE_4" Language="en_US">
 			<Text>Yanxiao</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_5" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MALE_5" Language="en_US">
 			<Text>Qiang</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_6" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MALE_6" Language="en_US">
 			<Text>Zhonglin</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_7" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MALE_7" Language="en_US">
 			<Text>Zhihua</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_8" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MALE_8" Language="en_US">
 			<Text>Zhuyu</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_9" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MALE_9" Language="en_US">
 			<Text>Bibo</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MALE_10" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MALE_10" Language="en_US">
 			<Text>Shun</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_1" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_MALE_1" Language="en_US">
 			<Text>Kuan</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_2" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_MALE_2" Language="en_US">
 			<Text>Fengyan</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_3" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_MALE_3" Language="en_US">
 			<Text>Hongru</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_4" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_MALE_4" Language="en_US">
 			<Text>Gui</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_5" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_MALE_5" Language="en_US">
 			<Text>Zhenhai</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_6" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_MALE_6" Language="en_US">
 			<Text>Dongsheng</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_7" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_MALE_7" Language="en_US">
 			<Text>Shitou</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_8" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_MALE_8" Language="en_US">
 			<Text>Xu</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_9" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_MALE_9" Language="en_US">
 			<Text>Degui</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_MALE_10" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_MALE_10" Language="en_US">
 			<Text>Bolai</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_1" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_FEMALE_1" Language="en_US">
 			<Text>Qiming</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_2" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_FEMALE_2" Language="en_US">
 			<Text>Changshun</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_3" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_FEMALE_3" Language="en_US">
 			<Text>Ziwei</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_4" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_FEMALE_4" Language="en_US">
 			<Text>Xiling</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_5" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_FEMALE_5" Language="en_US">
 			<Text>Huixing</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_6" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_FEMALE_6" Language="en_US">
 			<Text>Wuyuan</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_7" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_FEMALE_7" Language="en_US">
 			<Text>Xiuhua</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_8" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_FEMALE_8" Language="en_US">
 			<Text>Yinxing</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_9" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_FEMALE_9" Language="en_US">
 			<Text>Huangshan</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_FEMALE_10" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_FEMALE_10" Language="en_US">
 			<Text>Tiantian</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_1" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_FEMALE_1" Language="en_US">
 			<Text>Baixiao</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_2" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_FEMALE_2" Language="en_US">
 			<Text>Yu</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_3" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_FEMALE_3" Language="en_US">
 			<Text>Jifang</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_4" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_FEMALE_4" Language="en_US">
 			<Text>Ruoxin</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_5" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_FEMALE_5" Language="en_US">
 			<Text>Gongming</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_6" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_FEMALE_6" Language="en_US">
 			<Text>Linlang</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_7" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_FEMALE_7" Language="en_US">
 			<Text>Luoxia</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_8" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_FEMALE_8" Language="en_US">
 			<Text>Huixin</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_9" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_FEMALE_9" Language="en_US">
 			<Text>Xingxi</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_TEYVAT_MODERN_FEMALE_10" Language="en_US">
+		<Row Tag="LOC_CITIZEN_LIYUE_TVT_MODERN_FEMALE_10" Language="en_US">
 			<Text>Yueshu</Text>
 		</Row>
 		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE"  Text="Liyue"/>
@@ -381,139 +381,139 @@
 		<Row Language="en_US" Tag="LOC_NAMED_MOUNTAIN_THE_CHASM_NAME" Text="The Chasm"/>
 		<Row Language="en_US" Tag="LOC_NAMED_RIVER_BISHUI_RIVER_NAME" Text="Bishui River"/>
 		<Row Language="en_US" Tag="LOC_NAMED_SEA_SEA_OF_CLOUDS_NAME" Text="Sea of Clouds"/>
-		<Row Tag="LOC_ABILITY_LIYUE_TEYVAT_MILLELITH_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_ABILITY_LIYUE_TVT_MILLELITH_DESCRIPTION" Language="en_US">
 			<Text>Faster [ICON_Movement] Movement on Hill terrain. Receives double Great General bonus.</Text>
 		</Row>
-		<Row Tag="LOC_CIVINFO_LIYUE_TEYVAT_LOCATION" Language="en_US">
+		<Row Tag="LOC_CIVINFO_LIYUE_TVT_LOCATION" Language="en_US">
 			<Text>Teyvat</Text>
 		</Row>
-		<Row Tag="LOC_CIVINFO_LIYUE_TEYVAT_SIZE" Language="en_US">
+		<Row Tag="LOC_CIVINFO_LIYUE_TVT_SIZE" Language="en_US">
 			<Text>Tens of square kilometers</Text>
 		</Row>
-		<Row Tag="LOC_CIVINFO_LIYUE_TEYVAT_POPULATION" Language="en_US">
+		<Row Tag="LOC_CIVINFO_LIYUE_TVT_POPULATION" Language="en_US">
 			<Text>Tens of thousands to millions or so</Text>
 		</Row>
-		<Row Tag="LOC_CIVINFO_LIYUE_TEYVAT_CAPITAL" Language="en_US">
+		<Row Tag="LOC_CIVINFO_LIYUE_TVT_CAPITAL" Language="en_US">
 			<Text>Liyue Harbor</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_1" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MALE_1" Language="en_US">
 			<Text>Kouichi</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_2" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MALE_2" Language="en_US">
 			<Text>Tomoki</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_3" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MALE_3" Language="en_US">
 			<Text>Kyounosuke</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_4" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MALE_4" Language="en_US">
 			<Text>Nobumori</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_5" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MALE_5" Language="en_US">
 			<Text>Nakanishi</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_6" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MALE_6" Language="en_US">
 			<Text>Tokunaga</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_7" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MALE_7" Language="en_US">
 			<Text>Genichirou</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_8" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MALE_8" Language="en_US">
 			<Text>Hajime</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_9" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MALE_9" Language="en_US">
 			<Text>Ryuuji</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MALE_10" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MALE_10" Language="en_US">
 			<Text>Shigeru</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_1" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_MALE_1" Language="en_US">
 			<Text>Junkichi</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_2" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_MALE_2" Language="en_US">
 			<Text>Shouta</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_3" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_MALE_3" Language="en_US">
 			<Text>Yukio</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_4" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_MALE_4" Language="en_US">
 			<Text>Junpei</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_5" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_MALE_5" Language="en_US">
 			<Text>Taisuke</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_6" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_MALE_6" Language="en_US">
 			<Text>Hiroyuki</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_7" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_MALE_7" Language="en_US">
 			<Text>Masaoki</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_8" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_MALE_8" Language="en_US">
 			<Text>Souzen</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_9" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_MALE_9" Language="en_US">
 			<Text>Tomohide</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_MALE_10" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_MALE_10" Language="en_US">
 			<Text>Noboru</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_1" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_FEMALE_1" Language="en_US">
 			<Text>Midori</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_2" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_FEMALE_2" Language="en_US">
 			<Text>Nanako</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_3" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_FEMALE_3" Language="en_US">
 			<Text>Aratani</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_4" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_FEMALE_4" Language="en_US">
 			<Text>Toshiko</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_5" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_FEMALE_5" Language="en_US">
 			<Text>Eiko</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_6" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_FEMALE_6" Language="en_US">
 			<Text>Kozue</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_7" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_FEMALE_7" Language="en_US">
 			<Text>Mio</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_8" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_FEMALE_8" Language="en_US">
 			<Text>Nanatsuki</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_9" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_FEMALE_9" Language="en_US">
 			<Text>Eri</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_FEMALE_10" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_FEMALE_10" Language="en_US">
 			<Text>Hotomi</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_1" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_FEMALE_1" Language="en_US">
 			<Text>Kiyoko</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_2" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_FEMALE_2" Language="en_US">
 			<Text>Maki</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_3" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_FEMALE_3" Language="en_US">
 			<Text>Mirai</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_4" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_FEMALE_4" Language="en_US">
 			<Text>Momoko</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_5" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_FEMALE_5" Language="en_US">
 			<Text>Naki</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_6" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_FEMALE_6" Language="en_US">
 			<Text>Mochizuki</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_7" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_FEMALE_7" Language="en_US">
 			<Text>Rie</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_8" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_FEMALE_8" Language="en_US">
 			<Text>Aoi</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_9" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_FEMALE_9" Language="en_US">
 			<Text>Akane</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_INAZUMA_TEYVAT_MODERN_FEMALE_10" Language="en_US">
+		<Row Tag="LOC_CITIZEN_INAZUMA_TVT_MODERN_FEMALE_10" Language="en_US">
 			<Text>Kanra</Text>
 		</Row>
 		<Row Language="en_US" Tag="LOC_CITY_NAME_INAZUMA"  Text="Inazuma"/>
@@ -547,194 +547,194 @@
 		<Row Language="en_US" Tag="LOC_CITY_NAME_SHIRIKORO_PEAK" Text="Shirikoro Peak"/>
 		<Row Language="en_US" Tag="LOC_CITY_NAME_ENKANOMIYA" Text="Enkanomiya"/>
 		
-		<Row Tag="LOC_LOADING_INFO_LEADER_KAMISATO_AYAKA_UZK" Language="en_US">
+		<Row Tag="LOC_LOADING_INFO_LEADER_KAMISATO_AYAKA_TVT" Language="en_US">
 			<Text>Daughter of Kamisato Clan, you heart is as pure as crystallized ice. You hold the people of Inazuma dear to your heart, and are greatly admired by them. If you keep earnest and take care of the most troublesome matters perfectly, you are sure to build a realm of eternal euthymia that constantly progresses.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>It has been richly rewarding to learn from you so far, and I consider you to be my friends.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>Please forgive my lack of courtesy for rejecting you.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>You are kind and well-mannered... not to mention trustworthy. I hope we can be friends - if you don't mind, of course.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>I see you as a friend, and it would only be fair to be open and honest with you.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>Sorry for the pointless chatter.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>A worthy opponent... I will not stand for this.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>I must make this decision... My apologies.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>Thank you for the opportunity to receive your offerings. I will always savor them.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>It could be considered improper etiquette to receive your delegation rashly.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>We have sent you a delegation with gifts of new outfits. How you would feel about the idea of dressing in Inazuman attire?</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>So rude...</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>The people's aspirations are being senselessly trampled underfoot under your leadership. (Denounces You)</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>Master of Inazuma Kamisato Art Tachi Jutsu — Kamisato Ayaka. Delighted to make your acquaintance.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>If you've got time, shall we take a walk to our city nearby? To chat about the art of tea on a pleasant day like this seems like the sophisticated thing to do.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>My pleasure.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>I would very much like to exchange information about our capitals. Could I trouble you to give me some guidance on local customs and etiquette?</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>Thunders, lightnings, storms and deluges take place with no regard for the feelings of the common people. But I believe that surely you understand them.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>A commission's power rises and falls with the trust of their people. Thus, we cannot remain indifferent to such a situation.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>I am sure that you do indeed possess the power to change the tide of the times. Please lend us your power.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>I don't think nothing happened at my borders. Did it?</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>I have dishonored... our clan...</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>I shall treasure this good fortune.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>Unthinkable...</Text>
 		</Row>
 		
-		<Row Tag="LOC_DIPLO_GREETING_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>A pleasure to meet you.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>I shall treasure this good fortune.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>This cannot happen. I must fight for my people!</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>There are some other matters I wish to attend to... Then a peace would be welcome.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>I'm afraid I can't intervene in your conflicts... but I can still allow you to pass through.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>No, no, that will never do.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_KAMISATO_AYAKA_UZK_ANY" Language="en_US">
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_KAMISATO_AYAKA_TVT_ANY" Language="en_US">
 			<Text>I have one request. Could you let my people pass through your lands?</Text>
 		</Row>
 
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_CAPSULE_BODY" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_TVT_CHAPTER_CAPSULE_BODY" Language="en_US">
 			<Text>Kamisato Ayaka is the Shirasagi Himegimi greatly admired by her people. She dedicates to cultural events in Inazuma and happiness of her citizens.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_DETAILED_BODY" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_TVT_CHAPTER_DETAILED_BODY" Language="en_US">
 			<Text>Inazuma needs to keep citizens Ecstatic to maximize [ICON_Science] Science and [ICON_Culture] Culture output of cities. Under Kamisato Ayaka's leadership, they can build Entertainment Complexes and the Yashiro Commission unique building to help them achieve this. For Inazuma, it might be not a good choice to found a city far away. Instead, they priotize development of cities near the Triarchal Council or with [ICON_Governor] Governors. Inazuma is not good at winning a Domination Victory, but is especially strong for a Culture Victory and other victory paths.</Text>
 		</Row>
 
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_TVT_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilopedia articles are not translated yet.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_HISTORY_PARA_2" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_TVT_CHAPTER_HISTORY_PARA_2" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_HISTORY_PARA_3" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_TVT_CHAPTER_HISTORY_PARA_3" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_HISTORY_PARA_4" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_TVT_CHAPTER_HISTORY_PARA_4" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_HISTORY_PARA_5" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_TVT_CHAPTER_HISTORY_PARA_5" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_HISTORY_PARA_6" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_TVT_CHAPTER_HISTORY_PARA_6" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_UZK_CHAPTER_HISTORY_PARA_7" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KAMISATO_AYAKA_TVT_CHAPTER_HISTORY_PARA_7" Language="en_US">
 			<Text></Text>
 		</Row>		
 
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TVT_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilopedia articles are not translated yet.</Text>
 		</Row>
 
 		<!--2000 years or so before the Traveler's arrival, the twin gods Raiden Makoto and Raiden Ei unified the Inazuma region. Ei, although the stronger fighter, believed Makoto to be better-suited for the role of Archon and sacrificed her body so Makoto can become the Electro Archon. Makoto used her new powers to reforge Ei's body, and Ei becomes her kagemusha (body double).-->
 
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_2" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TVT_CHAPTER_HISTORY_PARA_2" Language="en_US">
 			<Text></Text>
 		</Row>
 
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_3" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TVT_CHAPTER_HISTORY_PARA_3" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_4" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TVT_CHAPTER_HISTORY_PARA_4" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_5" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TVT_CHAPTER_HISTORY_PARA_5" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_6" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TVT_CHAPTER_HISTORY_PARA_6" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_7" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TVT_CHAPTER_HISTORY_PARA_7" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_8" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TVT_CHAPTER_HISTORY_PARA_8" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_9" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TVT_CHAPTER_HISTORY_PARA_9" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_10" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TVT_CHAPTER_HISTORY_PARA_10" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TEYVAT_CHAPTER_HISTORY_PARA_11" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_INAZUMA_TVT_CHAPTER_HISTORY_PARA_11" Language="en_US">
 			<Text></Text>
 		</Row>
 		<!-- Ei officially takes up the position of Electro Archon after Makoto's death. As she was Makoto's kagemusha and adopted Makoto's titles as her own, most are unaware of the original Archon's death. Disillusioned with Celestia after witnessing the events at Khaenri'ah, and in her grief on the losses she sustained over the course of the cataclysm, Ei decides to attain "eternity" by creating a puppet in her likeness. Ei ultimately creates a puppet known simply as "the Shogun," intended to rule Inazuma based on the guidelines for "eternity" she had set. 
@@ -771,7 +771,7 @@
 			<Text>The Yashiro Commission, which is led by the Kamisato Clan, is one of the three organizations that comprise the Inazuman Tri-Commission. They are in charge of managing shrines, festivals, and cultural events. Due to this, they do not have as much influence compared to the Kanjou and Tenryou Commissions. Their duties mostly fall under civilian affairs, so soldiers from the Shogun's Army assigned to the Yashiro Commission are fairly relaxed compared to those in the latter two. The Yashiro Commission also control the Shuumatsuban, a clandestine organization of ninjas specializing in tasks such as information gathering. As Ayato, the head of the Kamisato Clan, turned down the Fatui's offer for cooperation with their plot against Inazuma, the Yashiro Commission was mostly unaffected by the events caused by the arrival of the Traveler. As a result, the Yashiro Commission has gained slightly more influence and sympathy.</Text>
 		</Row>
 
-		<Row Tag="LOC_LEADER_KAMISATO_AYAKA_UZK_QUOTE" Language="en_US">
+		<Row Tag="LOC_LEADER_KAMISATO_AYAKA_TVT_QUOTE" Language="en_US">
 			<Text>A blade embraces its duty as a jeweler cherishes their gems.</Text>
 		</Row>
 
@@ -820,16 +820,16 @@
 			<Text>+{1_num} [ICON_Science] Science from the adjacent Triarchal Council district.</Text>
 		</Row>
 
-		<Row Tag="LOC_CIVINFO_INAZUMA_TEYVAT_LOCATION" Language="en_US">
+		<Row Tag="LOC_CIVINFO_INAZUMA_TVT_LOCATION" Language="en_US">
 			<Text>Teyvat</Text>
 		</Row>
-		<Row Tag="LOC_CIVINFO_INAZUMA_TEYVAT_SIZE" Language="en_US">
+		<Row Tag="LOC_CIVINFO_INAZUMA_TVT_SIZE" Language="en_US">
 			<Text>Tens of square kilometers</Text>
 		</Row>
-		<Row Tag="LOC_CIVINFO_INAZUMA_TEYVAT_POPULATION" Language="en_US">
+		<Row Tag="LOC_CIVINFO_INAZUMA_TVT_POPULATION" Language="en_US">
 			<Text>Tens of thousands to millions or so</Text>
 		</Row>
-		<Row Tag="LOC_CIVINFO_INAZUMA_TEYVAT_CAPITAL" Language="en_US">
+		<Row Tag="LOC_CIVINFO_INAZUMA_TVT_CAPITAL" Language="en_US">
 			<Text>Inazuma City</Text>
 		</Row>
 

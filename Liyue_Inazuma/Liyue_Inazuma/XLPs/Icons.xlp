@@ -10,140 +10,140 @@
 	<m_PackageName text="UI/Icons"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="InazumaTeyvat128"/>
-			<m_ObjectName text="InazumaTeyvat128"/>
+			<m_EntryID text="InazumaTVT128"/>
+			<m_ObjectName text="InazumaTVT128"/>
 		</Element>
 		<Element>
-			<m_EntryID text="InazumaTeyvat200"/>
-			<m_ObjectName text="InazumaTeyvat200"/>
+			<m_EntryID text="InazumaTVT200"/>
+			<m_ObjectName text="InazumaTVT200"/>
 		</Element>
 		<Element>
-			<m_EntryID text="InazumaTeyvat22"/>
-			<m_ObjectName text="InazumaTeyvat22"/>
+			<m_EntryID text="InazumaTVT22"/>
+			<m_ObjectName text="InazumaTVT22"/>
 		</Element>
 		<Element>
-			<m_EntryID text="InazumaTeyvat256"/>
-			<m_ObjectName text="InazumaTeyvat256"/>
+			<m_EntryID text="InazumaTVT256"/>
+			<m_ObjectName text="InazumaTVT256"/>
 		</Element>
 		<Element>
-			<m_EntryID text="InazumaTeyvat30"/>
-			<m_ObjectName text="InazumaTeyvat30"/>
+			<m_EntryID text="InazumaTVT30"/>
+			<m_ObjectName text="InazumaTVT30"/>
 		</Element>
 		<Element>
-			<m_EntryID text="InazumaTeyvat32"/>
-			<m_ObjectName text="InazumaTeyvat32"/>
+			<m_EntryID text="InazumaTVT32"/>
+			<m_ObjectName text="InazumaTVT32"/>
 		</Element>
 		<Element>
-			<m_EntryID text="InazumaTeyvat36"/>
-			<m_ObjectName text="InazumaTeyvat36"/>
+			<m_EntryID text="InazumaTVT36"/>
+			<m_ObjectName text="InazumaTVT36"/>
 		</Element>
 		<Element>
-			<m_EntryID text="InazumaTeyvat44"/>
-			<m_ObjectName text="InazumaTeyvat44"/>
+			<m_EntryID text="InazumaTVT44"/>
+			<m_ObjectName text="InazumaTVT44"/>
 		</Element>
 		<Element>
-			<m_EntryID text="InazumaTeyvat45"/>
-			<m_ObjectName text="InazumaTeyvat45"/>
+			<m_EntryID text="InazumaTVT45"/>
+			<m_ObjectName text="InazumaTVT45"/>
 		</Element>
 		<Element>
-			<m_EntryID text="InazumaTeyvat48"/>
-			<m_ObjectName text="InazumaTeyvat48"/>
+			<m_EntryID text="InazumaTVT48"/>
+			<m_ObjectName text="InazumaTVT48"/>
 		</Element>
 		<Element>
-			<m_EntryID text="InazumaTeyvat50"/>
-			<m_ObjectName text="InazumaTeyvat50"/>
+			<m_EntryID text="InazumaTVT50"/>
+			<m_ObjectName text="InazumaTVT50"/>
 		</Element>
 		<Element>
-			<m_EntryID text="InazumaTeyvat64"/>
-			<m_ObjectName text="InazumaTeyvat64"/>
+			<m_EntryID text="InazumaTVT64"/>
+			<m_ObjectName text="InazumaTVT64"/>
 		</Element>
 		<Element>
-			<m_EntryID text="InazumaTeyvat80"/>
-			<m_ObjectName text="InazumaTeyvat80"/>
+			<m_EntryID text="InazumaTVT80"/>
+			<m_ObjectName text="InazumaTVT80"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LiyueTeyvat128"/>
-			<m_ObjectName text="LiyueTeyvat128"/>
+			<m_EntryID text="LiyueTVT128"/>
+			<m_ObjectName text="LiyueTVT128"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LiyueTeyvat200"/>
-			<m_ObjectName text="LiyueTeyvat200"/>
+			<m_EntryID text="LiyueTVT200"/>
+			<m_ObjectName text="LiyueTVT200"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LiyueTeyvat22"/>
-			<m_ObjectName text="LiyueTeyvat22"/>
+			<m_EntryID text="LiyueTVT22"/>
+			<m_ObjectName text="LiyueTVT22"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LiyueTeyvat256"/>
-			<m_ObjectName text="LiyueTeyvat256"/>
+			<m_EntryID text="LiyueTVT256"/>
+			<m_ObjectName text="LiyueTVT256"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LiyueTeyvat30"/>
-			<m_ObjectName text="LiyueTeyvat30"/>
+			<m_EntryID text="LiyueTVT30"/>
+			<m_ObjectName text="LiyueTVT30"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LiyueTeyvat32"/>
-			<m_ObjectName text="LiyueTeyvat32"/>
+			<m_EntryID text="LiyueTVT32"/>
+			<m_ObjectName text="LiyueTVT32"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LiyueTeyvat36"/>
-			<m_ObjectName text="LiyueTeyvat36"/>
+			<m_EntryID text="LiyueTVT36"/>
+			<m_ObjectName text="LiyueTVT36"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LiyueTeyvat44"/>
-			<m_ObjectName text="LiyueTeyvat44"/>
+			<m_EntryID text="LiyueTVT44"/>
+			<m_ObjectName text="LiyueTVT44"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LiyueTeyvat45"/>
-			<m_ObjectName text="LiyueTeyvat45"/>
+			<m_EntryID text="LiyueTVT45"/>
+			<m_ObjectName text="LiyueTVT45"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LiyueTeyvat48"/>
-			<m_ObjectName text="LiyueTeyvat48"/>
+			<m_EntryID text="LiyueTVT48"/>
+			<m_ObjectName text="LiyueTVT48"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LiyueTeyvat50"/>
-			<m_ObjectName text="LiyueTeyvat50"/>
+			<m_EntryID text="LiyueTVT50"/>
+			<m_ObjectName text="LiyueTVT50"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LiyueTeyvat64"/>
-			<m_ObjectName text="LiyueTeyvat64"/>
+			<m_EntryID text="LiyueTVT64"/>
+			<m_ObjectName text="LiyueTVT64"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LiyueTeyvat80"/>
-			<m_ObjectName text="LiyueTeyvat80"/>
+			<m_EntryID text="LiyueTVT80"/>
+			<m_ObjectName text="LiyueTVT80"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LeaderKeqingUZK256"/>
-			<m_ObjectName text="LeaderKeqingUZK256"/>
+			<m_EntryID text="LeaderKeqingTVT256"/>
+			<m_ObjectName text="LeaderKeqingTVT256"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LeaderKeqingUZK32"/>
-			<m_ObjectName text="LeaderKeqingUZK32"/>
+			<m_EntryID text="LeaderKeqingTVT32"/>
+			<m_ObjectName text="LeaderKeqingTVT32"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LeaderKeqingUZK45"/>
-			<m_ObjectName text="LeaderKeqingUZK45"/>
+			<m_EntryID text="LeaderKeqingTVT45"/>
+			<m_ObjectName text="LeaderKeqingTVT45"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LeaderKeqingUZK48"/>
-			<m_ObjectName text="LeaderKeqingUZK48"/>
+			<m_EntryID text="LeaderKeqingTVT48"/>
+			<m_ObjectName text="LeaderKeqingTVT48"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LeaderKeqingUZK50"/>
-			<m_ObjectName text="LeaderKeqingUZK50"/>
+			<m_EntryID text="LeaderKeqingTVT50"/>
+			<m_ObjectName text="LeaderKeqingTVT50"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LeaderKeqingUZK55"/>
-			<m_ObjectName text="LeaderKeqingUZK55"/>
+			<m_EntryID text="LeaderKeqingTVT55"/>
+			<m_ObjectName text="LeaderKeqingTVT55"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LeaderKeqingUZK64"/>
-			<m_ObjectName text="LeaderKeqingUZK64"/>
+			<m_EntryID text="LeaderKeqingTVT64"/>
+			<m_ObjectName text="LeaderKeqingTVT64"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LeaderKeqingUZK80"/>
-			<m_ObjectName text="LeaderKeqingUZK80"/>
+			<m_EntryID text="LeaderKeqingTVT80"/>
+			<m_ObjectName text="LeaderKeqingTVT80"/>
 		</Element>
 		<Element>
 			<m_EntryID text="Millelith22"/>
@@ -170,36 +170,36 @@
 			<m_ObjectName text="Millelith80"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LeaderKamisatoAyakaUZK256"/>
-			<m_ObjectName text="LeaderKamisatoAyakaUZK256"/>
+			<m_EntryID text="LeaderKamisatoAyakaTVT256"/>
+			<m_ObjectName text="LeaderKamisatoAyakaTVT256"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LeaderKamisatoAyakaUZK32"/>
-			<m_ObjectName text="LeaderKamisatoAyakaUZK32"/>
+			<m_EntryID text="LeaderKamisatoAyakaTVT32"/>
+			<m_ObjectName text="LeaderKamisatoAyakaTVT32"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LeaderKamisatoAyakaUZK45"/>
-			<m_ObjectName text="LeaderKamisatoAyakaUZK45"/>
+			<m_EntryID text="LeaderKamisatoAyakaTVT45"/>
+			<m_ObjectName text="LeaderKamisatoAyakaTVT45"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LeaderKamisatoAyakaUZK48"/>
-			<m_ObjectName text="LeaderKamisatoAyakaUZK48"/>
+			<m_EntryID text="LeaderKamisatoAyakaTVT48"/>
+			<m_ObjectName text="LeaderKamisatoAyakaTVT48"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LeaderKamisatoAyakaUZK50"/>
-			<m_ObjectName text="LeaderKamisatoAyakaUZK50"/>
+			<m_EntryID text="LeaderKamisatoAyakaTVT50"/>
+			<m_ObjectName text="LeaderKamisatoAyakaTVT50"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LeaderKamisatoAyakaUZK55"/>
-			<m_ObjectName text="LeaderKamisatoAyakaUZK55"/>
+			<m_EntryID text="LeaderKamisatoAyakaTVT55"/>
+			<m_ObjectName text="LeaderKamisatoAyakaTVT55"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LeaderKamisatoAyakaUZK64"/>
-			<m_ObjectName text="LeaderKamisatoAyakaUZK64"/>
+			<m_EntryID text="LeaderKamisatoAyakaTVT64"/>
+			<m_ObjectName text="LeaderKamisatoAyakaTVT64"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LeaderKamisatoAyakaUZK80"/>
-			<m_ObjectName text="LeaderKamisatoAyakaUZK80"/>
+			<m_EntryID text="LeaderKamisatoAyakaTVT80"/>
+			<m_ObjectName text="LeaderKamisatoAyakaTVT80"/>
 		</Element>
 		<Element>
 			<m_EntryID text="Ashigaru22"/>

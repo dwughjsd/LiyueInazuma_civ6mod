@@ -10,24 +10,24 @@
 	<m_PackageName text="UI/PrideMoments"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="Moment_Infrastructure_LiyueTeyvat"/>
-			<m_ObjectName text="Moment_Infrastructure_LiyueTeyvat"/>
+			<m_EntryID text="Moment_Infrastructure_LiyueTVT"/>
+			<m_ObjectName text="Moment_Infrastructure_LiyueTVT"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Moment_UniqueUnit_LiyueTeyvat"/>
-			<m_ObjectName text="Moment_UniqueUnit_LiyueTeyvat"/>
+			<m_EntryID text="Moment_UniqueUnit_LiyueTVT"/>
+			<m_ObjectName text="Moment_UniqueUnit_LiyueTVT"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Moment_Infrastructure_InazumaTeyvat"/>
-			<m_ObjectName text="Moment_Infrastructure_InazumaTeyvat"/>
+			<m_EntryID text="Moment_Infrastructure_InazumaTVT"/>
+			<m_ObjectName text="Moment_Infrastructure_InazumaTVT"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Moment_Infrastructure_InazumaTeyvat_ShaCommission"/>
-			<m_ObjectName text="Moment_Infrastructure_InazumaTeyvat_ShaCommission"/>
+			<m_EntryID text="Moment_Infrastructure_InazumaTVT_ShaCommission"/>
+			<m_ObjectName text="Moment_Infrastructure_InazumaTVT_ShaCommission"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Moment_UniqueUnit_InazumaTeyvat"/>
-			<m_ObjectName text="Moment_UniqueUnit_InazumaTeyvat"/>
+			<m_EntryID text="Moment_UniqueUnit_InazumaTVT"/>
+			<m_ObjectName text="Moment_UniqueUnit_InazumaTVT"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

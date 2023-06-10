@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<Row Tag="LOC_CIVILIZATION_LIYUE_TEYVAT_NAME" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_LIYUE_TVT_NAME" Language="en_US">
 			<Text>Liyue</Text>
 		</Row>
-		<Row Tag="LOC_CIVILIZATION_LIYUE_TEYVAT_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_LIYUE_TVT_DESCRIPTION" Language="en_US">
 			<Text>Liyue Empire</Text>
 		</Row>
-		<Row Tag="LOC_CIVILIZATION_LIYUE_TEYVAT_ADJECTIVE" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_LIYUE_TVT_ADJECTIVE" Language="en_US">
 			<Text>Liyue</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_TEYVAT_STONE_AND_CONTRACTS_NAME" Language="en_US">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_TVT_STONE_AND_CONTRACTS_NAME" Language="en_US">
 			<Text>Harbor of Stone and Contracts</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_TEYVAT_STONE_AND_CONTRACTS_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_TVT_STONE_AND_CONTRACTS_DESCRIPTION" Language="en_US">
 			<Text>Begin the game with the Mining technology unlocked. Your outgoing [ICON_TradeRoute] Trade Routes grant +1 [ICON_Production] Production to Liyue per Mine at the destination. [ICON_TradeRoute] Trade Routes sent to your cities grant +2 [ICON_Gold] Gold to Liyue per Quarry at the destination.</Text>
 		</Row>
-		<Row Tag="LOC_DISTRICT_LIYUE_TEYVAT_HARBOR_NAME" Language="en_US">
+		<Row Tag="LOC_DISTRICT_LIYUE_TVT_HARBOR_NAME" Language="en_US">
 			<Text>Liyue Harbor</Text>
 		</Row>
-		<Row Tag="LOC_DISTRICT_LIYUE_TEYVAT_HARBOR_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_DISTRICT_LIYUE_TVT_HARBOR_DESCRIPTION" Language="en_US">
 			<Text>A district unique to Liyue for naval activity in your city. Replaces the Harbor district and cheaper to build. Lighthouse grants +1 [ICON_TradeRoute] Trade Route capacity even if this city has a Market. Traders are 50% cheaper to purchase in this city.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_LIYUE_TEYVAT_MILLELITH_NAME" Language="en_US">
+		<Row Tag="LOC_UNIT_LIYUE_TVT_MILLELITH_NAME" Language="en_US">
 			<Text>Millelith</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_LIYUE_TEYVAT_MILLELITH_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_UNIT_LIYUE_TVT_MILLELITH_DESCRIPTION" Language="en_US">
 			<Text>Liyue unique Classical era melee unit that replaces the Swordsman. Stronger than the Swordsman. Unlocked by Military Training. Faster [ICON_Movement] Movement on Hill terrain. Receives double Great General bonus.</Text>
 		</Row>
-		<Row Tag="LOC_LEADER_KEQING_UZK_NAME" Language="en_US">
+		<Row Tag="LOC_LEADER_KEQING_TVT_NAME" Language="en_US">
 			<Text>Keqing</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER_NAME" Language="en_US">
@@ -37,20 +37,20 @@
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER_DESCRIPTION" Language="en_US">
 			<Text>Units can immediately move after purchase. Builders and Military Engineers have their [ICON_Movement] Movement fully restored after taking a building action once per turn.</Text>
 		</Row>
-		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING_UZK" Language="en_US">
+		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING_TVT" Language="en_US">
 			<Text>Keqing, Yuheng of the Liyue Qixing, the future of Liyue lies in your hands. You are a role model for your people, and make your decisions as fast as nimble lightning. Under your leadership, your people shall rewrite the order that has existed for millennia and replace the old gods as the masters of your own universe. Stand at the cutting edge of the time, create new paths with your own hands, and forge your ideas into actions.</Text>
 		</Row>
 
-		<Row Tag="LOC_CIVILIZATION_INAZUMA_TEYVAT_NAME" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_INAZUMA_TVT_NAME" Language="en_US">
 			<Text>Inazuma</Text>
 		</Row>
-		<Row Tag="LOC_CIVILIZATION_INAZUMA_TEYVAT_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_INAZUMA_TVT_DESCRIPTION" Language="en_US">
 			<Text>Inazuman Empire</Text>
 		</Row>
-		<Row Tag="LOC_CIVILIZATION_INAZUMA_TEYVAT_ADJECTIVE" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_INAZUMA_TVT_ADJECTIVE" Language="en_US">
 			<Text>Inazuman</Text>
 		</Row>
-		<Row Tag="LOC_LEADER_KAMISATO_AYAKA_UZK_NAME" Language="en_US">
+		<Row Tag="LOC_LEADER_KAMISATO_AYAKA_TVT_NAME" Language="en_US">
 			<Text>Kamisato Ayaka</Text>
 		</Row>
 

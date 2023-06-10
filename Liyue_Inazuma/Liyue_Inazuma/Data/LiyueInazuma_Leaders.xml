@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="LEADER_KEQING_UZK" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_KEQING_TVT" Kind="KIND_LEADER"/>
 		<Row Type="TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_LAND_AND_CONSTUCTION" Kind="KIND_TRAIT"/>
-		<Row Type="LEADER_KAMISATO_AYAKA_UZK" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_KAMISATO_AYAKA_TVT" Kind="KIND_LEADER"/>
 		<Row Type="TRAIT_LEADER_SHIRASAGI_HIMEGIMI" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_FROSTFLAKE_HERON" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_BUILDING_SHA_COMMISSION" Kind="KIND_TRAIT"/>
 	</Types>
 	<Leaders>
 		<Row>
-			<LeaderType>LEADER_KEQING_UZK</LeaderType>
-			<Name>LOC_LEADER_KEQING_UZK_NAME</Name>
+			<LeaderType>LEADER_KEQING_TVT</LeaderType>
+			<Name>LOC_LEADER_KEQING_TVT_NAME</Name>
 			<SceneLayers>4</SceneLayers>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 			<Sex>Female</Sex>
 		</Row>
 		<Row>
-			<LeaderType>LEADER_KAMISATO_AYAKA_UZK</LeaderType>
-			<Name>LOC_LEADER_KAMISATO_AYAKA_UZK_NAME</Name>
+			<LeaderType>LEADER_KAMISATO_AYAKA_TVT</LeaderType>
+			<Name>LOC_LEADER_KAMISATO_AYAKA_TVT_NAME</Name>
 			<SceneLayers>4</SceneLayers>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 			<Sex>Female</Sex>
@@ -27,11 +27,11 @@
 	</Leaders>
 
 	<LeaderTraits>
-		<Row LeaderType="LEADER_KEQING_UZK" TraitType="TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER"/>
-		<Row LeaderType="LEADER_KEQING_UZK" TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>
-		<Row LeaderType="LEADER_KAMISATO_AYAKA_UZK" TraitType="TRAIT_LEADER_SHIRASAGI_HIMEGIMI"/>
-		<Row LeaderType="LEADER_KAMISATO_AYAKA_UZK" TraitType="TRAIT_LEADER_BUILDING_SHA_COMMISSION"/>		
-		<Row LeaderType="LEADER_KAMISATO_AYAKA_UZK" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>
+		<Row LeaderType="LEADER_KEQING_TVT" TraitType="TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER"/>
+		<Row LeaderType="LEADER_KEQING_TVT" TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>
+		<Row LeaderType="LEADER_KAMISATO_AYAKA_TVT" TraitType="TRAIT_LEADER_SHIRASAGI_HIMEGIMI"/>
+		<Row LeaderType="LEADER_KAMISATO_AYAKA_TVT" TraitType="TRAIT_LEADER_BUILDING_SHA_COMMISSION"/>		
+		<Row LeaderType="LEADER_KAMISATO_AYAKA_TVT" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>
 	</LeaderTraits>
 
 	<Traits>
@@ -71,7 +71,7 @@
 		<Row>
 			<ModifierId>TRAIT_SHIRASAGI_HIMEGIMI_GREAT_PERSON_POINT_BONUS</ModifierId>
 			<ModifierType>MODIFIER_CITY_INCREASE_GREAT_PERSON_POINT_BONUS</ModifierType>
-			<SubjectRequirementSetId>PLAYER_IS_KAMISATO_AYAKA_UZK</SubjectRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_KAMISATO_AYAKA_TVT</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_FROSTFLAKE_HERON_HIGH_AMENITIES</ModifierId>
@@ -109,7 +109,7 @@
 		<Row>
 			<ModifierId>TRAIT_DRIVING_THUNDER_OVERTIME_GRANT</ModifierId>
 			<Name>AbilityType</Name>
-			<Value>ABILITY_KEQING_UZK_OVERTIME_SHIFT</Value>
+			<Value>ABILITY_KEQING_TVT_OVERTIME_SHIFT</Value>
 		</Row>		
 		<Row>
 			<ModifierId>AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER</ModifierId>
@@ -124,7 +124,7 @@
 		<Row>
 			<ModifierId>AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER</ModifierId>
 			<Name>StatementKey</Name>
-			<Value>LOC_DIPLO_KUDO_EXIT_LEADER_KEQING_UZK_ANY</Value>
+			<Value>LOC_DIPLO_KUDO_EXIT_LEADER_KEQING_TVT_ANY</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_LAND_AND_CONSTUCTION_EXPLOITATION_MODIFIER</ModifierId>
@@ -197,7 +197,7 @@
 		<Row>
 			<ModifierId>AGENDA_FROSTFLAKE_HERON_HIGH_AMENITIES</ModifierId>
 			<Name>StatementKey</Name>
-			<Value>LOC_DIPLO_KUDO_LEADER_KAMISATO_AYAKA_UZK_REASON_ANY</Value>
+			<Value>LOC_DIPLO_KUDO_LEADER_KAMISATO_AYAKA_TVT_REASON_ANY</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_FROSTFLAKE_HERON_HIGH_AMENITIES</ModifierId>
@@ -212,7 +212,7 @@
 		<Row>
 			<ModifierId>AGENDA_FROSTFLAKE_HERON_LOW_AMENITIES</ModifierId>
 			<Name>StatementKey</Name>
-			<Value>LOC_DIPLO_WARNING_LEADER_KAMISATO_AYAKA_UZK_REASON_ANY</Value>
+			<Value>LOC_DIPLO_WARNING_LEADER_KAMISATO_AYAKA_TVT_REASON_ANY</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_FROSTFLAKE_HERON_LOW_AMENITIES</ModifierId>
@@ -228,58 +228,58 @@
 	</ModifierStrings>
 
 	<AiListTypes>
-		<Row ListType="KeqingUZKTechs"/>
-		<Row ListType="KeqingUZKCivics"/>
-		<Row ListType="KeqingUZKWonders"/>
-		<Row ListType="KeqingUZKFavoredDistricts"/>
-		<Row ListType="KamisatoAyakaUZKTechs"/>
-		<Row ListType="KamisatoAyakaUZKCivics"/>
-		<Row ListType="KamisatoAyakaUZKWonders"/>
+		<Row ListType="KeqingTVTTechs"/>
+		<Row ListType="KeqingTVTCivics"/>
+		<Row ListType="KeqingTVTWonders"/>
+		<Row ListType="KeqingTVTFavoredDistricts"/>
+		<Row ListType="KamisatoAyakaTVTTechs"/>
+		<Row ListType="KamisatoAyakaTVTCivics"/>
+		<Row ListType="KamisatoAyakaTVTWonders"/>
 		<Row ListType="KamisatoAyakaHappinessPreference"/>
 	</AiListTypes>
 
 	<AiLists>
-		<Row ListType="KeqingUZKTechs" LeaderType="TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER" System="Technologies"/>
-		<Row ListType="KeqingUZKWonders" LeaderType="TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER" System="Buildings"/>
-		<Row ListType="KeqingUZKCivics" LeaderType="TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER" System="Civics"/>
+		<Row ListType="KeqingTVTTechs" LeaderType="TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER" System="Technologies"/>
+		<Row ListType="KeqingTVTWonders" LeaderType="TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER" System="Buildings"/>
+		<Row ListType="KeqingTVTCivics" LeaderType="TRAIT_LEADER_KEQING_THE_DRIVING_THUNDER" System="Civics"/>
 		<Row ListType="ExploitationLoverExploitationPreference" AgendaType="TRAIT_AGENDA_LAND_AND_CONSTUCTION" System="PseudoYields"/>
-		<Row ListType="KeqingUZKFavoredDistricts" AgendaType="TRAIT_AGENDA_LAND_AND_CONSTUCTION" System="PseudoYields"/>
-		<Row ListType="KamisatoAyakaUZKTechs" LeaderType="TRAIT_LEADER_SHIRASAGI_HIMEGIMI" System="Technologies"/>
-		<Row ListType="KamisatoAyakaUZKWonders" LeaderType="TRAIT_LEADER_SHIRASAGI_HIMEGIMI" System="Buildings"/>
-		<Row ListType="KamisatoAyakaUZKCivics" LeaderType="TRAIT_LEADER_SHIRASAGI_HIMEGIMI" System="Civics"/>
+		<Row ListType="KeqingTVTFavoredDistricts" AgendaType="TRAIT_AGENDA_LAND_AND_CONSTUCTION" System="PseudoYields"/>
+		<Row ListType="KamisatoAyakaTVTTechs" LeaderType="TRAIT_LEADER_SHIRASAGI_HIMEGIMI" System="Technologies"/>
+		<Row ListType="KamisatoAyakaTVTWonders" LeaderType="TRAIT_LEADER_SHIRASAGI_HIMEGIMI" System="Buildings"/>
+		<Row ListType="KamisatoAyakaTVTCivics" LeaderType="TRAIT_LEADER_SHIRASAGI_HIMEGIMI" System="Civics"/>
 		<Row ListType="KamisatoAyakaHappinessPreference" LeaderType="TRAIT_AGENDA_FROSTFLAKE_HERON" System="PseudoYields"/>
 	</AiLists>
 
 	<AiFavoredItems>
-		<Row ListType="KeqingUZKTechs" Item="TECH_MASONRY" Favored="true"/>
-		<Row ListType="KeqingUZKTechs" Item="TECH_CONSTRUCTION" Favored="true"/>
-		<Row ListType="KeqingUZKTechs" Item="TECH_ENGINEERING" Favored="true"/>
-		<Row ListType="KeqingUZKTechs" Item="TECH_STEEL" Favored="true"/>
-		<Row ListType="KeqingUZKCivics" Item="CIVIC_STATE_WORKFORCE" Favored="true"/>
-		<Row ListType="KeqingUZKCivics" Item="CIVIC_CIVIL_SERVICE" Favored="true"/>
-		<Row ListType="KeqingUZKCivics" Item="CIVIC_HUMANISM" Favored="true"/>
-		<Row ListType="KeqingUZKCivics" Item="CIVIC_THE_ENLIGHTENMENT" Favored="true"/>
-		<Row ListType="KeqingUZKCivics" Item="CIVIC_CIVIL_ENGINEERING" Favored="true"/>
-		<Row ListType="KeqingUZKCivics" Item="CIVIC_MOBILIZATION" Favored="true"/>
-		<Row ListType="KeqingUZKCivics" Item="CIVIC_RAPID_DEPLOYMENT" Favored="true"/>
-		<Row ListType="KeqingUZKWonders" Item="BUILDING_PYRAMIDS" Favored="true"/>
-		<Row ListType="KeqingUZKWonders" Item="BUILDING_RUHR_VALLEY" Favored="true"/>
-		<Row ListType="KeqingUZKFavoredDistricts" Item="PSEUDOYIELD_DISTRICT" Value="50"/>
-		<Row ListType="KamisatoAyakaUZKTechs" Item="TECH_ASTROLOGY" Favored="true"/>
+		<Row ListType="KeqingTVTTechs" Item="TECH_MASONRY" Favored="true"/>
+		<Row ListType="KeqingTVTTechs" Item="TECH_CONSTRUCTION" Favored="true"/>
+		<Row ListType="KeqingTVTTechs" Item="TECH_ENGINEERING" Favored="true"/>
+		<Row ListType="KeqingTVTTechs" Item="TECH_STEEL" Favored="true"/>
+		<Row ListType="KeqingTVTCivics" Item="CIVIC_STATE_WORKFORCE" Favored="true"/>
+		<Row ListType="KeqingTVTCivics" Item="CIVIC_CIVIL_SERVICE" Favored="true"/>
+		<Row ListType="KeqingTVTCivics" Item="CIVIC_HUMANISM" Favored="true"/>
+		<Row ListType="KeqingTVTCivics" Item="CIVIC_THE_ENLIGHTENMENT" Favored="true"/>
+		<Row ListType="KeqingTVTCivics" Item="CIVIC_CIVIL_ENGINEERING" Favored="true"/>
+		<Row ListType="KeqingTVTCivics" Item="CIVIC_MOBILIZATION" Favored="true"/>
+		<Row ListType="KeqingTVTCivics" Item="CIVIC_RAPID_DEPLOYMENT" Favored="true"/>
+		<Row ListType="KeqingTVTWonders" Item="BUILDING_PYRAMIDS" Favored="true"/>
+		<Row ListType="KeqingTVTWonders" Item="BUILDING_RUHR_VALLEY" Favored="true"/>
+		<Row ListType="KeqingTVTFavoredDistricts" Item="PSEUDOYIELD_DISTRICT" Value="50"/>
+		<Row ListType="KamisatoAyakaTVTTechs" Item="TECH_ASTROLOGY" Favored="true"/>
 		<!--For diplomatic district-->
-		<Row ListType="KamisatoAyakaUZKTechs" Item="TECH_MATHEMATICS" Favored="true"/>
-		<Row ListType="KamisatoAyakaUZKWonders" Item="BUILDING_COLOSSEUM" Favored="true"/>
-		<Row ListType="KamisatoAyakaUZKWonders" Item="BUILDING_MAHABODHI_TEMPLE" Favored="true"/>
-		<InsertOrIgnore ListType="KamisatoAyakaUZKWonders" Item="BUILDING_ANGKOR_WAT" Favored="true"/>
-		<Row ListType="KamisatoAyakaUZKWonders" Item="BUILDING_BOLSHOI_THEATRE" Favored="true"/>
-		<Row ListType="KamisatoAyakaUZKWonders" Item="BUILDING_BROADWAY" Favored="true"/>
-		<Row ListType="KamisatoAyakaUZKWonders" Item="BUILDING_SYDNEY_OPERA_HOUSE" Favored="true"/>
-		<Row ListType="KamisatoAyakaUZKCivics" Item="CIVIC_DRAMA_POETRY" Favored="true"/>
-		<Row ListType="KamisatoAyakaUZKCivics" Item="CIVIC_GAMES_RECREATION" Favored="true"/>
-		<Row ListType="KamisatoAyakaUZKCivics" Item="CIVIC_CIVIL_SERVICE" Favored="true"/>
-		<Row ListType="KamisatoAyakaUZKCivics" Item="CIVIC_FEUDALISM" Favored="true"/>
-		<Row ListType="KamisatoAyakaUZKCivics" Item="CIVIC_DIPLOMATIC_SERVICE" Favored="true"/>
-		<Row ListType="KamisatoAyakaUZKCivics" Item="CIVIC_SUFFRAGE" Favored="true"/>
+		<Row ListType="KamisatoAyakaTVTTechs" Item="TECH_MATHEMATICS" Favored="true"/>
+		<Row ListType="KamisatoAyakaTVTWonders" Item="BUILDING_COLOSSEUM" Favored="true"/>
+		<Row ListType="KamisatoAyakaTVTWonders" Item="BUILDING_MAHABODHI_TEMPLE" Favored="true"/>
+		<InsertOrIgnore ListType="KamisatoAyakaTVTWonders" Item="BUILDING_ANGKOR_WAT" Favored="true"/>
+		<Row ListType="KamisatoAyakaTVTWonders" Item="BUILDING_BOLSHOI_THEATRE" Favored="true"/>
+		<Row ListType="KamisatoAyakaTVTWonders" Item="BUILDING_BROADWAY" Favored="true"/>
+		<Row ListType="KamisatoAyakaTVTWonders" Item="BUILDING_SYDNEY_OPERA_HOUSE" Favored="true"/>
+		<Row ListType="KamisatoAyakaTVTCivics" Item="CIVIC_DRAMA_POETRY" Favored="true"/>
+		<Row ListType="KamisatoAyakaTVTCivics" Item="CIVIC_GAMES_RECREATION" Favored="true"/>
+		<Row ListType="KamisatoAyakaTVTCivics" Item="CIVIC_CIVIL_SERVICE" Favored="true"/>
+		<Row ListType="KamisatoAyakaTVTCivics" Item="CIVIC_FEUDALISM" Favored="true"/>
+		<Row ListType="KamisatoAyakaTVTCivics" Item="CIVIC_DIPLOMATIC_SERVICE" Favored="true"/>
+		<Row ListType="KamisatoAyakaTVTCivics" Item="CIVIC_SUFFRAGE" Favored="true"/>
 		<Row ListType="KamisatoAyakaHappinessPreference" Item="PSEUDOYIELD_HAPPINESS" Value="100"/>
 	</AiFavoredItems>
 
@@ -289,8 +289,8 @@
 	</Agendas>
 
 	<HistoricalAgendas>
-		<Row LeaderType="LEADER_KEQING_UZK" AgendaType="AGENDA_LAND_AND_CONSTUCTION"/>
-		<Row LeaderType="LEADER_KAMISATO_AYAKA_UZK" AgendaType="AGENDA_FROSTFLAKE_HERON"/>
+		<Row LeaderType="LEADER_KEQING_TVT" AgendaType="AGENDA_LAND_AND_CONSTUCTION"/>
+		<Row LeaderType="LEADER_KAMISATO_AYAKA_TVT" AgendaType="AGENDA_FROSTFLAKE_HERON"/>
 	</HistoricalAgendas>
 
 	<AgendaTraits>
@@ -305,26 +305,26 @@
 	</ExclusiveAgendas>
 
 	<LeaderQuotes>
-		<Row LeaderType="LEADER_KEQING_UZK" Quote="LOC_LEADER_KEQING_UZK_QUOTE" QuoteAudio="LIYU_KQ_MISC_PEP_TALK_A"/>
-		<Row LeaderType="LEADER_KAMISATO_AYAKA_UZK" Quote="LOC_LEADER_KAMISATO_AYAKA_UZK_QUOTE" QuoteAudio="INZM_KA_MISC_PEP_TALK_A"/>
+		<Row LeaderType="LEADER_KEQING_TVT" Quote="LOC_LEADER_KEQING_TVT_QUOTE" QuoteAudio="LIYU_KQ_MISC_PEP_TALK_A"/>
+		<Row LeaderType="LEADER_KAMISATO_AYAKA_TVT" Quote="LOC_LEADER_KAMISATO_AYAKA_TVT_QUOTE" QuoteAudio="INZM_KA_MISC_PEP_TALK_A"/>
 	</LeaderQuotes>
 
 	<RequirementSets>
 		<Row>
-			<RequirementSetId>PLAYER_IS_KAMISATO_AYAKA_UZK</RequirementSetId>
+			<RequirementSetId>PLAYER_IS_KAMISATO_AYAKA_TVT</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
-			<RequirementSetId>PLAYER_IS_KAMISATO_AYAKA_UZK</RequirementSetId>
-			<RequirementId>REQUIRES_PLAYER_IS_KAMISATO_AYAKA_UZK</RequirementId>
+			<RequirementSetId>PLAYER_IS_KAMISATO_AYAKA_TVT</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_KAMISATO_AYAKA_TVT</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
-		<Row RequirementId="REQUIRES_PLAYER_IS_KAMISATO_AYAKA_UZK" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<Row RequirementId="REQUIRES_PLAYER_IS_KAMISATO_AYAKA_TVT" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
 	</Requirements>
 	<RequirementArguments>
-		<Row RequirementId="REQUIRES_PLAYER_IS_KAMISATO_AYAKA_UZK" Name="LeaderType" Value="LEADER_KAMISATO_AYAKA_UZK"/>
+		<Row RequirementId="REQUIRES_PLAYER_IS_KAMISATO_AYAKA_TVT" Name="LeaderType" Value="LEADER_KAMISATO_AYAKA_TVT"/>
 	</RequirementArguments>
 </GameData>

@@ -10,11 +10,11 @@
 	<m_PackageName text="UI/Shell_Loading"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="LEADER_KEQING_UZK_BACKGROUND"/>
-			<m_ObjectName text="LEADER_KEQING_UZK_BACKGROUND"/>
+			<m_EntryID text="LEADER_KEQING_TVT_BACKGROUND"/>
+			<m_ObjectName text="LEADER_KEQING_TVT_BACKGROUND"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LEADER_KAMISATO_AYAKA_UZK_BACKGROUND"/>
+			<m_EntryID text="LEADER_KAMISATO_AYAKA_TVT_BACKGROUND"/>
 			<m_ObjectName text="LEADER_HOJO_BACKGROUND"/>
 		</Element>
 	</m_Entries>

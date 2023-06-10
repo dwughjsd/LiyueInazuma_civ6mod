@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="70">
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1589596065" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Actor-Mixer Hierarchy\LeaderSpeech_LiyueInazuma.wwu" DateLow="3171743125" DateHigh="31015796"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Attenuations\Default Work Unit.wwu" DateLow="1589606234" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1589606234" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Conversion Settings\Default Work Unit.wwu" DateLow="1589606234" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1589617763" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1589617763" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Effects\Default Work Unit.wwu" DateLow="1589617763" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Effects\Factory Effects.wwu" DateLow="1589627953" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Events\Default Work Unit.wwu" DateLow="1647960665" DateHigh="31038375"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Game Parameters\Default Work Unit.wwu" DateLow="1589641238" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1591499765" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Interactive Music Hierarchy\DummySwitches.wwu" DateLow="1591499765" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Interactive Music Hierarchy\InazumaBackgroundMusic.wwu" DateLow="1648010718" DateHigh="31038375"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Interactive Music Hierarchy\LiyueBackgroundMusic.wwu" DateLow="1648068674" DateHigh="31038375"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1591509790" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1591520669" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Modulators\Default Work Unit.wwu" DateLow="1591520669" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Presets\Default Work Unit.wwu" DateLow="1608612365" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Queries\Default Work Unit.wwu" DateLow="1608627030" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Queries\Factory Queries.wwu" DateLow="1608627030" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\SoundBanks\Default Work Unit.wwu" DateLow="2857755037" DateHigh="31015608"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1608637091" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\States\Default Work Unit.wwu" DateLow="1608637091" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Switches\Default Work Unit.wwu" DateLow="1608700629" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Triggers\Default Work Unit.wwu" DateLow="1608713467" DateHigh="30981048"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Yuni.Admin.wsettings" DateLow="1886031537" DateHigh="31038375"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\LiyueInazuma_civ6mod\LiyueInazumaWwise\Yuni.wproj" DateLow="1360428340" DateHigh="31015608"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\SunAndMoonOfTeyvat_civ6mod\Wwise\Mondstadt\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1589596065" DateHigh="30981048"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\SunAndMoonOfTeyvat_civ6mod\Wwise\Mondstadt\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt.wwu" DateLow="1427096381" DateHigh="30995284"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\SunAndMoonOfTeyvat_civ6mod\Wwise\Mondstadt\Attenuations\Default Work Unit.wwu" DateLow="1589606234" DateHigh="30981048"/>

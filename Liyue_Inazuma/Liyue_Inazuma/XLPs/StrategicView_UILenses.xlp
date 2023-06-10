@@ -10,20 +10,20 @@
 	<m_PackageName text="strategicview/strategicview_uilenses"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="StrategicView_Loyalty_Overlay_InazumaTeyvat"/>
-			<m_ObjectName text="StrategicView_Loyalty_Overlay_InazumaTeyvat"/>
+			<m_EntryID text="StrategicView_Loyalty_Overlay_InazumaTVT"/>
+			<m_ObjectName text="StrategicView_Loyalty_Overlay_InazumaTVT"/>
 		</Element>
 		<Element>
-			<m_EntryID text="StrategicView_Loyalty_Overlay_LiyueTeyvat"/>
-			<m_ObjectName text="StrategicView_Loyalty_Overlay_LiyueTeyvat"/>
+			<m_EntryID text="StrategicView_Loyalty_Overlay_LiyueTVT"/>
+			<m_ObjectName text="StrategicView_Loyalty_Overlay_LiyueTVT"/>
 		</Element>
 		<Element>
-			<m_EntryID text="StrategicView_Loyalty_Pressure_InazumaTeyvat"/>
-			<m_ObjectName text="StrategicView_Loyalty_Pressure_InazumaTeyvat"/>
+			<m_EntryID text="StrategicView_Loyalty_Pressure_InazumaTVT"/>
+			<m_ObjectName text="StrategicView_Loyalty_Pressure_InazumaTVT"/>
 		</Element>
 		<Element>
-			<m_EntryID text="StrategicView_Loyalty_Pressure_LiyueTeyvat"/>
-			<m_ObjectName text="StrategicView_Loyalty_Pressure_LiyueTeyvat"/>
+			<m_EntryID text="StrategicView_Loyalty_Pressure_LiyueTVT"/>
+			<m_ObjectName text="StrategicView_Loyalty_Pressure_LiyueTVT"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

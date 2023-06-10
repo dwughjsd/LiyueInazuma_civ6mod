@@ -10,20 +10,20 @@
 	<m_PackageName text="UILensAssets"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="Loyalty_Overlay_InazumaTeyvat_Box"/>
-			<m_ObjectName text="Loyalty_Overlay_InazumaTeyvat_Box"/>
+			<m_EntryID text="Loyalty_Overlay_InazumaTVT_Box"/>
+			<m_ObjectName text="Loyalty_Overlay_InazumaTVT_Box"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Loyalty_Overlay_LiyueTeyvat_Box"/>
-			<m_ObjectName text="Loyalty_Overlay_LiyueTeyvat_Box"/>
+			<m_EntryID text="Loyalty_Overlay_LiyueTVT_Box"/>
+			<m_ObjectName text="Loyalty_Overlay_LiyueTVT_Box"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Loyalty_Pressure_InazumaTeyvat_Box"/>
-			<m_ObjectName text="Loyalty_Pressure_InazumaTeyvat_Box"/>
+			<m_EntryID text="Loyalty_Pressure_InazumaTVT_Box"/>
+			<m_ObjectName text="Loyalty_Pressure_InazumaTVT_Box"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Loyalty_Pressure_LiyueTeyvat_Box"/>
-			<m_ObjectName text="Loyalty_Pressure_LiyueTeyvat_Box"/>
+			<m_EntryID text="Loyalty_Pressure_LiyueTVT_Box"/>
+			<m_ObjectName text="Loyalty_Pressure_LiyueTVT_Box"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

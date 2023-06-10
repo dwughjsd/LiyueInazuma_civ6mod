@@ -3,7 +3,7 @@
 	<m_CookParams>
 		<m_Values>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="LEADER_KAMISATO_AYAKA_UZK_OPACITY"/>
+				<m_ObjectName text="LEADER_KAMISATO_AYAKA_TVT_OPACITY"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Opacity"/>
 			</Element>
@@ -23,7 +23,7 @@
 				<m_ParamName text="Metalness"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="LEADER_KAMISATO_AYAKA_UZK_TEXTURE"/>
+				<m_ObjectName text="LEADER_KAMISATO_AYAKA_TVT_TEXTURE"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="BaseColor"/>
 			</Element>

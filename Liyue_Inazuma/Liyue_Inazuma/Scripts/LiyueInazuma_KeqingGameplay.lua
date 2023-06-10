@@ -7,8 +7,8 @@ function OnTurnBegin_ResetShift()					-- Every turn a unit can restore its movem
 
 		for i, pUnit in Players[playerID]:GetUnits():Members() do
 			local unitType = GameInfo.Units[pUnit:GetType()].UnitType
-            if (unitType == "UNIT_BUILDER" or unitType == "UNIT_MILITARY_ENGINEER") and (pUnit:GetAbility():GetAbilityCount("ABILITY_KEQING_UZK_OVERTIME_SHIFT") == 0) then
-				pUnit:GetAbility():ChangeAbilityCount("ABILITY_KEQING_UZK_OVERTIME_SHIFT", 1)
+            if (unitType == "UNIT_BUILDER" or unitType == "UNIT_MILITARY_ENGINEER") and (pUnit:GetAbility():GetAbilityCount("ABILITY_KEQING_TVT_OVERTIME_SHIFT") == 0) then
+				pUnit:GetAbility():ChangeAbilityCount("ABILITY_KEQING_TVT_OVERTIME_SHIFT", 1)
 			end
         end
     end
@@ -66,13 +66,13 @@ function OvertimeShiftActionShort(playerID:number, unitID:number)
 	local pUnit = Players[playerID]:GetUnits():FindID(unitID);
 	if (not pUnit) then return; end
 	UnitManager.RestoreMovementToFormation(pUnit);
-	pUnit:GetAbility():ChangeAbilityCount("ABILITY_KEQING_UZK_OVERTIME_SHIFT", -1);	
+	pUnit:GetAbility():ChangeAbilityCount("ABILITY_KEQING_TVT_OVERTIME_SHIFT", -1);	
 end
 
 function GetOvertimeShiftAbilityCount(playerID:number, unitID:number)
 	local pUnit = Players[playerID]:GetUnits():FindID(unitID);
 	if (not pUnit) then return; end
-	count = pUnit:GetAbility():GetAbilityCount("ABILITY_KEQING_UZK_OVERTIME_SHIFT")
+	count = pUnit:GetAbility():GetAbilityCount("ABILITY_KEQING_TVT_OVERTIME_SHIFT")
 	return count;
 end
 

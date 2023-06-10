@@ -3,7 +3,7 @@
 	<InteractiveMusic>
 		<WorkUnit Name="LiyueBackgroundMusic" ID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}" PersistMode="Standalone">
 			<ChildrenList>
-				<MusicSwitchContainer Name="LeaderMusic_LiyueUZK" ID="{F0B37AD3-A258-40C3-AEEB-CE785EA7DEDB}" ShortID="221892350">
+				<MusicSwitchContainer Name="LeaderMusic_LiyueTVT" ID="{F0B37AD3-A258-40C3-AEEB-CE785EA7DEDB}" ShortID="221892350">
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -552,7 +552,7 @@
 						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
-				<MusicSwitchContainer Name="CivilizationMusic_LiyueUZK" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" ShortID="120762492">
+				<MusicSwitchContainer Name="CivilizationMusic_LiyueTVT" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" ShortID="120762492">
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -2320,7 +2320,7 @@
 						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
-				<MusicSwitchContainer Name="ThemeMusic_LiyueUZK" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" ShortID="466632379">
+				<MusicSwitchContainer Name="ThemeMusic_LiyueTVT" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" ShortID="466632379">
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>

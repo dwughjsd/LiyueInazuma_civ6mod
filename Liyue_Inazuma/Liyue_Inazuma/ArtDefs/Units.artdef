@@ -161,7 +161,7 @@
 						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="UNIT_LIYUE_TEYVAT_MILLELITH"/>
+				<m_Name text="UNIT_LIYUE_TVT_MILLELITH"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
@@ -376,7 +376,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="CIVILIZATION_LIYUE_TEYVAT"/>
+				<m_Name text="CIVILIZATION_LIYUE_TVT"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
@@ -419,7 +419,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="CIVILIZATION_INAZUMA_TEYVAT"/>
+				<m_Name text="CIVILIZATION_INAZUMA_TVT"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>

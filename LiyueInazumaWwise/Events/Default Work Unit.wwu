@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Folder Name="Music" ID="{0C7A6099-743A-4645-A32E-6D31D45C6805}" ShortID="72871508">
 					<ChildrenList>
-						<Event Name="Resume_Music_INAZUMA_TEYVAT" ID="{D707CF9D-5F26-44B8-BAB1-815E94E7317F}">
+						<Event Name="Resume_Music_INAZUMA_TVT" ID="{D707CF9D-5F26-44B8-BAB1-815E94E7317F}">
 							<ChildrenList>
 								<Action Name="Resume" ID="{C6F11B2A-EE86-4A3D-BC17-1F0364248AD2}" ShortID="891965657" Type="Resume" Scope="One" Global="true">
 									<PropertyList>
@@ -22,7 +22,7 @@
 								<Action Name="Resume" ID="{994A63B7-996F-43D4-9260-A4D831D48F0A}" ShortID="992586926" Type="Resume" Scope="One" Global="true">
 									<ElementList>
 										<Element ID="{BBC838C8-DC0C-4270-AA30-C5E32CF9B465}" Global="true">
-											<ObjectRef Name="CivilizationMusic_InazumaUZK" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+											<ObjectRef Name="CivilizationMusic_InazumaTVT" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -51,13 +51,13 @@
 								<Action Name="Resume" ID="{631E77D0-779E-4371-8288-B3F2F76667AF}" ShortID="979136100" Type="Resume" Scope="One" Global="true">
 									<ElementList>
 										<Element ID="{C9296C8E-5AB3-44F3-B8EB-5E52FCF75619}" Global="true">
-											<ObjectRef Name="ThemeMusic_InazumaUZK" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+											<ObjectRef Name="ThemeMusic_InazumaTVT" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
 										</Element>
 									</ElementList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Pause_Music_INAZUMA_TEYVAT" ID="{DF30267E-4A54-4D17-9D2D-09FF07618750}">
+						<Event Name="Pause_Music_INAZUMA_TVT" ID="{DF30267E-4A54-4D17-9D2D-09FF07618750}">
 							<ChildrenList>
 								<Action Name="Pause" ID="{048A1D2B-7882-4A8D-A3B8-90731C252247}" ShortID="970827289" Type="Pause" Scope="One" Global="true">
 									<PropertyList>
@@ -86,14 +86,14 @@
 								<Action Name="Pause" ID="{8C344DCC-82F6-4559-A1C3-BCEFB0386AC3}" ShortID="855338317" Type="Pause" Scope="One" Global="true">
 									<ElementList>
 										<Element ID="{04FF464E-3976-4366-844E-6593ADA2F9F0}" Global="true">
-											<ObjectRef Name="CivilizationMusic_InazumaUZK" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+											<ObjectRef Name="CivilizationMusic_InazumaTVT" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
 										</Element>
 									</ElementList>
 								</Action>
 								<Action Name="Pause" ID="{23155310-E11D-47E4-B729-A6490FE8327E}" ShortID="674619579" Type="Pause" Scope="One" Global="true">
 									<ElementList>
 										<Element ID="{F85E4B36-6CB9-4D6E-8692-7B3844E477F5}" Global="true">
-											<ObjectRef Name="ThemeMusic_InazumaUZK" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+											<ObjectRef Name="ThemeMusic_InazumaTVT" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -106,7 +106,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Leader_Music_LIYUE_TEYVAT" ID="{D3AF39F9-BB60-4B92-BA75-46E1C042FDF8}">
+						<Event Name="Play_Leader_Music_LIYUE_TVT" ID="{D3AF39F9-BB60-4B92-BA75-46E1C042FDF8}">
 							<ChildrenList>
 								<Action Name="Play" ID="{B528D626-499D-4DD3-9885-21CE8155AB77}" ShortID="999084665" Type="Play" Scope="One" Global="false">
 									<PropertyList>
@@ -115,7 +115,7 @@
 									</PropertyList>
 									<ElementList>
 										<Element ID="{1B585CAE-3647-4A2B-B483-D5FA997246B1}" Global="false">
-											<ObjectRef Name="LeaderMusic_LiyueUZK" ID="{F0B37AD3-A258-40C3-AEEB-CE785EA7DEDB}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+											<ObjectRef Name="LeaderMusic_LiyueTVT" ID="{F0B37AD3-A258-40C3-AEEB-CE785EA7DEDB}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -146,14 +146,14 @@
 								<Action Name="Pause" ID="{71A3CFE1-7762-42CA-B856-3298C2C0D4A8}" ShortID="623460005" Type="Pause" Scope="One" Global="true">
 									<ElementList>
 										<Element ID="{E045C873-D739-4D14-9B94-18BA70556D15}" Global="true">
-											<ObjectRef Name="CivilizationMusic_LiyueUZK" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+											<ObjectRef Name="CivilizationMusic_LiyueTVT" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
 										</Element>
 									</ElementList>
 								</Action>
 								<Action Name="Pause" ID="{590F5DD0-AC4B-4606-BF64-1740448CF102}" ShortID="449328048" Type="Pause" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{709C7E72-0EDA-419A-AC42-C6FBBBB6C08F}" Global="false">
-											<ObjectRef Name="ThemeMusic_LiyueUZK" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+											<ObjectRef Name="ThemeMusic_LiyueTVT" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -188,7 +188,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Stop_Leader_Music_INAZUMA_TEYVAT" ID="{EE0E06BB-2BAA-4C0C-BC80-33D5E210D7A3}">
+						<Event Name="Stop_Leader_Music_INAZUMA_TVT" ID="{EE0E06BB-2BAA-4C0C-BC80-33D5E210D7A3}">
 							<ChildrenList>
 								<Action Name="Stop" ID="{5629DBB1-602D-44E3-A6D0-3B6F52DAA09F}" ShortID="715749667" Type="Stop" Scope="One" Global="true">
 									<PropertyList>
@@ -197,7 +197,7 @@
 									</PropertyList>
 									<ElementList>
 										<Element ID="{BF4D5E7D-3A87-434B-ABB7-B1BEFB7225B8}" Global="true">
-											<ObjectRef Name="LeaderMusic_InazumaUZK" ID="{4A020DE0-194F-4274-B04C-B661C8AB2BB5}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+											<ObjectRef Name="LeaderMusic_InazumaTVT" ID="{4A020DE0-194F-4274-B04C-B661C8AB2BB5}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -216,7 +216,7 @@
 								<Action Name="Resume" ID="{458492D8-4C7A-4177-A949-D49F98DAA8C0}" ShortID="126769313" Type="Resume" Scope="One" Global="true">
 									<ElementList>
 										<Element ID="{C8F04B72-CFB6-4E08-87BB-CEB4DA85514F}" Global="true">
-											<ObjectRef Name="CivilizationMusic_InazumaUZK" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+											<ObjectRef Name="CivilizationMusic_InazumaTVT" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -245,13 +245,13 @@
 								<Action Name="Resume" ID="{1141D397-A30B-4C55-92EB-A9162B3D742F}" ShortID="213718915" Type="Resume" Scope="One" Global="true">
 									<ElementList>
 										<Element ID="{BFE52D84-71C6-4B55-A422-C788B01F6195}" Global="true">
-											<ObjectRef Name="ThemeMusic_InazumaUZK" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+											<ObjectRef Name="ThemeMusic_InazumaTVT" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
 										</Element>
 									</ElementList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Stop_Leader_Music_LIYUE_TEYVAT" ID="{C568EACF-D8CD-400B-837D-9AEF43EFB5DB}">
+						<Event Name="Stop_Leader_Music_LIYUE_TVT" ID="{C568EACF-D8CD-400B-837D-9AEF43EFB5DB}">
 							<ChildrenList>
 								<Action Name="Stop" ID="{D943A3A8-53F3-4C21-9E4B-53474C989AF5}" ShortID="550991440" Type="Stop" Scope="One" Global="true">
 									<PropertyList>
@@ -260,7 +260,7 @@
 									</PropertyList>
 									<ElementList>
 										<Element ID="{2502788F-C9F2-4B35-BE84-9EAB8DC32F22}" Global="true">
-											<ObjectRef Name="LeaderMusic_LiyueUZK" ID="{F0B37AD3-A258-40C3-AEEB-CE785EA7DEDB}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+											<ObjectRef Name="LeaderMusic_LiyueTVT" ID="{F0B37AD3-A258-40C3-AEEB-CE785EA7DEDB}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -279,7 +279,7 @@
 								<Action Name="Resume" ID="{E7CF913E-78F0-491A-A5A9-A9F6F0C8A89D}" ShortID="404459114" Type="Resume" Scope="One" Global="true">
 									<ElementList>
 										<Element ID="{7691C58A-DC0C-4959-AA2B-D9A536DA0BC7}" Global="true">
-											<ObjectRef Name="CivilizationMusic_LiyueUZK" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+											<ObjectRef Name="CivilizationMusic_LiyueTVT" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -308,13 +308,13 @@
 								<Action Name="Resume" ID="{AEF6E0F0-594C-4AB9-9456-0F8466700F13}" ShortID="468196090" Type="Resume" Scope="One" Global="true">
 									<ElementList>
 										<Element ID="{E81BF0F4-A1EE-4666-936E-200C5F286198}" Global="true">
-											<ObjectRef Name="ThemeMusic_LiyueUZK" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+											<ObjectRef Name="ThemeMusic_LiyueTVT" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
 										</Element>
 									</ElementList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Music_INAZUMA_TEYVAT" ID="{38B89878-34CD-4A64-A5C2-F59F068E1F66}">
+						<Event Name="Play_Music_INAZUMA_TVT" ID="{38B89878-34CD-4A64-A5C2-F59F068E1F66}">
 							<ChildrenList>
 								<Action Name="Stop" ID="{E409792A-FAC9-4B44-87FA-C54ADCE4D591}" ShortID="362446809" Type="Stop" Scope="One" Global="true">
 									<PropertyList>
@@ -343,7 +343,7 @@
 									</PropertyList>
 									<ElementList>
 										<Element ID="{8A3759DC-1382-456B-BF06-CE07A0F1B447}" Global="false">
-											<ObjectRef Name="CivilizationMusic_InazumaUZK" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+											<ObjectRef Name="CivilizationMusic_InazumaTVT" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -356,29 +356,29 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Start_Music_INAZUMA_TEYVAT" ID="{50185F5F-6F29-4E58-A9A2-BB887A4EC73D}">
+						<Event Name="Start_Music_INAZUMA_TVT" ID="{50185F5F-6F29-4E58-A9A2-BB887A4EC73D}">
 							<ChildrenList>
 								<Action Name="Play" ID="{290E9E52-FCB8-4A5F-96B9-D8B66E1DD3D2}" ShortID="503382570" Type="Play" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{491F0C22-AD85-4DC6-8A6B-CEF1AD5F4B30}" Global="false">
-											<ObjectRef Name="ThemeMusic_InazumaUZK" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+											<ObjectRef Name="ThemeMusic_InazumaTVT" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
 										</Element>
 									</ElementList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Start_Music_LIYUE_TEYVAT" ID="{13B55D4D-33EB-41AB-B00B-C2507B01DF06}">
+						<Event Name="Start_Music_LIYUE_TVT" ID="{13B55D4D-33EB-41AB-B00B-C2507B01DF06}">
 							<ChildrenList>
 								<Action Name="Play" ID="{914CF72A-1EBD-4478-91B8-95E7A0326BEE}" ShortID="634193704" Type="Play" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{B83C13A2-B51D-48A8-9F9B-4FB34E35B556}" Global="false">
-											<ObjectRef Name="ThemeMusic_LiyueUZK" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+											<ObjectRef Name="ThemeMusic_LiyueTVT" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
 										</Element>
 									</ElementList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Stop_Music_LIYUE_TEYVAT" ID="{AE1A3C11-67ED-4E21-8953-83A9F24ECACE}">
+						<Event Name="Stop_Music_LIYUE_TVT" ID="{AE1A3C11-67ED-4E21-8953-83A9F24ECACE}">
 							<ChildrenList>
 								<Action Name="Stop" ID="{D984A40B-C301-4B12-8079-2B270B8B00B9}" ShortID="909822232" Type="Stop" Scope="One" Global="false">
 									<PropertyList>
@@ -404,27 +404,27 @@
 								<Action Name="Stop" ID="{BF6DB4F8-B88B-401D-92A9-8B2F85CEC801}" ShortID="60605097" Type="Stop" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{096AD251-C19E-4F60-961D-88BBC32FADCC}" Global="false">
-											<ObjectRef Name="CivilizationMusic_LiyueUZK" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+											<ObjectRef Name="CivilizationMusic_LiyueTVT" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
 										</Element>
 									</ElementList>
 								</Action>
 								<Action Name="Stop" ID="{9F3728E8-E665-4489-93EF-C7E21D956DB6}" ShortID="699602268" Type="Stop" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{BE795254-B3AD-4B76-851F-4C6F85A1505B}" Global="false">
-											<ObjectRef Name="LeaderMusic_LiyueUZK" ID="{F0B37AD3-A258-40C3-AEEB-CE785EA7DEDB}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+											<ObjectRef Name="LeaderMusic_LiyueTVT" ID="{F0B37AD3-A258-40C3-AEEB-CE785EA7DEDB}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
 										</Element>
 									</ElementList>
 								</Action>
 								<Action Name="Stop" ID="{280FFBF6-3363-4F88-B3AF-698B16731FA0}" ShortID="452230594" Type="Stop" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{995767A0-BBD8-4F41-AD94-33C964FAF1FA}" Global="false">
-											<ObjectRef Name="ThemeMusic_LiyueUZK" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+											<ObjectRef Name="ThemeMusic_LiyueTVT" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
 										</Element>
 									</ElementList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Pause_Music_LIYUE_TEYVAT" ID="{E697F0D2-2B26-4EEE-8779-8D7AE8824F46}">
+						<Event Name="Pause_Music_LIYUE_TVT" ID="{E697F0D2-2B26-4EEE-8779-8D7AE8824F46}">
 							<ChildrenList>
 								<Action Name="Pause" ID="{665A46F0-B80E-4BF4-927F-E09D3CFD9F43}" ShortID="733462488" Type="Pause" Scope="One" Global="true">
 									<PropertyList>
@@ -453,14 +453,14 @@
 								<Action Name="Pause" ID="{6352D83B-BAD5-4886-B404-035EB01764B1}" ShortID="842561648" Type="Pause" Scope="One" Global="true">
 									<ElementList>
 										<Element ID="{54D90184-99B5-47F5-BAB1-E9D4EEB5CDEC}" Global="true">
-											<ObjectRef Name="CivilizationMusic_LiyueUZK" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+											<ObjectRef Name="CivilizationMusic_LiyueTVT" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
 										</Element>
 									</ElementList>
 								</Action>
 								<Action Name="Pause" ID="{AB5B7B1D-FB01-408C-A4F7-F63A9010070F}" ShortID="889247728" Type="Pause" Scope="One" Global="true">
 									<ElementList>
 										<Element ID="{E0237CA7-EB54-41F3-8AE5-4F0F2A4C71A7}" Global="true">
-											<ObjectRef Name="ThemeMusic_LiyueUZK" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+											<ObjectRef Name="ThemeMusic_LiyueTVT" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -473,7 +473,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Stop_Music_INAZUMA_TEYVAT" ID="{AA45B108-31B9-40AC-B731-B635E14F6B55}">
+						<Event Name="Stop_Music_INAZUMA_TVT" ID="{AA45B108-31B9-40AC-B731-B635E14F6B55}">
 							<ChildrenList>
 								<Action Name="Stop" ID="{FC9AAC90-E3AE-40C2-AED9-46B07670F185}" ShortID="266953017" Type="Stop" Scope="One" Global="false">
 									<PropertyList>
@@ -499,27 +499,27 @@
 								<Action Name="Stop" ID="{C8EF4297-58C5-4F1F-9D67-ED1EAF926C93}" ShortID="893749947" Type="Stop" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{7D17FC41-2D73-40DA-B895-D069BDB3317A}" Global="false">
-											<ObjectRef Name="CivilizationMusic_InazumaUZK" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+											<ObjectRef Name="CivilizationMusic_InazumaTVT" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
 										</Element>
 									</ElementList>
 								</Action>
 								<Action Name="Stop" ID="{94C78F75-CED6-436D-A579-0E2F4050001D}" ShortID="469353926" Type="Stop" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{FEECA634-1C41-46DB-A190-E52E91AB263E}" Global="false">
-											<ObjectRef Name="LeaderMusic_InazumaUZK" ID="{4A020DE0-194F-4274-B04C-B661C8AB2BB5}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+											<ObjectRef Name="LeaderMusic_InazumaTVT" ID="{4A020DE0-194F-4274-B04C-B661C8AB2BB5}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
 										</Element>
 									</ElementList>
 								</Action>
 								<Action Name="Stop" ID="{8B0BF4FB-45A4-44BC-9C07-0CB3FE7AFDA5}" ShortID="895372594" Type="Stop" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{FACC9F65-D665-44C2-A48C-1DAC53CE5176}" Global="false">
-											<ObjectRef Name="ThemeMusic_InazumaUZK" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+											<ObjectRef Name="ThemeMusic_InazumaTVT" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
 										</Element>
 									</ElementList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Resume_Music_LIYUE_TEYVAT" ID="{5623A75E-903C-484E-AAC4-D1FDB1BB930D}">
+						<Event Name="Resume_Music_LIYUE_TVT" ID="{5623A75E-903C-484E-AAC4-D1FDB1BB930D}">
 							<ChildrenList>
 								<Action Name="Resume" ID="{DD601E80-BEB0-448E-80B0-4E9C36676C44}" ShortID="241594503" Type="Resume" Scope="One" Global="true">
 									<PropertyList>
@@ -536,7 +536,7 @@
 								<Action Name="Resume" ID="{76A3900A-7912-4EE3-A986-268B808339D5}" ShortID="580600660" Type="Resume" Scope="One" Global="true">
 									<ElementList>
 										<Element ID="{68D70692-77C1-4712-B4E2-5A35E5D67BA7}" Global="true">
-											<ObjectRef Name="CivilizationMusic_LiyueUZK" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+											<ObjectRef Name="CivilizationMusic_LiyueTVT" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -565,13 +565,13 @@
 								<Action Name="Resume" ID="{A33B703C-32CF-4B6F-9FD5-2E51B4A07A2E}" ShortID="976448587" Type="Resume" Scope="One" Global="true">
 									<ElementList>
 										<Element ID="{855CAB84-C46C-4B1F-B4BB-E851628AC8B0}" Global="true">
-											<ObjectRef Name="ThemeMusic_LiyueUZK" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+											<ObjectRef Name="ThemeMusic_LiyueTVT" ID="{E03ACEC3-0A87-4ECA-A1DB-834BB56C44A8}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
 										</Element>
 									</ElementList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Leader_Music_INAZUMA_TEYVAT" ID="{9186614F-2D4F-431B-B345-1F0FE7BD4E9F}">
+						<Event Name="Play_Leader_Music_INAZUMA_TVT" ID="{9186614F-2D4F-431B-B345-1F0FE7BD4E9F}">
 							<ChildrenList>
 								<Action Name="Play" ID="{5B60ED98-B6E7-4A49-A2F7-697C5F05D4CE}" ShortID="497838170" Type="Play" Scope="One" Global="false">
 									<PropertyList>
@@ -580,7 +580,7 @@
 									</PropertyList>
 									<ElementList>
 										<Element ID="{9203B0BE-2416-49B5-83EE-15E904564D6F}" Global="false">
-											<ObjectRef Name="LeaderMusic_InazumaUZK" ID="{4A020DE0-194F-4274-B04C-B661C8AB2BB5}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+											<ObjectRef Name="LeaderMusic_InazumaTVT" ID="{4A020DE0-194F-4274-B04C-B661C8AB2BB5}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -611,14 +611,14 @@
 								<Action Name="Pause" ID="{A735B8CF-3413-43DF-97F1-AC057699CC82}" ShortID="725828862" Type="Pause" Scope="One" Global="true">
 									<ElementList>
 										<Element ID="{BA9B22D2-36B1-4E33-8890-87143402F742}" Global="true">
-											<ObjectRef Name="CivilizationMusic_InazumaUZK" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+											<ObjectRef Name="CivilizationMusic_InazumaTVT" ID="{43D2FC60-B87A-47C2-BA00-AA6245D7160A}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
 										</Element>
 									</ElementList>
 								</Action>
 								<Action Name="Pause" ID="{DA503623-4371-499C-A769-DEDEB949A81E}" ShortID="374150226" Type="Pause" Scope="One" Global="false">
 									<ElementList>
 										<Element ID="{0DD5DAD3-C4F5-4FED-A198-6432907E0A01}" Global="false">
-											<ObjectRef Name="ThemeMusic_InazumaUZK" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
+											<ObjectRef Name="ThemeMusic_InazumaTVT" ID="{7B1781AA-A4A3-475A-85AE-DAA2A5A2E3B4}" WorkUnitID="{85DD08C6-2AA8-40B0-98D8-323BC9873D30}"/>
 										</Element>
 									</ElementList>
 								</Action>
@@ -653,7 +653,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Music_LIYUE_TEYVAT" ID="{D8812945-6877-4919-B5C9-C5BC323A1155}">
+						<Event Name="Play_Music_LIYUE_TVT" ID="{D8812945-6877-4919-B5C9-C5BC323A1155}">
 							<ChildrenList>
 								<Action Name="Stop" ID="{36AA4532-BBF7-4BB2-AB4D-5E97A9FDC251}" ShortID="825558817" Type="Stop" Scope="One" Global="true">
 									<PropertyList>
@@ -682,7 +682,7 @@
 									</PropertyList>
 									<ElementList>
 										<Element ID="{CBAF8890-7052-457B-A633-56F35FDCC691}" Global="false">
-											<ObjectRef Name="CivilizationMusic_LiyueUZK" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
+											<ObjectRef Name="CivilizationMusic_LiyueTVT" ID="{9D8CB8D1-DD88-4AEF-B111-775F057DD571}" WorkUnitID="{98DE7FFF-8A96-4A66-B64A-5EEE29A7928A}"/>
 										</Element>
 									</ElementList>
 								</Action>
