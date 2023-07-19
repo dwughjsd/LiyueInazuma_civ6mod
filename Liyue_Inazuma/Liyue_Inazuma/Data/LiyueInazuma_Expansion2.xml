@@ -60,4 +60,47 @@
 		<Row ListType="ExploitativeDiscussions" AgendaType="TRAIT_AGENDA_LAND_AND_CONSTUCTION" System="Discussions"/>
 		<Row ListType="FunLovingResolutions" AgendaType="TRAIT_AGENDA_FROSTFLAKE_HERON" System="Resolutions"/>
 	</AiLists>
+
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_SURF_ROCK</UnitPromotionType>
+			<ModifierId>ROCKBAND_SURF_ROCK_LIYUE_TVT_HARBOR</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_SURF_ROCK</UnitPromotionType>
+			<ModifierId>ROCKBAND_SURF_ROCK_LIYUE_TVT_HARBOR_MODIFIER</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ROCKBAND_SURF_ROCK_LIYUE_TVT_HARBOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ROCK_BAND_LEVEL_DISTRICT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ROCKBAND_SURF_ROCK_LIYUE_TVT_HARBOR_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_TOURISM_BOMB_DISTRICT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ROCKBAND_SURF_ROCK_LIYUE_TVT_HARBOR</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_LIYUE_TVT_HARBOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>ROCKBAND_SURF_ROCK_LIYUE_TVT_HARBOR</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ROCKBAND_SURF_ROCK_LIYUE_TVT_HARBOR_MODIFIER</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_LIYUE_TVT_HARBOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>ROCKBAND_SURF_ROCK_LIYUE_TVT_HARBOR_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>500</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>
