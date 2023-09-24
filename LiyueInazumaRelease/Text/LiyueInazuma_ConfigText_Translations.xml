@@ -79,7 +79,7 @@
 			<Text>评定所</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_TRIARCHAL_COUNCIL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>用以纪念所选政体的稻妻特色区域。取代市政广场，建造费用更低。使此城每回合的忠诚度+8、使相邻区域获得的相邻加成+1。奖励3个 [Icon_Governor] 总督头衔。评定所和其中的每个体建筑为拥有 [ICON_Governor] 总督或6个单元格内的城市提供 +2 [ICON_Housing] 住房以及每个公民 +0.2 所有产出，但其它城市-2非 [ICON_Food] 食物产出。</Text>
+			<Text>用以纪念所选政体的稻妻特色区域。取代市政广场，建造费用更低。使此城每回合的忠诚度+8、使相邻区域获得的相邻加成+1。奖励3个 [Icon_Governor] 总督头衔。评定所和其中的每个政体建筑为拥有 [ICON_Governor] 总督或6个单元格内的城市提供 +2 [ICON_Housing] 住房以及每个公民 +0.2 所有产出，但其它城市-2非 [ICON_Food] 食物产出。</Text>
 		</Row>
 
 		<Row Tag="LOC_UNIT_INAZUMAN_SHOGUNATE_ASHIGARU_NAME" Language="zh_Hans_CN">
