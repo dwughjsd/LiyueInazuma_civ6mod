@@ -93,6 +93,12 @@ GameEvents.LiyueInazumaGetPlotProperty.Add(function(plotID, key)
     plot:GetProperty(key)
 end)
 
+function OnGameTurnStarted()
+    ExposedMembers.LIYUEINAZUMA.OnGameTurnStartedRefreshAmenity()
+end
+
 ExposedMembers.LIYUEINAZUMA = ExposedMembers.LIYUEINAZUMA or {}
 ExposedMembers.LIYUEINAZUMA.OvertimeShiftActionShort = OvertimeShiftActionShort
 ExposedMembers.LIYUEINAZUMA.GetOvertimeShiftAbilityCount = GetOvertimeShiftAbilityCount
+
+GameEvents.OnGameTurnStarted.Add(OnGameTurnStarted);

@@ -28,7 +28,8 @@ function RefreshAmenityProperty(playerID, cityID)
     end
 end
 
-function OnTurnBegin()
+
+function OnGameTurnStartedRefreshAmenity()
 	local players = Game.GetPlayers{Alive = true};
 	for _, player in ipairs(players) do
 		for _, city in player:GetCities():Members() do
@@ -37,5 +38,5 @@ function OnTurnBegin()
 	end
 end
 
-Events.TurnBegin.Add(OnTurnBegin);
 Events.CityAddedToMap.Add(RefreshAmenityProperty);
+ExposedMembers.LIYUEINAZUMA.OnGameTurnStartedRefreshAmenity = OnGameTurnStartedRefreshAmenity
