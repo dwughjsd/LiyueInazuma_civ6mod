@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_DISTRICT_TRIARCHAL_COUNCIL_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Inazuma to commemorate your government choices. Replaces the Government Plaza district and cheaper to build. Provides +10% non-[ICON_Food]Food yields to this city, and an increase of +1 to the adjacency bonuses being earned by any adjacent district. Awards +3 [Icon_Governor] Governor Title. The Triarchal Council district and each government building built in the district provide +2 [ICON_Housing] Housing and +0.2 all yields per [ICON_Citizen] Citizen to your cities with [ICON_Governor] Governors or within 6 tiles of it, but other cities receive -2 non-[ICON_Food]Food yields.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TRIARCHAL_COUNCIL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>用以纪念所选政体的稻妻特色区域。取代市政广场，建造费用更低。此城市的非[ICON_Food]食物产出+10%，使相邻区域获得的相邻加成+1。奖励3个 [Icon_Governor] 总督头衔。评定所和其中的每个政体建筑为拥有 [ICON_Governor] 总督或6个单元格内的城市提供 +2 [ICON_Housing] 住房以及每个公民 +0.2 所有产出，但其它城市-2非 [ICON_Food] 食物产出。</Text>
+		</Replace>
+		<!--Translations replacement-->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LIYUE_TVT_STONE_AND_CONTRACTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>游戏初始便解锁“采矿”科技。研究“数学”科技后，您发起的 [ICON_TradeRoute] 贸易路线目的地每有一座矿山为璃月 +1 [ICON_Production] 生产力，到达您的城市的 [ICON_TradeRoute] 贸易路线目的地每有一座采石场为璃月提供+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LIYUE_TVT_MILLELITH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>璃月古典时代特色近战单位，取代剑士。更加强大，由“军事训练”市政解锁。在丘陵地区有更快的 [ICON_Movement] 移动力。获得双倍大将军加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_REALM_OF_TRANQUIL_ETERNITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每座欢欣的城市为所有城市 +5% [ICON_Science] 科技值和 +5% [ICON_Culture] 文化值（上限50%）。积累双倍厌战情绪。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHA_COMMISSION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>神里绫华作为领袖时的稻妻特色建筑。每座拥有 [ICON_Governor] 总督或距离社奉行6个单元格内的城市每建成一个专业化区域获得 +2 [ICON_Culture] 文化和 +1 来自娱乐设施的 [ICON_Amenities] 宜居度。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -86,7 +86,7 @@
 			<Text>幕府军足轻</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_INAZUMAN_SHOGUNATE_ASHIGARU_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>稻妻特色古典时代近战单位。拥有3点 [ICON_Movement] 移动力。为邻接的非足轻陆地军事单位 +5 [ICON_Strength] 战斗力。</Text>
+			<Text>稻妻特色古典时代近战单位。拥有3点 [ICON_Movement] 移动力。为相邻的非足轻陆地军事单位 +5 [ICON_Strength] 战斗力。</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

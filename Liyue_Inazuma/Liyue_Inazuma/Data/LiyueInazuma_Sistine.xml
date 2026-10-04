@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!--General adjustments-->
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_LIYUE_TVT_HARBOR" />
+			<Set Cost="20" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_TRIARCHAL_COUNCIL" />
+			<Set CostProgressionParam1="40" />
+		</Update>
+	</Districts>
+	<DistrictModifiers>
+		<Delete DistrictType="DISTRICT_TRIARCHAL_COUNCIL" ModifierId="GOVERNMENT_IDENTITY_PER_TURN_MODIFIER" />
+		<Row DistrictType="DISTRICT_TRIARCHAL_COUNCIL" ModifierId="GOVERNMENT_10_SCIENCE" />
+		<Row DistrictType="DISTRICT_TRIARCHAL_COUNCIL" ModifierId="GOVERNMENT_10_CULTURE" />
+		<Row DistrictType="DISTRICT_TRIARCHAL_COUNCIL" ModifierId="GOVERNMENT_10_GOLD" />
+		<Row DistrictType="DISTRICT_TRIARCHAL_COUNCIL" ModifierId="GOVERNMENT_10_FAITH" />
+		<Row DistrictType="DISTRICT_TRIARCHAL_COUNCIL" ModifierId="GOVERNMENT_10_PRODUCTION" />
+	</DistrictModifiers>
+	<District_CitizenYieldChanges>
+		<Update>
+			<Where DistrictType="DISTRICT_LIYUE_TVT_HARBOR" YieldType="YIELD_FOOD"/>
+			<Set YieldChange="2" />
+		</Update>
+	</District_CitizenYieldChanges>
+	<District_TradeRouteYields>
+		<Delete DistrictType="DISTRICT_TRIARCHAL_COUNCIL" YieldType="YIELD_GOLD"/>
+		<Row DistrictType="DISTRICT_TRIARCHAL_COUNCIL" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_TRIARCHAL_COUNCIL" YieldType="YIELD_CULTURE" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+</GameData>
