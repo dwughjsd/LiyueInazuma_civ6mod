@@ -7,10 +7,13 @@
 		<Replace Tag="LOC_DISTRICT_TRIARCHAL_COUNCIL_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>用以纪念所选政体的稻妻特色区域。取代市政广场，建造费用更低。此城市的非[ICON_Food]食物产出+10%，使相邻区域获得的相邻加成+1。奖励3个 [Icon_Governor] 总督头衔。评定所和其中的每个政体建筑为拥有 [ICON_Governor] 总督或6个单元格内的城市提供 +2 [ICON_Housing] 住房以及每个公民 +0.2 所有产出，但其它城市-2非 [ICON_Food] 食物产出。</Text>
 		</Replace>
-		<!--Translations replacement-->
-		<Replace Tag="LOC_TRAIT_CIVILIZATION_LIYUE_TVT_STONE_AND_CONTRACTS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>游戏初始便解锁“采矿”科技。研究“数学”科技后，您发起的 [ICON_TradeRoute] 贸易路线目的地每有一座矿山为璃月 +1 [ICON_Production] 生产力，到达您的城市的 [ICON_TradeRoute] 贸易路线目的地每有一座采石场为璃月提供+2 [ICON_Gold] 金币。</Text>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LIYUE_TVT_STONE_AND_CONTRACTS_DESCRIPTION" Language="en_US">
+			<Text>Begin the game with the Mining technology unlocked. Your outgoing [ICON_TradeRoute] Trade Routes grant +1 [ICON_Production] Production to Liyue per Mine at the destination. [ICON_TradeRoute] Trade Routes sent to your cities grant +2 [ICON_Gold] Gold to Liyue per Quarry at the destination.</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LIYUE_TVT_STONE_AND_CONTRACTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>游戏初始便解锁“采矿”科技。您发起的 [ICON_TradeRoute] 贸易路线目的地每有一座矿山为璃月 +1 [ICON_Production] 生产力，到达您的城市的 [ICON_TradeRoute] 贸易路线目的地每有一座采石场为璃月提供+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<!--Translations replacement-->
 		<Replace Tag="LOC_UNIT_LIYUE_TVT_MILLELITH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>璃月古典时代特色近战单位，取代剑士。更加强大，由“军事训练”市政解锁。在丘陵地区有更快的 [ICON_Movement] 移动力。获得双倍大将军加成。</Text>
 		</Replace>

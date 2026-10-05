@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Modifiers>
+		<Update>
+			<Where ModifierId="TRAIT_CIVILIZATION_LIYUE_TRADE_PRODUCTION_FROM_MINES" />
+			<Set SubjectRequirementSetId="" />
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_CIVILIZATION_LIYUE_TRADE_GOLD_FROM_QUARRIES" />
+			<Set SubjectRequirementSetId="" />
+		</Update>
+	</Modifiers>
 	<!--General adjustments-->
 	<Districts>
 		<Update>

@@ -14,7 +14,7 @@
 			<Text>Harbor of Stone and Contracts</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_TVT_STONE_AND_CONTRACTS_DESCRIPTION" Language="en_US">
-			<Text>Begin the game with the Mining technology unlocked. Your outgoing [ICON_TradeRoute] Trade Routes grant +1 [ICON_Production] Production to Liyue per Mine at the destination. [ICON_TradeRoute] Trade Routes sent to your cities grant +2 [ICON_Gold] Gold to Liyue per Quarry at the destination.</Text>
+			<Text>Begin the game with the Mining technology unlocked. Your outgoing [ICON_TradeRoute] Trade Routes grant +1 [ICON_Production] Production to Liyue per Mine at the destination with Mathematics. [ICON_TradeRoute] Trade Routes sent to your cities grant +2 [ICON_Gold] Gold to Liyue per Quarry at the destination with Mathematics.</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_LIYUE_TVT_HARBOR_NAME" Language="en_US">
 			<Text>Liyue Harbor</Text>
